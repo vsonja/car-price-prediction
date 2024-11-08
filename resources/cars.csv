@@ -1,0 +1,1258 @@
+brand,model,year,mileage,fuel_type,engine,transmission,price
+Lexus,RX 350 RX 350,2022,22372,Gasoline,3.5 Liter DOHC,Automatic,54598
+Audi,Q3 45 S line Premium Plus,2021,9835,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,34999
+Lexus,RC 350 F Sport,2021,23436,Gasoline,311.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,6-Speed A/T,41927
+Tesla,Model X Long Range Plus,2020,34000,,534.0HP Electric Motor Electric Fuel System,A/T,69950
+Land Rover,Range Rover Sport 3.0 Supercharged HST,2021,27608,Gasoline,V6,Automatic,73897
+Toyota,Supra 3.0 Premium,2021,12500,Gasoline,382.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,A/T,53500
+Lincoln,Aviator Reserve AWD,2022,18196,Gasoline,400.0HP 3.0L V6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,62000
+Jaguar,F-TYPE,2020,15903,Gasoline,2.0 Liter Supercharged,Automatic,47998
+Mercedes-Benz,Metris Base,2021,1685,Gasoline,2.0L I4 16V GDI DOHC Turbo,9-Speed Automatic,250000
+Genesis,GV70 3.5T Sport,2023,5400,Gasoline,375.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,60000
+BMW,440 Gran Coupe 440i xDrive,2020,25990,Gasoline,3.0 Liter Turbo,Automatic,38598
+Ford,F-150 XLT,2023,2823,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,Automatic,58504
+Chevrolet,Suburban RST,2021,52000,Gasoline,355.0HP 5.3L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,61000
+Hyundai,Elantra N Base,2022,11650,Gasoline,276.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,32300
+Mercedes-Benz,AMG CLA 45 Base 4MATIC,2021,17500,Gasoline,382.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,59995
+BMW,i3 120Ah w/Range Extender,2020,35035,Hybrid,120 AH,Automatic,24998
+Honda,Passport Elite,2023,2978,Gasoline,3.5 Liter SOHC,Automatic,45498
+Lucid,Air Grand Touring,2022,3552,,536.0HP Electric Motor Electric Fuel System,1-Speed A/T,119999
+Chevrolet,Silverado 1500 Custom Trail Boss,2021,51351,Gasoline,5.3L V8 16V GDI OHV,Automatic,43147
+Nissan,Rogue SV,2023,1094,Gasoline,1.5L I3 12V GDI DOHC Turbo,Automatic CVT,30999
+Toyota,C-HR LE,2021,13180,Gasoline,2.0 Liter,CVT-F,23998
+BMW,X4 M40i,2023,8500,Hybrid,382.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,Transmission w/Dual Shift Mode,67900
+Cadillac,CT5 Premium Luxury,2023,6090,Gasoline,237.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,46900
+Lucid,Air Grand Touring,2022,4900,,536.0HP Electric Motor Electric Fuel System,1-Speed A/T,99000
+Toyota,GR Corolla Circuit Edition,2023,952,Gasoline,300.0HP 1.6L 3 Cylinder Engine Gasoline Fuel,6-Speed M/T,49950
+Lamborghini,Huracan Tecnica Coupe,2023,255,Gasoline,"5.2L V-10 gasoline direct injection, DOHC, variable valve contro",Automatic,359991
+Land Rover,Discovery Sport SE R-Dynamic,2020,21240,Gasoline,2.0 Liter,Automatic,37998
+Genesis,G90 3.3T Premium,2021,9950,Gasoline,365.0HP 3.3L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,53950
+Volkswagen,Golf R 20th Anniversary Edition,2023,633,Gasoline,315.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,6-Speed M/T,47999
+Mercedes-Benz,GLS 450 Base 4MATIC,2020,17900,Hybrid,362.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,9-Speed A/T,80000
+Hyundai,Elantra N Base,2023,3800,Gasoline,276.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,6-Speed M/T,34000
+Kia,Niro Plug-In Hybrid EX Premium,2022,36602,Hybrid,1.6L I4 16V GDI DOHC Hybrid,6-Speed Automatic with Auto-Shift,31995
+Rivian,R1S Adventure Package,2023,2800,,835.0HP Electric Motor Electric Fuel System,1-Speed A/T,92000
+Aston Martin Martin Martin,DBS Superleggera,2021,2165,Gasoline,5.2L V12 48V GDI DOHC Twin Turbo,8-Speed Automatic,279950
+Jeep,Grand Cherokee Summit,2020,31349,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,39366
+Cadillac,CT5-V Blackwing,2023,2415,Gasoline,6.2L V8 16V GDI OHV Supercharged,10-Speed Automatic,104900
+Lexus,LC 500 Base,2020,37869,Gasoline,5.0L V8 32V PDI DOHC,10-Speed Automatic,75950
+Cadillac,CT5-V V-Series,2022,4451,Gasoline,3.0L V6 24V GDI DOHC Twin Turbo,Automatic,55655
+BMW,540 i xDrive,2020,27158,Gasoline,2.0 Liter Turbo,Automatic,39998
+Jeep,Gladiator Rubicon,2022,27300,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,A/T,47500
+BMW,750 750i xDrive,2021,10917,Gasoline,4.4 Liter Twin Turbo,Automatic,73998
+Lincoln,Aviator Reserve AWD,2020,51247,Gasoline,3.0 Liter GTDI,Automatic,47698
+RAM,ProMaster 3500 High Roof,2021,147834,Gasoline,3.6L V6 24V MPFI DOHC,6-Speed Automatic,32662
+Rivian,R1S Adventure Package,2023,2500,,835.0HP Electric Motor Electric Fuel System,A/T,94000
+Mercedes-Benz,C-Class C300 4MATIC,2022,13177,Gasoline,2.0 Liter Turbo,Automatic,44798
+Audi,A7 Premium Plus,2020,25361,Hybrid,3.0 Liter Turbo,Automatic,49998
+Lucid,Air Pure,2023,1300,,620.0HP Electric Motor Electric Fuel System,A/T,86900
+Subaru,Forester Premium,2021,42125,Gasoline,2.5L H4 16V GDI DOHC,Automatic CVT,27899
+Lexus,LX 570 Three-Row,2021,21000,Gasoline,383.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,89999
+Nissan,Armada SL,2021,67800,Gasoline,400.0HP 5.6L 8 Cylinder Engine Gasoline Fuel,7-Speed A/T,36500
+Mercedes-Benz,GLE 450 GLE 450,2022,24906,Hybrid,3.0 Liter Turbo,Automatic,63998
+Hyundai,Kona N Base,2023,654,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic with Auto-Shift,34599
+Alfa Romeo,Stelvio Ti Sport,2020,18665,Gasoline,2.0L I4 16V GDI SOHC Turbo,8-Speed Automatic,35645
+Tesla,Model 3 Performance,2022,13079,,455.0HP Electric Motor Electric Fuel System,A/T,47000
+Toyota,4Runner SR5,2022,28377,Gasoline,4.0L V6 24V MPFI DOHC,5-Speed Automatic,36999
+Subaru,Forester Base,2020,32744,Gasoline,182.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,CVT Transmission,24000
+Kia,Sportage Nightfall,2022,9686,Gasoline,2.4L I4 16V GDI DOHC,6-Speed Automatic,30990
+Nissan,GT-R Premium,2020,16010,Gasoline,565.0HP 3.8L V6 Cylinder Engine Gasoline Fuel,A/T,114000
+Lexus,NX 350 F SPORT Handling,2023,820,Gasoline,2.4 Liter,8-SPEED AT,51998
+Audi,Q7 45 Premium Plus,2021,68000,Gasoline,248.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,36499
+GMC,Terrain SLE,2022,27352,Gasoline,1.5L I4 16V GDI DOHC Turbo,9-Speed Automatic,27785
+Audi,RS 7 4.0T quattro,2023,3158,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,1-Speed Automatic,128900
+Genesis,G70 2.0T,2023,4785,Gasoline,2.0L I4 16V GDI DOHC Turbo,Automatic,42850
+Chevrolet,Trailblazer LS,2021,20497,Gasoline,1.3L I3 12V GDI DOHC Turbo,9-Speed Automatic,22999
+Ford,Explorer Timberline,2021,25240,Gasoline,2.3L I4 16V GDI DOHC Turbo,10-Speed Automatic,39951
+Tesla,Model Y Performance,2023,500,,455.0HP Electric Motor Electric Fuel System,1-Speed A/T,60000
+Mazda,CX-9 Grand Touring,2021,46707,Gasoline,2.5L I4 16V GDI DOHC Turbo,6-Speed Automatic,32541
+Ford,Expedition Max Limited,2022,26500,Gasoline,440.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,65900
+Nissan,Titan XD SV,2020,10001,Gasoline,5.6L V8 32V GDI DOHC,9-Speed Automatic,47214
+Chevrolet,Traverse Premier,2020,52000,Gasoline,310.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,A/T,35800
+Lexus,LC 500 Base,2022,2071,Gasoline,5.0L V8 32V PDI DOHC,Automatic,99950
+Audi,RS Q8 4.0T quattro,2022,11322,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic,119900
+Acura,Integra w/A-Spec Tech Package,2023,3574,Gasoline,1.5 Liter Turbo,Variable,34998
+Dodge,Challenger R/T Scat Pack,2022,1240,Gasoline,6.4L V8 16V MPFI OHV,8-Speed Automatic,53900
+Tesla,Model X Base,2023,8200,,670.0HP Electric Motor Electric Fuel System,A/T,93999
+Toyota,Highlander XLE,2020,61341,Gasoline,3.5L V6 24V PDI DOHC,8-Speed Automatic,34084
+Polestar,2 Launch Edition,2021,12172,,Electric,1-Speed Automatic,35999
+Lincoln,Corsair Grand Touring,2021,1850,Plug-In Hybrid,266.0HP 2.5L 4 Cylinder Engine Plug-In Electric/Gas,CVT Transmission,49000
+Ford,Transit-350 XLT,2023,20000,Gasoline,310.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,78499
+Mercedes-Benz,EQS 450 4MATIC,2023,7388,,355.0HP Electric Motor Electric Fuel System,1-Speed A/T,105500
+Lamborghini,Huracan Tecnica Coupe,2023,278,Gasoline,"5.2L V-10 gasoline direct injection, DOHC, variable valve contro",Automatic,359991
+Alfa Romeo,Giulia Quadrifoglio,2022,1966,Gasoline,2.9L V6 24V GDI DOHC Twin Turbo,8-Speed Automatic,75900
+Chevrolet,Trailblazer LT,2021,50648,Gasoline,1.2L I3 12V GDI DOHC Turbo,Automatic CVT,23995
+Lamborghini,Urus Base,2021,13692,Gasoline,641.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,257000
+Toyota,Highlander Limited,2022,24001,Gasoline,3.5L V6 24V PDI DOHC,8-Speed Automatic,47498
+Nissan,Armada SL,2022,14735,Gasoline,5.6 Liter,Automatic,50998
+Audi,Q5 Premium,2023,2425,Hybrid,2.0 Liter TFSI,Automatic,42998
+Ford,Shelby GT500 Base,2022,2050,Gasoline,760.0HP 5.2L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,94999
+Mercedes-Benz,EQS 450+ Base,2022,16238,,329.0HP Electric Motor Electric Fuel System,1-Speed A/T,62479
+RAM,1500 Laramie,2022,18051,Gasoline,5.7L V8 16V MPFI OHV,Automatic,47995
+Acura,TLX w/A-Spec Package,2022,14896,Gasoline,2.0 Liter DOHC Turbo,2,39998
+Toyota,Camry Hybrid LE,2022,14048,Hybrid,2.5L I4 16V PDI DOHC Hybrid,Automatic CVT,29999
+Audi,S7 2.9T Prestige,2021,12000,Hybrid,444.0HP 2.9L V6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,77500
+Ford,Transit-350 XLT,2020,32000,Diesel,210.0HP 2.0L 4 Cylinder Engine Diesel Fuel,A/T,68000
+Jeep,Gladiator Rubicon,2022,8794,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,A/T,54000
+Porsche,911 Carrera 4S,2020,25568,Gasoline,3.0L H6 24V GDI DOHC Twin Turbo,7-Speed Manual,134999
+Kia,Forte GT-Line,2023,15500,Gasoline,147.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,CVT Transmission,24500
+BMW,M8 Competition,2020,10906,Gasoline,4.4 Liter Twin Turbo,Automatic,96998
+Toyota,Highlander XLE,2021,67039,Gasoline,3.5L V6 24V PDI DOHC,8-Speed Automatic,34645
+Mazda,CX-30 Premium Package,2023,2636,Gasoline,2.5L I4 16V,6-Speed Automatic,28535
+Tesla,Model 3 Standard Range Plus,2021,21600,,271.0HP Electric Motor Electric Fuel System,A/T,31000
+Ferrari,Roma Base,2021,3000,Gasoline,611.0HP 3.9L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,275000
+Audi,SQ7 4.0T,2022,28927,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,Automatic,74900
+Mercedes-Benz,AMG GLS 63 4MATIC,2022,4102,Hybrid,603.0HP 4.0L 8 Cylinder Engine Gasoline/Mild Electric Hybrid,9-Speed A/T,144664
+Honda,Ridgeline RTL-E,2021,14442,Gasoline,280.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,9-Speed A/T,38500
+Maserati,Ghibli S Q4 GranSport,2020,25721,Gasoline,3.0L V6 24V GDI DOHC Twin Turbo,8-Speed Automatic,52645
+Land Rover,Discovery Sport SE R-Dynamic,2020,20927,Gasoline,2.0 Liter,Automatic,35998
+Aston Martin Martin Martin,DBX Base,2021,2353,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,9-Speed Automatic,159500
+Audi,Q3 45 S line Premium,2022,9325,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,33610
+Ford,Explorer XLT,2020,61001,Gasoline,2.3L I4 16V GDI DOHC Turbo,10-Speed Automatic,28616
+Subaru,BRZ Premium,2023,5800,Gasoline,228.0HP 2.4L 4 Cylinder Engine Gasoline Fuel,6-Speed M/T,29990
+Kia,Stinger GT2,2020,57000,Gasoline,365.0HP 3.3L V6 Cylinder Engine Gasoline Fuel,A/T,36500
+Chevrolet,Bolt EUV Premier,2022,7624,,Electric,1-Speed Automatic,31985
+Kia,Sportage X-Pro,2023,459,Gasoline,2.5L I4 16V PDI DOHC,8-Speed Automatic,36998
+Mercedes-Benz,AMG E 53 4MATIC,2020,8375,Gasoline,"AMG 3L I-6 gasoline direct injection, DOHC, variable valve contr","Automatic, 9-Spd 9G-Tronic",69900
+BMW,M550 i xDrive,2020,40000,Gasoline,523.0HP 4.4L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,53000
+Mazda,Mazda6 Grand Touring,2020,35902,Gasoline,2.5L I4 16V GDI DOHC Turbo,6-Speed Automatic,22966
+Bentley,Bentayga S,2023,2600,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic,239995
+Land Rover,Defender X-Dynamic SE,2023,6204,Hybrid,3.0 Liter,Automatic,79998
+Kia,Telluride SX,2020,69185,Gasoline,3.8L V6 24V GDI DOHC,8-Speed Automatic,37405
+BMW,540 i xDrive,2020,37426,Gasoline,2.0 Liter Turbo,Automatic,39998
+Chevrolet,Corvette Stingray w/1LT,2023,4000,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,73900
+Audi,Q5 S line Premium Plus,2023,4648,Hybrid,2.0 Liter TFSI,Automatic,47598
+Alfa Romeo,Stelvio Ti,2020,41000,Gasoline,280.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,32400
+RAM,1500 Big Horn,2021,70968,Gasoline,395.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,34000
+Tesla,Model X Long Range,2022,15443,,670.0HP Electric Motor Electric Fuel System,1-Speed A/T,84500
+BMW,X6 xDrive40i,2020,45076,Gasoline,3.0 Liter Turbo,Automatic,57998
+Land Rover,Range Rover Autobiography,2023,324,Gasoline,4.4 Liter,Automatic,199998
+BMW,X1 xDrive28i,2020,18200,Gasoline,228.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,29500
+Toyota,Tundra Hybrid TRD Pro,2022,7000,Hybrid,437.0HP 3.4L V6 Cylinder Engine Gas/Electric Hybrid,10-Speed A/T,75500
+Audi,SQ5 3.0T Premium Plus,2022,8497,Gasoline,3.0L V6 24V GDI DOHC Turbo,Automatic,52900
+Lamborghini,Huracan EVO Base,2022,2523,Gasoline,5.2L V10 40V GDI DOHC,7-Speed Manual,288900
+Cadillac,Escalade Sport Platinum,2021,15689,Diesel,3.0L I6 24V DDI DOHC Turbo Diesel,10-Speed Automatic,97952
+Kia,Telluride SX,2023,9822,Gasoline,3.8L V6 24V GDI DOHC,8-Speed Automatic,50998
+GMC,Acadia SLE,2020,30900,Gasoline,2.5L I4 16V GDI DOHC,9-Speed Automatic,27654
+BMW,X3 xDrive30i,2021,2492,Gasoline,2.0 Liter Turbo,Automatic,41598
+Hyundai,Santa Fe SEL,2022,26895,Gasoline,2.5L I4 16V PDI DOHC,8-Speed Automatic,29800
+Toyota,Tundra Hybrid TRD Pro,2022,19000,Hybrid,437.0HP 3.4L V6 Cylinder Engine Gas/Electric Hybrid,10-Speed A/T,71000
+Ford,Mustang Mach-E Select,2023,923,,Standard Range Battery,Automatic,46998
+Volkswagen,Arteon 2.0T SE,2021,13613,Gasoline,2.0 Liter TSI,Automatic,29798
+Lexus,LX 600 F SPORT,2023,1185,Gasoline,409.0HP 3.4L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,120990
+Rivian,R1S Adventure Package,2023,5700,,835.0HP Electric Motor Electric Fuel System,1-Speed A/T,95000
+Ford,Transit Connect XL,2020,119000,Gasoline,169.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,A/T,18000
+Land Rover,Range Rover Velar SVAutobiography Dynamic Edition,2020,36500,Gasoline,550.0HP 5.0L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,72000
+BMW,X7 xDrive40i,2023,2437,Hybrid,375.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,Transmission w/Dual Shift Mode,78350
+Dodge,Durango GT,2021,14684,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,37995
+Audi,RS Q8 4.0T,2020,41856,Gasoline,591.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,91500
+Rivian,R1S Adventure Package,2023,655,,835.0HP Electric Motor Electric Fuel System,1-Speed A/T,94500
+Land Rover,Range Rover Evoque SE,2020,38356,Gasoline,2.0 Liter,Automatic,36598
+Alfa Romeo,Stelvio Ti Sport,2020,21487,Gasoline,2.0L I4 16V GDI SOHC Turbo,8-Speed Automatic,35345
+McLaren,570S Spider,2020,8700,Gasoline,562.0HP 3.8L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,185000
+Jeep,Wagoneer Series II 4x4,2022,29800,Gasoline,"HEMI 5.7L V-8 variable valve control, regular unleaded, engine w","Automatic, 8-Spd",58900
+Mercedes-Benz,GLS 450 Base,2022,41545,Hybrid,3.0 Liter DOHC Twin Turbo,Automatic,71998
+Mercedes-Benz,S-Class S 580 4MATIC,2021,4700,Hybrid,496.0HP 4.0L 8 Cylinder Engine Gasoline/Mild Electric Hybrid,9-Speed A/T,99900
+Ford,F-250 King Ranch,2021,44000,Diesel,475.0HP 6.7L 8 Cylinder Engine Diesel Fuel,10-Speed A/T,73000
+Volkswagen,Tiguan 2.0T SE,2022,11000,Gasoline,184.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,27900
+BMW,M3 CS,2024,456,Gasoline,543.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,128995
+Land Rover,Defender X,2023,5433,Hybrid,3.0 Liter,Automatic,95998
+Rolls-Royce,Ghost Base,2021,850,Gasoline,563.0HP 6.7L 12 Cylinder Engine Gasoline Fuel,A/T,314900
+Kia,EV6 Wind,2022,11945,,111.2Ah / FR 70kW / RR 160kW (697V),Automatic,38998
+BMW,X5 M Base,2023,4348,Gasoline,4.4L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic,105900
+Volvo,V60 Cross Country T5,2020,10500,Gasoline,250.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,36000
+Ford,Bronco Sport Outer Banks,2021,15198,Gasoline,1.5L I3 12V PDI DOHC Turbo,8-Speed Automatic,31621
+Land Rover,Range Rover Evoque R-Dynamic HSE,2020,30424,Hybrid,2.0 Liter,Automatic,44998
+RAM,1500 Laramie,2021,38012,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,45277
+Rivian,R1S Adventure Package,2023,2500,,835.0HP Electric Motor Electric Fuel System,A/T,91000
+BMW,M760 i xDrive,2021,11078,Gasoline,"6.6L V-12 gasoline direct injection, DOHC, variable valve contro","Automatic, 8-Spd Sport w/Sport & Manual Modes",91900
+Acura,MDX w/Technology Package,2023,3415,Gasoline,3.5 Liter SOHC,F,54998
+RAM,1500 Limited,2020,44362,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,50658
+Audi,A8 4.0,2020,35999,Hybrid,4.0 Liter Turbo,Automatic,59598
+Cadillac,Escalade ESV Sport,2021,8044,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,93000
+Rolls-Royce,Cullinan,2022,115,Gasoline,6.7L V12 48V GDI DOHC Twin Turbo,8-Speed Automatic,449995
+Acura,RDX Technology Package,2020,31015,Gasoline,2.0L I4 16V GDI DOHC Turbo,10-Speed Automatic,36570
+BMW,X2 xDrive28i,2022,33000,Gasoline,228.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,29999
+Mercedes-Benz,AMG S 63 Base 4MATIC,2020,20937,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,9-Speed Automatic,104900
+RAM,2500 Tradesman,2021,34365,Gasoline,410.0HP 6.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,48000
+Land Rover,Range Rover Evoque S,2020,40237,Gasoline,2.0 Liter,Automatic,36998
+Volvo,XC90 T6 Inscription,2020,22500,Gasoline,316.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,50000
+Ford,Expedition King Ranch,2020,58700,Gasoline,375.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,48999
+Ford,Transit-350 Base,2023,195,Gasoline,310.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,87500
+Chevrolet,Bolt EUV Premier,2022,14676,,200.0HP Electric Motor Electric Fuel System,A/T,33000
+Jeep,Wrangler Unlimited 4xe Sahara,2021,33704,Hybrid,2.0L I4 16V GDI DOHC Turbo Hybrid,8-Speed Automatic,42998
+BMW,X7 xDrive40i,2023,2950,Hybrid,375.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,87000
+Mercedes-Benz,AMG GT 53 Base,2021,17994,Gasoline,3.0L I6 24V GDI DOHC Turbo,9-Speed Automatic,87500
+Toyota,Tundra Limited,2020,44101,Gasoline,5.7L V8 32V MPFI DOHC,6-Speed Automatic,45423
+BMW,X1 xDrive28i,2021,25918,Gasoline,228.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,32000
+Volvo,XC90 Hybrid T8 Inscription,2020,44487,Plug-In Hybrid,400.0HP 2.0L 4 Cylinder Engine Plug-In Electric/Gas,8-Speed A/T,65000
+Acura,TLX A-Spec,2021,16878,Gasoline,2.0L I4 16V GDI DOHC Turbo,10-Speed Automatic,38781
+Acura,MDX w/Technology Package,2022,30177,Gasoline,3.5L 24V SOHC I-VTEC V6,2,46598
+Chevrolet,Tahoe High Country,2021,53000,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,67100
+Tesla,Model Y Long Range,2021,61308,,425.0HP Electric Motor Electric Fuel System,A/T,42000
+Chevrolet,Traverse LS,2022,32117,Gasoline,3.6L V6 24V GDI DOHC,Automatic,33299
+BMW,430 i xDrive,2021,16900,Gasoline,255.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,43000
+Ford,Expedition Max King Ranch,2021,37594,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,62595
+Rivian,R1S Adventure Package,2023,250,,835.0HP Electric Motor Electric Fuel System,A/T,94000
+Mercedes-Benz,GLC 300 GLC 300,2021,12771,Gasoline,2.0 Liter Turbo,Automatic,42598
+Tesla,Model Y Long Range,2021,69548,,425.0HP Electric Motor Electric Fuel System,1-Speed A/T,36300
+Nissan,NV Passenger NV3500 HD SL V8,2020,14353,Gasoline,375.0HP 5.6L 8 Cylinder Engine Gasoline Fuel,A/T,63900
+Ford,Transit Connect XL w/Rear Symmetrical Doors,2022,22985,Gasoline,169.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,A/T,33500
+Land Rover,Range Rover Velar P250 S R-Dynamic,2020,29500,Gasoline,247.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,45000
+Buick,Encore GX Essence,2022,18185,Gasoline,1.3L I3 12V GDI DOHC Turbo,Automatic CVT,31755
+Jeep,Grand Wagoneer Series III,2022,18428,Gasoline,6.4 Liter,Automatic,83998
+Nissan,Z Proto Spec,2023,535,Gasoline,400.0HP 3.0L V6 Cylinder Engine Gasoline Fuel,6-Speed M/T,65990
+Cadillac,Escalade ESV Sport,2021,36500,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,85000
+Jeep,Wrangler Unlimited Sahara,2020,68816,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,35297
+Tesla,Model 3 Long Range,2022,3077,,Dual Motor - Standard,Automatic,44998
+Mazda,CX-90 Premium,2024,3880,Gasoline,2.5L,8-Speed Automatic,52991
+Hyundai,Santa Fe SE,2021,35550,Gasoline,2.5L I4 16V PDI DOHC,8-Speed Automatic,25987
+BMW,M2 Base,2023,1160,Gasoline,453.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,6-Speed M/T,73600
+Ford,Bronco Sport Big Bend,2021,31729,Gasoline,1.5L I3 12V PDI DOHC Turbo,8-Speed Automatic,29614
+Jeep,Gladiator Overland,2021,7388,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,43663
+Genesis,G70 3.3T,2022,12000,Gasoline,365.0HP 3.3L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,41000
+Lexus,LX 570 Three-Row,2021,14206,Gasoline,383.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,A/T,98000
+Jeep,Grand Cherokee L Limited,2022,31700,Gasoline,293.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,A/T,43500
+Hyundai,IONIQ Plug-In Hybrid SEL,2022,13044,Plug-In Hybrid,139.0HP 1.6L 4 Cylinder Engine Plug-In Electric/Gas,A/T,24999
+BMW,X5 PHEV xDrive45e,2023,5338,Plug-In Hybrid,389.0HP 3.0L Straight 6 Cylinder Engine Plug-In Electric/Gas,8-Speed A/T,76500
+Mercedes-Benz,GLA 250 Base 4MATIC,2022,13777,Gasoline,221.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,39777
+RAM,1500 Big Horn,2022,14920,Gasoline,3.6L V6 24V MPFI DOHC,Automatic,41741
+Jeep,Grand Cherokee L Summit,2022,14627,Gasoline,3.6L V6 24V MPFI DOHC,Automatic,56740
+Audi,RS 7 4.0T,2021,14724,Hybrid,4.0 Liter TFSI,Automatic,101998
+Jeep,Grand Cherokee WK Laredo X,2022,11164,Gasoline,293.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,37500
+BMW,M4 Base,2020,22655,Gasoline,425.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,7-Speed A/T,63999
+Chevrolet,Camaro 1LT,2021,10300,Gasoline,335.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,M/T,29900
+RAM,1500 TRX,2022,24058,Gasoline,"HEMI 6.2L V-8 intercooled supercharger, premium unleaded, engine","Automatic, 8-Spd",81900
+Porsche,Macan S,2020,19701,Gasoline,3.0 Liter,Automatic,55998
+Genesis,GV70 3.5T Sport,2022,10200,Gasoline,375.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,50500
+Chevrolet,Tahoe Premier,2021,41050,Gasoline,355.0HP 5.3L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,62900
+Jeep,Compass Limited,2020,39192,Gasoline,2.4L I4 16V MPFI SOHC,9-Speed Automatic,24590
+BMW,430 430i,2022,7758,Gasoline,2.0 Liter Turbo,Automatic,47998
+Ford,Bronco Sport Outer Banks,2021,31654,Gasoline,1.5L I3 12V PDI DOHC Turbo,8-Speed Automatic,33410
+Acura,MDX Technology,2022,15895,Gasoline,3.5L V6 24V GDI SOHC,10-Speed Automatic,47950
+Bentley,Bentayga Speed,2020,15109,Gasoline,6.0L W12 48V PDI DOHC Twin Turbo,8-Speed Automatic,162950
+Rolls-Royce,Cullinan,2022,398,Gasoline,6.7L V12 48V GDI DOHC Twin Turbo,8-Speed Automatic,695000
+Genesis,GV70 2.5T,2022,20319,Gasoline,300.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,44249
+Lexus,GX 460 Base,2021,40906,Gasoline,4.6 Liter,Automatic,51998
+BMW,ALPINA B7 ALPINA B7 xDrive,2020,33749,Gasoline,4.4 Liter Twin Turbo,Automatic,85998
+BMW,M4 Competition xDrive,2023,1120,Gasoline,503.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,92900
+Jeep,Grand Cherokee L Limited,2021,26088,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,38383
+Kia,Forte GT-Line,2022,14950,Gasoline,147.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,24000
+BMW,X6 M Base,2022,10376,Gasoline,4.4L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic,98900
+RAM,ProMaster 3500 High Roof,2021,18500,Gasoline,280.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,A/T,41950
+Volkswagen,Atlas Cross Sport 3.6L V6 SEL Premium,2021,24596,Gasoline,3.6L V6 24V GDI DOHC,8-Speed Automatic,38322
+Hyundai,Santa Fe SEL,2021,2905,Gasoline,2.5L I4 16V PDI DOHC,8-Speed Automatic,27599
+Audi,A7 55 Premium Plus,2022,15000,Hybrid,335.0HP 3.0L V6 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,63000
+Mercedes-Benz,AMG G 63 4MATIC,2022,2000,Gasoline,577.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,244896
+BMW,ALPINA B7 ALPINA B7 xDrive,2020,65852,Gasoline,4.4 Liter Twin Turbo,Automatic,68998
+Bentley,Bentayga Azure First Edition,2023,1335,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic,272950
+Toyota,Tundra SR5,2022,29322,Gasoline,3.4L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,44999
+Ford,F-150 XLT,2020,67516,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,Automatic,36994
+Ford,Expedition Max King Ranch,2020,52000,Gasoline,375.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,53722
+Genesis,GV70 2.5T,2022,11000,Gasoline,300.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,A/T,48950
+BMW,X6 M Base,2023,7000,Gasoline,600.0HP 4.4L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,144900
+RAM,1500 Longhorn,2023,4285,Gasoline,5.7L V8 16V MPFI OHV,Automatic,65688
+Land Rover,Range Rover Velar SVAutobiography Dynamic Edition,2020,59355,Gasoline,V8,Automatic,72995
+Chevrolet,Bolt EUV Premier,2022,31000,,200.0HP Electric Motor Electric Fuel System,1-Speed A/T,36000
+Genesis,G70 2.0T,2023,2046,Gasoline,252.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,43499
+Chevrolet,Trailblazer LS,2021,24965,Gasoline,1.2L I3 12V GDI DOHC Turbo,Automatic CVT,22995
+Lexus,LX 600 Premium,2023,1500,Gasoline,409.0HP 3.4L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,119500
+Tesla,Model Y Long Range,2020,23100,,425.0HP Electric Motor Electric Fuel System,A/T,36495
+Toyota,Supra A91-MT Edition,2023,1500,Gasoline,382.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,6-Speed M/T,84900
+BMW,X7 xDrive40i,2022,38671,Hybrid,3.0 Liter Turbo,Automatic,66998
+Maserati,Grecale Modena,2023,2200,Hybrid,325.0HP 2.0L 4 Cylinder Engine Gasoline/Mild Electric Hybrid,Transmission w/Dual Shift Mode,75000
+Lexus,RX 450h Base,2022,15833,Hybrid,308.0HP 3.5L V6 Cylinder Engine Gas/Electric Hybrid,CVT Transmission,52000
+BMW,X7 M50i,2021,7121,Gasoline,4.4 Liter Twin Turbo,Automatic,94998
+Hyundai,Tucson Hybrid SEL Convenience,2023,3402,Hybrid,226.0HP 1.6L 4 Cylinder Engine Gas/Electric Hybrid,A/T,44000
+BMW,X7 xDrive40i,2021,30309,Hybrid,3.0 Liter Turbo,Automatic,63598
+Ford,Mustang Mach-E California Route 1,2021,24000,,290.0HP Electric Motor Electric Fuel System,1-Speed A/T,38000
+Volkswagen,Arteon 2.0T SEL Premium R-Line,2020,26870,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,34645
+BMW,X7 ALPINA XB7,2022,4514,Gasoline,4.4 Liter Twin Turbo,Automatic,132998
+RAM,2500 Tradesman,2022,1300,Gasoline,410.0HP 6.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,48000
+BMW,X6 M Base,2021,11102,Gasoline,600.0HP 4.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,101000
+Kia,Sportage Plug-In Hybrid X-Line,2023,1340,Plug-In Hybrid,177.0HP 1.6L 4 Cylinder Engine Plug-In Electric/Gas,A/T,41000
+Ford,Mustang Mach-E Premium,2021,17850,,266.0HP Electric Motor Electric Fuel System,A/T,41999
+Jeep,Wrangler Rubicon,2023,7000,Hybrid,285.0HP 3.6L V6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,46000
+Porsche,Panamera 4 Platinum Edition,2022,10627,Gasoline,"2.9L V-6 gasoline direct injection, DOHC, variable valve control","Automatic, 8-Spd PDK Dual-Clutch",99000
+Ford,Explorer XLT,2020,67015,Gasoline,2.3L I4 16V GDI DOHC Turbo,10-Speed Automatic,28590
+Ford,Mustang Mach-E Premium,2022,5800,,346.0HP Electric Motor Electric Fuel System,1-Speed A/T,42500
+Ford,Expedition Limited,2021,23842,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,59203
+Rivian,R1S Adventure Package,2023,2108,,835.0HP Electric Motor Electric Fuel System,1-Speed A/T,91000
+Ford,Bronco Wildtrak Advanced,2022,15600,Gasoline,315.0HP 2.7L V6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,68995
+Lexus,LC 500 Base,2021,22400,Gasoline,471.0HP 5.0L 8 Cylinder Engine Gasoline Fuel,A/T,81900
+BMW,M4 Base,2023,15000,Gasoline,"3L I-6 gasoline direct injection, DOHC, Double VANOS variable va","Automatic, 8-Spd M STEPTRONIC w/Drivelogic, Sport & Manual Modes",81000
+Cadillac,Escalade Sport,2023,3000,Diesel,277.0HP 3.0L Straight 6 Cylinder Engine Diesel Fuel,A/T,123999
+Toyota,GR86 Premium,2023,1075,Gasoline,228.0HP 2.4L 4 Cylinder Engine Gasoline Fuel,6-Speed M/T,35000
+Ford,Bronco Raptor,2023,2489,Gasoline,3.0L V6 24V GDI DOHC Twin Turbo,10-Speed Automatic,98900
+Hyundai,Santa Fe SEL,2021,25000,Gasoline,191.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,28500
+Jaguar,F-PACE S,2020,28357,Gasoline,3.0 Liter,Automatic,47598
+Ford,Expedition Limited,2021,45000,Gasoline,375.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,52000
+BMW,M440 i,2021,13700,Hybrid,382.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,60000
+Lexus,IS 350 F Sport,2023,20121,Gasoline,311.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,47124
+Mercedes-Benz,Metris Base,2020,3921,Gasoline,2.0L I4 16V GDI DOHC Turbo,7-Speed Automatic,175000
+Toyota,Supra A91 Edition,2021,6400,Gasoline,382.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,68000
+Mercedes-Benz,GLE 350 Base 4MATIC,2021,15042,Gasoline,2.0L I4 16V GDI DOHC Turbo,9-Speed Automatic,54599
+Hyundai,Sonata Hybrid Limited,2022,30565,Hybrid,192.0HP 2.0L 4 Cylinder Engine Gas/Electric Hybrid,A/T,29000
+Jeep,Grand Cherokee L Limited,2021,25968,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,38405
+Porsche,Macan,2021,21613,Gasoline,2.0 Liter,Automatic,58998
+Audi,Q3 S line Premium Plus,2022,17377,Gasoline,2.0 Liter TFSI,Automatic,39998
+GMC,Acadia SLE,2020,30426,Gasoline,2.5L I4 16V GDI DOHC,9-Speed Automatic,29645
+Mazda,CX-9 Carbon Edition,2021,27836,Gasoline,2.5L I4 16V GDI DOHC Turbo,6-Speed Automatic,36969
+Chevrolet,Corvette Stingray w/1LT,2023,3273,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,78999
+Ferrari,Roma Base,2022,2250,Gasoline,611.0HP 3.9L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,259500
+Ford,Transit-350 XLT,2021,48000,E85 Flex Fuel,275.0HP 3.5L V6 Cylinder Engine Flex Fuel Capability,A/T,57000
+Volkswagen,Arteon SEL R-Line,2022,18655,Gasoline,2.0 Liter TSI,Automatic,38698
+Genesis,G80 2.5T,2022,7396,Gasoline,2.5L I4 16V PDI DOHC Turbo,8-Speed Automatic,41299
+Maserati,Quattroporte Modena Q4,2023,8603,Gasoline,3.0L V6 24V GDI DOHC Twin Turbo,8-Speed Automatic,125900
+Nissan,Rogue S,2022,21212,Gasoline,1.5L I3 12V GDI DOHC Turbo,Automatic CVT,28906
+BMW,M440 i xDrive,2021,24300,Hybrid,382.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,49999
+Volvo,S60 T6 Momentum,2020,46250,Gasoline,2.0L I4 16V GDI DOHC,8-Speed Automatic,27800
+Mazda,CX-9 Touring Plus,2023,1930,Gasoline,2.5L I4 16V GDI DOHC Turbo,6-Speed Automatic,40655
+Chrysler,Pacifica Hybrid Touring L,2022,61494,Hybrid,3.6L V6 24V MPFI DOHC Hybrid,Automatic CVT,35850
+Jeep,Wrangler Unlimited Sport,2020,24040,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,35273
+Land Rover,Discovery Sport S R-Dynamic,2022,23568,Gasoline,2.0 Liter,Automatic,44998
+Mazda,Mazda6 Touring,2020,78700,Gasoline,187.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,A/T,18000
+Kia,K5 EX,2021,11154,Gasoline,1.6L I4 16V GDI DOHC Turbo,8-Speed Automatic,28998
+Kia,Telluride SX,2020,55400,Gasoline,291.0HP 3.8L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,36500
+BMW,M4 Base,2020,29140,Gasoline,425.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,M/T,71995
+BMW,M340 i xDrive,2022,9000,Hybrid,382.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,56900
+Mercedes-Benz,AMG GLE 53 AMG GLE 53,2021,5595,Hybrid,3.0 Liter Turbo,Automatic,83598
+RAM,1500 Laramie,2022,34121,Gasoline,5.7L V8 16V MPFI OHV,Automatic,48190
+BMW,X5 M Base,2022,8307,Gasoline,4.4L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic,98900
+BMW,M3 Base,2023,4106,Gasoline,3.0L I6 24V GDI DOHC Twin Turbo,6-Speed Manual,84645
+Acura,RDX Advance Package,2021,29000,Gasoline,272.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,10-Speed A/T,39650
+Mercedes-Benz,Sprinter 3500XD High Roof,2021,33300,Diesel,188.0HP 3.0L V6 Cylinder Engine Diesel Fuel,7-Speed A/T,45000
+Land Rover,Range Rover SV Autobiography Dynamic SWB,2020,16754,Gasoline,557.0HP 5.0L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,112000
+Lincoln,Corsair Reserve,2021,29336,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,36999
+Acura,ILX Premium Package,2022,16120,Gasoline,2.4L I4 16V GDI DOHC,8-Speed Automatic with Auto-Shift,26599
+Mazda,CX-30 2.5 S Select Package,2022,4004,Gasoline,186.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,6-Speed A/T,25500
+Bentley,Continental GT V8,2022,10972,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic with Auto-Shift,217950
+Bentley,Flying Spur V8,2022,27858,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic with Auto-Shift,197750
+Hyundai,Tucson Limited,2020,39913,Gasoline,2.4L I4 16V GDI DOHC,6-Speed Automatic,22749
+Mercedes-Benz,AMG G 63 Base,2020,1750,Gasoline,577.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,9-Speed A/T,199995
+Dodge,Challenger SRT Hellcat,2020,2750,Gasoline,797.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,104500
+Ford,F-250 XL,2021,77699,Diesel,6.7L V8 32V DDI OHV Turbo Diesel,Automatic,49883
+Chevrolet,Suburban LT,2020,93000,Gasoline,355.0HP 5.3L 8 Cylinder Engine Gasoline Fuel,A/T,38500
+Toyota,Sequoia SR5,2023,1539,Hybrid,3.4L V6 24V PDI DOHC Twin Turbo Hybrid,Automatic,76373
+Mazda,Mazda3 FWD w/Premium Package,2022,21701,Gasoline,2.5L I4 16V,6-Speed Automatic,25099
+Genesis,G80 3.8,2020,23600,Gasoline,311.0HP 3.8L V6 Cylinder Engine Gasoline Fuel,A/T,31900
+Nissan,Leaf SV PLUS,2023,7089,,214.0HP Electric Motor Electric Fuel System,1-Speed A/T,29895
+Kia,Telluride EX,2022,14676,Gasoline,3.8L V6 24V GDI DOHC,8-Speed Automatic,46787
+Lincoln,Navigator Reserve,2022,13750,Gasoline,440.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,79999
+Audi,A7 55 Premium,2020,27100,Hybrid,335.0HP 3.0L V6 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,50000
+Land Rover,Range Rover HSE SWB,2020,16000,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,75500
+Land Rover,Defender S,2023,15200,Gasoline,296.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,62999
+Kia,K5 GT-Line,2022,10971,Gasoline,1.6L I4 16V GDI DOHC Turbo,8-Speed Automatic,29998
+Kia,Stinger GT1,2021,8288,Gasoline,365.0HP 3.3L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,45899
+Chevrolet,Camaro ZL1,2023,2950,Gasoline,650.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,74500
+Kia,Telluride LX,2023,5500,Gasoline,291.0HP 3.8L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,40000
+Cadillac,Escalade Premium Luxury Platinum,2021,15350,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,93500
+BMW,X7 xDrive40i,2020,45241,Gasoline,335.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,A/T,54500
+Audi,e-tron Premium,2021,18031,,Electric,1-Speed Automatic,39599
+Toyota,Sequoia Limited,2023,8200,Hybrid,437.0HP 3.4L V6 Cylinder Engine Gas/Electric Hybrid,10-Speed A/T,78900
+Land Rover,Range Rover Sport HST MHEV,2020,19000,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,Transmission w/Dual Shift Mode,74900
+Jeep,Grand Cherokee L Limited,2022,12875,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,42599
+Mercedes-Benz,C-Class 4MATIC Sedan,2022,9612,Gasoline,"2L I-4 gasoline direct injection, DOHC, variable valve control,","Automatic, 9-Spd 9G-Tronic",43900
+Land Rover,Range Rover Sport First Edition,2023,3534,Hybrid,4.4 Liter,Automatic,143998
+Audi,Q8 55 Premium Plus,2021,14750,Hybrid,335.0HP 3.0L V6 Cylinder Engine Gasoline/Mild Electric Hybrid,Transmission w/Dual Shift Mode,61059
+INFINITI,QX60 Pure,2020,39000,Gasoline,295.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,29900
+Maserati,MC20 MC20,2022,1220,Gasoline,"Nettuno 3L V-6 port/direct injection, DOHC, variable valve contr","Automatic, 8-Spd Dual-Clutch",238900
+Land Rover,Defender SE,2023,8421,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,90000
+BMW,M8 Base,2020,25520,Gasoline,4.4L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic,84900
+Tesla,Model Y Performance,2020,30554,,Electric,1-Speed Automatic,41999
+Volvo,C40 Recharge Pure Electric Twin Ultimate,2023,17000,,402.0HP Electric Motor Electric Fuel System,A/T,54900
+Land Rover,Range Rover P525 HSE SWB,2020,49899,Gasoline,518.0HP 5.0L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,64500
+Mercedes-Benz,G-Class G 550,2020,20622,Gasoline,4.0 Liter Twin Turbo,Automatic,142998
+RAM,1500 Big Horn,2022,19376,Gasoline,5.7L V8 16V MPFI OHV,Automatic,45861
+Audi,R8 5.2 V10 performance,2020,12245,Gasoline,5.2L V10 40V PDI DOHC,7-Speed Automatic with Auto-Shift,187900
+Chevrolet,Camaro 1SS,2022,7600,Gasoline,455.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,6-Speed M/T,46000
+Toyota,Camry Hybrid LE,2022,20400,Hybrid,208.0HP 2.5L 4 Cylinder Engine Gas/Electric Hybrid,CVT Transmission,29900
+Jeep,Wrangler Sahara,2020,22138,Gasoline,3.6 Liter,Automatic,38598
+Mercedes-Benz,G-Class G 550 4MATIC,2021,76100,Gasoline,416.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,A/T,130000
+Lexus,RX 350 RX 350 F SPORT Handling,2022,14330,Gasoline,3.5 Liter DOHC,Automatic,54998
+Hyundai,Santa Cruz 2.5T Limited,2022,22829,Gasoline,2.5L I4 16V PDI DOHC Turbo,Automatic,34580
+Lexus,RX 350 F Sport,2023,5483,Gasoline,2.4L I4 16V PDI DOHC Turbo,8-Speed Automatic,59950
+Land Rover,Range Rover Evoque S,2020,46891,Gasoline,246.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,9-Speed A/T,31000
+Porsche,718 Spyder Base,2020,3400,Gasoline,414.0HP 4.0L Flat 6 Cylinder Engine Gasoline Fuel,6-Speed M/T,129900
+Chevrolet,Camaro 1LT,2021,18000,Gasoline,335.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,30000
+Jeep,Gladiator Freedom,2021,30630,Gasoline,3.6 Liter,Automatic,39998
+GMC,Yukon Denali Ultimate,2023,9978,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,93999
+Cadillac,Escalade Premium Luxury Platinum,2021,72843,Gasoline,6.2L V8 16V GDI OHV,10-Speed Automatic,79990
+Tesla,Model X Long Range Plus,2020,43534,,534.0HP Electric Motor Electric Fuel System,1-Speed A/T,65990
+Kia,Telluride EX,2022,35938,Gasoline,3.8L V6 24V GDI DOHC,8-Speed Automatic,43329
+Toyota,Tundra Hybrid Limited,2023,10748,Hybrid,3.4L V6 24V PDI DOHC Twin Turbo Hybrid,Automatic,63100
+Audi,S8 4.0T quattro,2023,4457,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,Automatic,107900
+Land Rover,Discovery HSE,2020,32705,Diesel,3.0 Liter,Automatic,46598
+Kia,Telluride S,2020,74026,Gasoline,3.8L V6 24V GDI DOHC,8-Speed Automatic,32913
+Lexus,GS 350 F Sport,2020,24651,Gasoline,3.5L V6 24V PDI DOHC,6-Speed Automatic,45950
+BMW,X6 xDrive40i,2022,13000,Hybrid,335.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,Transmission w/Dual Shift Mode,69000
+Land Rover,Range Rover P400 SE SWB,2023,11700,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,Transmission w/Dual Shift Mode,133500
+Ford,Expedition Limited,2021,29830,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,55329
+Lexus,RX 450h F SPORT Handling,2021,31365,Hybrid,3.5 Liter DOHC,Variable,52998
+Tesla,Model Y Long Range,2023,4786,,425.0HP Electric Motor Electric Fuel System,A/T,48000
+Audi,RS 3 2.5T,2023,1900,Gasoline,401.0HP 2.5L 5 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,78900
+Genesis,G70 2.0T,2023,2121,Gasoline,252.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,40750
+Mercedes-Benz,S-Class S 560 4MATIC,2020,22000,Gasoline,463.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,A/T,69500
+Ford,Bronco Wildtrak Advanced,2023,2000,Gasoline,315.0HP 2.7L V6 Cylinder Engine Gasoline Fuel,A/T,66500
+Jeep,Grand Cherokee L Overland,2022,31804,Gasoline,3.6L V6 24V MPFI DOHC,Automatic,48995
+Tesla,Model X Base,2023,197,,670.0HP Electric Motor Electric Fuel System,A/T,85000
+Cadillac,CT4 Luxury,2020,35200,Gasoline,237.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,28500
+RAM,1500 Limited,2021,22000,Gasoline,395.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,54800
+Mercedes-Benz,AMG E 53 Base 4MATIC,2022,13000,Hybrid,429.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,9-Speed A/T,81500
+Kia,Niro EX,2023,7578,Hybrid,1.6L I4 16V GDI DOHC Hybrid,Automatic,31113
+Mercedes-Benz,G-Class G 550 4MATIC,2021,22480,Gasoline,416.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,A/T,135800
+Audi,RS 7 4.0T,2022,4100,Hybrid,591.0HP 4.0L 8 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,162500
+Porsche,911 Carrera,2020,23278,Gasoline,3.0 Liter,Automatic,114998
+Jeep,Wagoneer Series III,2022,17381,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,69685
+Kia,EV6 GT-Line,2022,4820,,320.0HP Electric Motor Electric Fuel System,1-Speed A/T,47500
+BMW,M5 Base,2023,816,Gasoline,4.4L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic,109900
+Land Rover,Defender X-Dynamic SE,2023,3678,Hybrid,3.0 Liter,Automatic,81998
+BMW,M8 Competition,2022,5018,Gasoline,4.4 Liter Twin Turbo,Automatic,114998
+Chrysler,300 Touring,2021,21478,Gasoline,3.6 Liter,Automatic,27798
+Honda,Insight EX,2020,64200,Hybrid,151.0HP 1.5L 4 Cylinder Engine Gas/Electric Hybrid,CVT Transmission,20499
+Tesla,Model Y Performance,2022,25250,,455.0HP Electric Motor Electric Fuel System,1-Speed A/T,47800
+BMW,M5 Competition,2020,35400,Gasoline,617.0HP 4.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,71950
+Ford,F-250 Platinum,2021,48549,Diesel,6.7L V8 32V DDI OHV Turbo Diesel,Automatic,69998
+Kia,Seltos S,2023,5182,Gasoline,146.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,32500
+BMW,M760 M760i xDrive,2020,23430,Gasoline,6.6 Liter Twin Turbo,Automatic,80998
+Toyota,Tundra SR5,2021,33455,Gasoline,381.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,6-Speed A/T,44750
+BMW,X1 sDrive28i,2022,43000,Gasoline,228.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,35750
+Chevrolet,Camaro ZL1,2020,3715,Gasoline,650.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,150000
+Mercedes-Benz,C-Class C 300 4MATIC,2022,8583,Gasoline,2.0L I4 16V GDI DOHC Turbo,9-Speed Automatic,42999
+Mercedes-Benz,AMG GT C,2020,6600,Gasoline,550.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,128900
+Chevrolet,Camaro 2SS,2023,2300,Gasoline,455.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,6-Speed M/T,51500
+Audi,Q7 Premium Plus,2023,10601,Hybrid,3.0 Liter TFSI,Automatic,61998
+GMC,Sierra 2500 AT4,2022,31681,Gasoline,6.6L V8 16V GDI OHV,Automatic,67963
+Cadillac,XT6 Sport AWD,2020,24114,Gasoline,3.6L V6 24V GDI DOHC,9-Speed Automatic,49427
+Jeep,Grand Cherokee L Laredo,2022,22109,Gasoline,3.6L V6 24V MPFI DOHC,Automatic,43389
+INFINITI,QX80 Luxe,2022,49860,Gasoline,5.6L V8 32V GDI DOHC,Automatic,47645
+Mercedes-Benz,AMG C 63 S,2021,13650,Gasoline,503.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,9-Speed A/T,75000
+BMW,X6 M Base,2021,18000,Gasoline,600.0HP 4.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,94000
+Rivian,R1S Launch Edition,2023,4500,,835.0HP Electric Motor Electric Fuel System,1-Speed A/T,89999
+Volvo,XC90 Recharge Plug-In Hybrid T8 Inscription 7 Passenger,2022,9408,Hybrid,2.0L I4 16V GDI DOHC Hybrid,8-Speed Automatic,61999
+Tesla,Model Y Long Range,2023,5844,,425.0HP Electric Motor Electric Fuel System,A/T,52000
+Toyota,Supra 3.0 Premium,2022,24850,Gasoline,382.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,A/T,53568
+Lincoln,Nautilus Reserve,2021,17467,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,43860
+Toyota,bZ4X Limited,2023,6548,,Electric,Automatic,41999
+RAM,1500 Classic SLT,2021,32092,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,35113
+Tesla,Model X Performance,2020,27224,,Electric,1-Speed Automatic,65999
+Tesla,Model Y Long Range,2021,14642,,425.0HP Electric Motor Electric Fuel System,A/T,48500
+Ford,Expedition Max XLT,2021,84351,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,42691
+Mercedes-Benz,AMG GT 63 S 4-Door,2020,40000,Gasoline,630.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,9-Speed A/T,112500
+Porsche,Taycan Turbo,2020,21028,,Dual AC Electric Motors,Single-Speed Fixed Gear,96900
+Maserati,Levante Modena,2023,5409,Gasoline,3.0L V6 24V GDI DOHC Twin Turbo,8-Speed Automatic,88950
+Dodge,Challenger SRT Hellcat,2020,12700,Gasoline,717.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,69900
+Mazda,Mazda6 Touring,2021,19000,Gasoline,187.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,A/T,25900
+Tesla,Model Y Long Range,2022,12055,,425.0HP Electric Motor Electric Fuel System,A/T,44400
+BMW,M2 Competition,2020,25013,Gasoline,405.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,7-Speed A/T,55000
+Audi,Q4 e-tron Sportback Premium,2023,1156,,295.0HP Electric Motor Electric Fuel System,A/T,54900
+Chevrolet,Colorado Z71,2020,20909,Gasoline,3.6L V6 24V GDI DOHC,Automatic,35387
+Audi,SQ5 3.0T Premium,2020,21832,Gasoline,349.0HP 3.0L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,42000
+Toyota,Tundra 1794,2020,67400,Gasoline,381.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,A/T,47500
+Kia,Telluride S,2023,14700,Gasoline,291.0HP 3.8L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,39900
+Land Rover,Range Rover P525 Westminster,2021,17945,Gasoline,5.0L V8 32V GDI DOHC Supercharged,8-Speed Automatic,89900
+Cadillac,Escalade ESV Luxury,2020,120000,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,55000
+Chevrolet,Silverado 3500 LTZ,2022,85200,Diesel,445.0HP 6.6L 8 Cylinder Engine Diesel Fuel,10-Speed A/T,67500
+Ford,Mustang GT Premium,2021,3000,Gasoline,460.0HP 5.0L 8 Cylinder Engine Gasoline Fuel,6-Speed M/T,49500
+Chevrolet,Camaro LT1,2022,6700,Gasoline,455.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,39500
+Porsche,Taycan Base,2021,6785,,Electric,2-Speed Automatic,108900
+Jaguar,F-PACE SVR,2020,38800,Gasoline,550.0HP 5.0L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,57500
+BMW,M340 i xDrive,2021,34967,Hybrid,382.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,49999
+Rivian,R1S Adventure Package,2023,1150,,835.0HP Electric Motor Electric Fuel System,A/T,96850
+Tesla,Model Y Long Range,2023,10000,,425.0HP Electric Motor Electric Fuel System,A/T,48000
+Mercedes-Benz,E-Class E 350,2022,14100,Gasoline,255.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,9-Speed A/T,53000
+BMW,X7 xDrive40i,2023,14360,Hybrid,375.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,85495
+Chevrolet,Trailblazer RS,2023,10000,Gasoline,155.0HP 1.3L 3 Cylinder Engine Gasoline Fuel,9-Speed A/T,32000
+Chevrolet,Suburban Premier,2021,73846,Gasoline,5.3L V8 16V GDI OHV,10-Speed Automatic,60995
+Jeep,Gladiator Overland,2020,40000,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,45000
+GMC,Yukon XL AT4,2023,9980,Gasoline,355.0HP 5.3L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,82000
+Alfa Romeo,Giulia Ti,2021,2000,Gasoline,280.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,39000
+Volvo,XC60 Recharge Plug-In Hybrid T8 Inscription,2022,19352,Plug-In Hybrid,455.0HP 2.0L 4 Cylinder Engine Plug-In Electric/Gas,8-Speed A/T,54599
+Land Rover,Range Rover Supercharged LWB,2020,81000,Gasoline,518.0HP 5.0L 8 Cylinder Engine Gasoline Fuel,A/T,64800
+Audi,S5 3.0T Premium,2021,18100,Gasoline,349.0HP 3.0L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,51800
+Toyota,Sequoia Platinum,2023,325,Hybrid,437.0HP 3.4L V6 Cylinder Engine Gas/Electric Hybrid,10-Speed A/T,84997
+Lamborghini,Aventador SVJ Base,2021,6987,Gasoline,6.5L V12 48V MPFI DOHC,7-Speed,749950
+Genesis,GV80 2.5T,2022,7523,Gasoline,2.5L I4 16V PDI DOHC Turbo,8-Speed Automatic,54543
+Kia,Sportage S,2021,16949,Gasoline,2.4L I4 16V GDI DOHC,6-Speed Automatic,24995
+Mercedes-Benz,S-Class S 580 4MATIC,2022,7968,Hybrid,496.0HP 4.0L 8 Cylinder Engine Gasoline/Mild Electric Hybrid,9-Speed A/T,104999
+Ford,Maverick Lariat,2022,13700,Hybrid,191.0HP 2.5L 4 Cylinder Engine Gas/Electric Hybrid,CVT Transmission,39500
+Kia,Telluride SX,2021,38612,Gasoline,3.8L V6 24V GDI DOHC,8-Speed Automatic,42242
+Land Rover,Range Rover Sport SVR,2022,15107,Gasoline,5.0L V8 32V GDI DOHC Supercharged,8-Speed Automatic,114900
+Toyota,Corolla Hybrid LE,2022,44459,Hybrid,121.0HP 1.8L 4 Cylinder Engine Gas/Electric Hybrid,A/T,22945
+Mercedes-Benz,Metris Base,2021,2284,Gasoline,2.0L I4 16V GDI DOHC Turbo,9-Speed Automatic,157500
+Land Rover,Range Rover P530 SE LWB 7 Seat,2023,350,Gasoline,523.0HP 4.4L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,195000
+BMW,750 i xDrive,2020,25108,Gasoline,523.0HP 4.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,66000
+Maserati,MC20 Base,2022,1087,Gasoline,3.0L V6 24V PDI DOHC Twin Turbo,8-Speed Automatic with Auto-Shift,279000
+BMW,X6 xDrive40i,2023,16307,Hybrid,335.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,71400
+Audi,S5 3.0T Prestige,2021,13566,Gasoline,3.0L,1-Speed Automatic,57900
+Audi,Q7 Premium Plus,2022,22588,Hybrid,3.0 Liter TFSI,Automatic,52598
+BMW,M2 Competition,2020,500,Gasoline,405.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,7-Speed A/T,70000
+GMC,Sierra 2500 Base,2021,8210,Gasoline,401.0HP 6.6L 8 Cylinder Engine Gasoline Fuel,A/T,55000
+Lincoln,Nautilus Reserve,2021,18160,Gasoline,2.7L V6 24V GDI DOHC Twin Turbo,8-Speed Automatic,46850
+BMW,530e Base,2022,22700,Plug-In Hybrid,288.0HP 2.0L 4 Cylinder Engine Plug-In Electric/Gas,A/T,47000
+GMC,Sierra 1500 SLT,2021,23400,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,52000
+Ford,Bronco Base,2022,6200,Gasoline,275.0HP 2.3L 4 Cylinder Engine Gasoline Fuel,7-Speed M/T,49000
+Ford,F-150 XLT,2021,51808,Gasoline,5.0L V8 32V PDI DOHC,10-Speed Automatic,42388
+Audi,S5 3.0T Prestige,2022,14739,Gasoline,3.0L,1-Speed Automatic,61900
+Dodge,Charger GT,2021,33000,Gasoline,300.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,26999
+Chevrolet,Silverado 1500 Limited High Country,2022,2550,Gasoline,355.0HP 5.3L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,60000
+Jeep,Grand Cherokee Altitude,2020,35289,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,35470
+RAM,1500 Laramie,2022,14636,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,46599
+Audi,A6 55 Premium Plus,2023,6581,Gasoline,"3L V-6 gasoline direct injection, DOHC, variable valve control,","Automatic, 7-Spd S tronic Dual-Clutch",59900
+Mercedes-Benz,AMG GT 53 Base,2020,22000,Hybrid,429.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,9-Speed A/T,83999
+Land Rover,Range Rover P530 SE SWB,2023,2800,Gasoline,523.0HP 4.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,175000
+Kia,Sportage Nightfall,2022,26468,Gasoline,2.4L I4 16V GDI DOHC,6-Speed Automatic,27875
+Kia,Sorento LX,2021,54200,Gasoline,191.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,A/T,23800
+Acura,TLX Type S w/Performance Tire,2023,1798,Gasoline,355.0HP 3.0L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,53000
+GMC,Sierra 1500 Denali Ultimate,2023,2500,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,84000
+Ford,Bronco Outer Banks Advanced,2023,3400,Gasoline,275.0HP 2.3L 4 Cylinder Engine Gasoline Fuel,10-Speed A/T,57000
+Ford,Bronco,2021,3596,Gasoline,2.7L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,56900
+Ford,Bronco Badlands Advanced,2022,4200,Gasoline,315.0HP 2.7L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,65994
+Jeep,Wrangler Unlimited Rubicon,2022,1750,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,65500
+BMW,X4 xDrive30i,2022,34800,Gasoline,248.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,46000
+Jaguar,F-PACE S,2020,35580,Gasoline,3.0 Liter,Automatic,46998
+GMC,Yukon XL SLT,2023,28500,Gasoline,355.0HP 5.3L 8 Cylinder Engine Gasoline Fuel,A/T,67800
+Hyundai,IONIQ 5 SE,2022,18500,,320.0HP Electric Motor Electric Fuel System,A/T,42000
+Jaguar,F-PACE S,2023,4624,Gasoline,2.0 Liter,Automatic,56998
+Hyundai,Santa Fe SE,2022,13610,Gasoline,2.5L I4 16V PDI DOHC,8-Speed Automatic,27450
+Ford,Expedition Timberline,2023,8911,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,77430
+Chevrolet,Silverado 1500 LT Trail Boss,2021,48641,Gasoline,5.3L V8 16V GDI OHV,10-Speed Automatic,43666
+GMC,Sierra 1500 SLT,2021,11250,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,70250
+Toyota,Tacoma SR,2020,27363,Gasoline,278.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,6-Speed A/T,35000
+Ford,F-150 Lightning XLT,2023,208,,563.0HP Electric Motor Electric Fuel System,A/T,89000
+Dodge,Durango GT,2021,20386,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,32999
+Ford,Bronco Outer Banks Advanced,2022,12000,Gasoline,315.0HP 2.7L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,65999
+Honda,Pilot Elite,2021,42653,Gasoline,3.5L V6 24V GDI SOHC,9-Speed Automatic,38998
+Nissan,Leaf SV PLUS,2023,5121,,Electric,1-Speed Automatic,28196
+Rivian,R1S Launch Edition,2023,299,,835.0HP Electric Motor Electric Fuel System,1-Speed A/T,92500
+INFINITI,Q50 3.0t Red Sport 400,2020,23344,Gasoline,3.0L V6 24V GDI DOHC Twin Turbo,7-Speed Automatic,36999
+Chevrolet,Traverse RS,2021,44373,Gasoline,310.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,9-Speed A/T,36000
+BMW,330 i,2021,26000,Gasoline,255.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,37000
+Lexus,GX 460 Base,2021,39102,Gasoline,4.6 Liter,Automatic,51798
+Chevrolet,Silverado 2500 High Country,2022,18860,Diesel,445.0HP 6.6L 8 Cylinder Engine Diesel Fuel,10-Speed A/T,74500
+Chevrolet,Camaro LT1,2022,7652,Gasoline,6.2 Liter,Automatic,39998
+RAM,1500 Laramie,2022,16744,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,46999
+Mercedes-Benz,Metris Base,2020,1025,Gasoline,2.0L I4 16V GDI DOHC Turbo,7-Speed Automatic,299000
+BMW,X7 xDrive40i,2020,46000,Gasoline,335.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,54999
+BMW,X7 xDrive40i,2022,8000,Hybrid,335.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,85000
+Mercedes-Benz,Maybach S 580 4MATIC,2022,4760,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,9-Speed Automatic,229000
+GMC,Sierra 1500 Denali,2021,44691,Gasoline,6.2L V8 16V GDI OHV,10-Speed Automatic,56900
+Mitsubishi,Outlander SEL,2022,11700,Gasoline,181.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,A/T,33000
+Porsche,911 Carrera GTS,2022,1837,Gasoline,3.0L H6 24V GDI DOHC Twin Turbo,8-Speed Automatic with Auto-Shift,179900
+Ford,F-250 XLT,2022,36294,Diesel,6.7L V8 32V DDI OHV Turbo Diesel,Automatic,77535
+Maserati,Ghibli S GranLusso,2020,12118,Gasoline,424.0HP 3.0L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,52900
+Ford,Expedition XLT,2022,22169,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,57352
+Ferrari,812 Superfast Base,2020,1575,Gasoline,788.0HP 6.5L 12 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,469900
+Tesla,Model X Long Range Plus,2021,46897,,557.0HP Electric Motor Electric Fuel System,A/T,69000
+Land Rover,Range Rover P400 SE SWB,2022,3369,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,139500
+Dodge,Charger Scat Pack,2020,40208,Gasoline,485.0HP 6.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,38000
+INFINITI,QX80 Luxe,2020,69000,Gasoline,400.0HP 5.6L 8 Cylinder Engine Gasoline Fuel,A/T,31450
+Rolls-Royce,Phantom,2023,1560,,,,599995
+Toyota,RAV4 TRD Off Road,2020,46500,Gasoline,203.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,35200
+Jeep,Gladiator Sport,2021,5779,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,41329
+Ford,Bronco Big Bend Advanced,2023,12000,Gasoline,275.0HP 2.3L 4 Cylinder Engine Gasoline Fuel,10-Speed A/T,54000
+Ford,Expedition Timberline,2022,30301,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,68420
+Toyota,Sequoia TRD Pro,2023,600,Hybrid,437.0HP 3.4L V6 Cylinder Engine Gas/Electric Hybrid,10-Speed A/T,91995
+Alfa Romeo,Giulia Ti,2023,9275,Gasoline,2.0L I4 16V GDI SOHC Turbo,8-Speed Automatic,43900
+Kia,Forte GT-Line,2021,24534,Gasoline,147.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,CVT Transmission,21900
+BMW,228 Gran Coupe i xDrive,2020,31100,Gasoline,228.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,26999
+Ford,Expedition Platinum,2021,51902,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,57480
+Ford,Mustang Mach-E GT,2022,7661,,Electric,1-Speed Automatic,49599
+Ford,F-150 Raptor,2021,32957,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,77900
+Chevrolet,Camaro 1SS,2021,12600,Gasoline,455.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,6-Speed M/T,47000
+Acura,TLX PMC Edition,2020,6900,Gasoline,290.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,9-Speed A/T,43500
+Hyundai,Palisade SEL,2021,68050,Gasoline,291.0HP 3.8L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,29600
+BMW,430 i,2021,9472,Gasoline,255.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,51000
+GMC,Terrain SLE,2020,26470,Gasoline,1.5L I4 16V GDI DOHC Turbo,9-Speed Automatic,29900
+Audi,S4 3.0T Premium Plus,2020,23823,Gasoline,3.0L V6 24V GDI DOHC Turbo,8-Speed Automatic,49995
+Lamborghini,Urus Base,2021,9500,Gasoline,641.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,A/T,279900
+Acura,RDX w/A-Spec Package,2023,3959,Gasoline,2.0 Liter DOHC Turbo,Automatic,48998
+Chevrolet,Corvette Stingray w/1LT,2021,10400,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,72900
+Ford,F-150 Raptor,2022,17451,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,77900
+BMW,M3 CS,2024,124,Gasoline,543.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,145000
+Porsche,911 GT3,2023,265,Gasoline,4.0L H6 24V GDI DOHC,6-Speed Manual,279950
+Mercedes-Benz,AMG GT 63 S 4-Door,2020,21214,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,9-Speed Automatic,117900
+Cadillac,LYRIQ Luxury,2023,1090,,500.0HP Electric Motor Electric Fuel System,A/T,68750
+BMW,M8 Gran Coupe Competition,2023,2900,Gasoline,617.0HP 4.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,117500
+Ford,Bronco Sport Outer Banks,2021,28105,Gasoline,1.5L I3 12V PDI DOHC Turbo,8-Speed Automatic,32455
+Mercedes-Benz,GLC 300 GLC 300,2022,11875,Gasoline,2.0 Liter Turbo,Automatic,41598
+Lexus,ES 350 Base,2020,15324,Gasoline,3.5L V6 24V PDI DOHC,8-Speed Automatic,33364
+Acura,RDX w/Advance Package,2021,36267,Gasoline,2.0 Liter Turbo,Automatic,39798
+Audi,Q5 S line Premium,2022,10120,Hybrid,2.0 Liter TFSI,Automatic,39998
+Toyota,Sequoia TRD Pro,2020,37428,Gasoline,381.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,6-Speed A/T,61599
+Mercedes-Benz,GLE 350 Base 4MATIC,2020,48000,Gasoline,255.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,49995
+MINI,Convertible Cooper,2022,15544,Gasoline,134.0HP 1.5L 3 Cylinder Engine Gasoline Fuel,A/T,28000
+Acura,TLX Tech,2023,2118,Gasoline,2.0 Liter DOHC Turbo,Automatic,41998
+Ford,F-150 Raptor,2021,28260,Gasoline,450.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,72950
+Honda,Civic Si Base,2020,6025,Gasoline,205.0HP 1.5L 4 Cylinder Engine Gasoline Fuel,6-Speed M/T,27500
+Honda,Ridgeline RTL-E,2022,9642,Gasoline,3.5L V6 24V GDI SOHC,9-Speed Automatic,38999
+Mercedes-Benz,C-Class C300 4MATIC,2021,11111,Gasoline,2.0 Liter Turbo,Automatic,38998
+Buick,Enclave Premium,2020,87555,Gasoline,3.6L V6 24V GDI DOHC,9-Speed Automatic,31650
+Cadillac,Escalade Premium Luxury,2022,19250,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,86999
+Lexus,GX 460 Premium,2023,2533,Gasoline,301.0HP 4.6L 8 Cylinder Engine Gasoline Fuel,A/T,64900
+Cadillac,CT6 Luxury,2020,22187,Gasoline,3.6L V6 24V GDI DOHC,10-Speed Automatic,45480
+Ford,Bronco Outer Banks,2021,19590,Gasoline,315.0HP 2.7L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,54999
+Cadillac,Escalade ESV Sport,2021,4500,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,105000
+Lexus,GX 460 Base,2020,48210,Gasoline,4.6L V8 32V MPFI DOHC,6-Speed Automatic,47449
+Ford,F-150 XLT,2021,77107,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,39995
+Lexus,LC 500 Base,2021,915,Gasoline,471.0HP 5.0L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,159000
+Cadillac,Escalade ESV Premium Luxury,2021,53169,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,81500
+Lexus,GX 460 Premium,2022,35700,Gasoline,301.0HP 4.6L 8 Cylinder Engine Gasoline Fuel,A/T,51900
+Tesla,Model Y Long Range,2022,4665,,Dual Motor - Standard,Automatic,46598
+BMW,X3 M40i,2021,36905,Gasoline,382.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,50000
+Jeep,Gladiator Willys,2022,8400,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,47000
+Acura,TLX A-Spec,2020,32500,Gasoline,206.0HP 2.4L 4 Cylinder Engine Gasoline Fuel,A/T,32000
+Volvo,XC90 Recharge Plug-In Hybrid T8 Inscription 7 Passenger,2022,7800,Plug-In Hybrid,455.0HP 2.0L 4 Cylinder Engine Plug-In Electric/Gas,8-Speed A/T,66000
+Rivian,R1S Adventure Package,2023,211,,835.0HP Electric Motor Electric Fuel System,A/T,99000
+Audi,RS 5 2.9T,2022,9628,Gasoline,444.0HP 2.9L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,78500
+Audi,R8 5.2 V10,2021,6397,Gasoline,5.2L V10 40V PDI DOHC,7-Speed Automatic with Auto-Shift,172900
+Honda,Pilot Black Edition,2022,22564,Gasoline,3.5 Liter,Automatic,44998
+Mercedes-Benz,Sprinter 3500 High Roof,2022,105,Diesel,161.0HP 2.0L 4 Cylinder Engine Diesel Fuel,7-Speed A/T,200000
+Chevrolet,Trailblazer RS,2022,42479,Gasoline,1.3L I3 12V GDI DOHC Turbo,9-Speed Automatic,28495
+Ford,Bronco Sport Base,2022,13865,Gasoline,1.5L I3 12V PDI DOHC Turbo,8-Speed Automatic,29182
+BMW,M4 Competition xDrive,2022,15882,Gasoline,503.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,84995
+Land Rover,Defender,2022,12209,Gasoline,5.0L V8 32V GDI DOHC Supercharged,8-Speed Automatic,104900
+Mercedes-Benz,AMG GLC 43 AMG GLC 43,2021,10483,Gasoline,3.0 Liter Twin Turbo,Automatic,60998
+BMW,M4 Base,2020,31350,Gasoline,425.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,62450
+Audi,Q8 55 Premium Plus,2021,30000,Hybrid,335.0HP 3.0L V6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,62000
+Land Rover,Range Rover Sport HST MHEV,2020,52000,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,55000
+Mercedes-Benz,E-Class AMG E 53,2020,23044,Hybrid,3.0 Liter Turbo,Automatic,72598
+Chevrolet,Corvette Stingray w/3LT,2021,12000,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,99900
+Ford,Bronco Outer Banks,2023,16500,Gasoline,275.0HP 2.3L 4 Cylinder Engine Gasoline Fuel,A/T,54000
+Land Rover,Range Rover P530 SE LWB 7 Seat,2023,2100,Gasoline,523.0HP 4.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,172000
+Cadillac,XT6 Premium Luxury AWD,2023,222,Gasoline,310.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,A/T,69000
+Audi,Q8 55 Premium,2020,34300,Hybrid,335.0HP 3.0L V6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,52500
+Acura,TLX,2023,3389,Gasoline,2.0 Liter DOHC Turbo,Automatic,38598
+Porsche,Cayenne GTS Coupe AWD,2023,10000,Gasoline,453.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,145000
+Dodge,Charger R/T,2021,7751,Gasoline,370.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,41950
+Tesla,Model S Performance,2020,14700,,778.0HP Electric Motor Electric Fuel System,1-Speed A/T,63000
+Mercedes-Benz,E-Class E 350 4MATIC,2022,9006,Gasoline,255.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,9-Speed A/T,56999
+Toyota,GR86 Base,2022,13400,Gasoline,228.0HP 2.4L 4 Cylinder Engine Gasoline Fuel,6-Speed A/T,33499
+Porsche,Macan S,2020,28570,Gasoline,3.0 Liter Turbo,Automatic,55998
+Alfa Romeo,Giulia Base,2020,30000,Gasoline,280.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,28900
+Lexus,LX 600 F SPORT,2023,490,Gasoline,409.0HP 3.4L V6 Cylinder Engine Gasoline Fuel,A/T,124999
+Porsche,Taycan Turbo,2020,18000,,616.0HP Electric Motor Electric Fuel System,A/T,105000
+Kia,K5 EX,2021,8263,Gasoline,180.0HP 1.6L 4 Cylinder Engine Gasoline Fuel,A/T,29000
+RAM,1500 Big Horn,2021,35003,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,40999
+Chevrolet,Corvette Stingray w/1LT,2022,6200,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,99999
+Kia,Telluride SX,2020,38000,Gasoline,291.0HP 3.8L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,41999
+Toyota,GR86 Premium,2022,1275,Gasoline,228.0HP 2.4L 4 Cylinder Engine Gasoline Fuel,6-Speed A/T,47999
+Toyota,Tundra Hybrid Capstone,2023,200,Hybrid,437.0HP 3.4L V6 Cylinder Engine Gas/Electric Hybrid,10-Speed A/T,82500
+Kia,Niro Plug-In Hybrid EX,2023,9400,Plug-In Hybrid,180.0HP 1.6L 4 Cylinder Engine Plug-In Electric/Gas,A/T,31500
+Audi,Q5 S line Premium Plus,2023,5682,Hybrid,2.0 Liter TFSI,Automatic,48698
+Nissan,Titan SV,2023,6200,Gasoline,400.0HP 5.6L 8 Cylinder Engine Gasoline Fuel,9-Speed A/T,48000
+Land Rover,Range Rover P400 SE LWB 7 Seat,2023,4126,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,155000
+Mercedes-Benz,G-Class G 550 4MATIC,2020,45000,Gasoline,416.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,A/T,133000
+Honda,Civic Sport,2022,25420,Gasoline,158.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,CVT Transmission,24500
+Land Rover,Defender 110 SE,2020,29700,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,68000
+Mazda,CX-30 Select,2021,61874,Gasoline,2.5L I4 16V GDI DOHC,6-Speed Automatic,22389
+Audi,Q5 S line Premium,2022,18099,Hybrid,2.0 Liter TFSI,Automatic,40798
+RAM,1500 Laramie,2022,15607,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,45999
+Jeep,Gladiator Sport,2021,15520,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,40459
+RAM,1500 Big Horn,2021,49583,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,42816
+Ford,F-150 XLT,2020,92000,Gasoline,375.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,29999
+RAM,1500 Big Horn,2020,25396,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,43250
+RAM,1500 Laramie,2022,18645,Gasoline,5.7L V8 16V MPFI OHV,Automatic,49700
+Audi,Q5 S line Premium Plus,2022,10071,Hybrid,2.0 Liter TFSI,Automatic,40598
+Ford,F-150 XLT,2021,43329,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,43642
+Land Rover,Range Rover Sport SVR Carbon Edition,2022,9000,Gasoline,575.0HP 5.0L 8 Cylinder Engine Gasoline Fuel,A/T,115000
+RAM,1500 Laramie,2020,10458,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,48815
+Ford,Expedition Limited,2023,9281,Gasoline,440.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,85000
+Chevrolet,Traverse Premier,2023,11806,Gasoline,310.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,9-Speed A/T,47000
+Cadillac,Escalade Platinum,2020,48613,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,61500
+RAM,3500 Tradesman,2023,2990,Diesel,400.0HP 6.7L Straight 6 Cylinder Engine Diesel Fuel,A/T,69900
+RAM,1500 Big Horn,2021,24000,Hybrid,395.0HP 5.7L 8 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,42000
+Jeep,Compass Limited,2022,20472,Gasoline,2.4L I4 16V MPFI SOHC,9-Speed Automatic,28298
+INFINITI,QX80 SENSORY,2023,8600,Gasoline,400.0HP 5.6L 8 Cylinder Engine Gasoline Fuel,7-Speed A/T,78990
+Chevrolet,Silverado 1500 Limited LT Trail Boss,2022,4753,Gasoline,355.0HP 5.3L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,57000
+Chevrolet,Camaro 1SS,2021,15000,Gasoline,455.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,6-Speed M/T,43500
+Land Rover,Defender S,2023,15840,Gasoline,296.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,69900
+Chevrolet,Corvette Stingray w/2LT,2020,12500,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,84999
+Dodge,Durango SRT,2020,36000,Gasoline,475.0HP 6.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,62000
+Toyota,Highlander XLE,2023,8727,Gasoline,2.4L I4 16V PDI DOHC Turbo,8-Speed Automatic,44596
+Dodge,Challenger R/T,2020,54000,Gasoline,372.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,34000
+Chevrolet,Bolt EV LT,2020,49688,,200.0HP Electric Motor Electric Fuel System,A/T,24900
+Mercedes-Benz,Metris Base,2020,14000,Gasoline,208.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,7-Speed A/T,48000
+Dodge,Charger SRT Hellcat Widebody,2023,5000,Gasoline,717.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,110000
+Chevrolet,Silverado 1500 ZR2,2022,11597,Gasoline,6.2L V8 16V GDI OHV,Automatic,68590
+Lamborghini,Urus Base,2021,20069,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic,229900
+Hyundai,Palisade Calligraphy,2023,1500,Gasoline,291.0HP 3.8L V6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,55000
+BMW,M3 Competition xDrive,2023,3490,Gasoline,503.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,95580
+Honda,Passport TrailSport,2023,11649,Gasoline,280.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,9-Speed A/T,39999
+Toyota,Avalon Limited,2022,16156,Gasoline,3.5L V6 24V PDI DOHC,8-Speed Automatic,39390
+GMC,Yukon Denali,2021,30022,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,74500
+Ford,Explorer XLT,2021,33705,Gasoline,2.3L I4 16V GDI DOHC Turbo,10-Speed Automatic,36995
+Acura,TLX Type S w/Performance Tire,2023,4700,Gasoline,355.0HP 3.0L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,52000
+Toyota,Tacoma Base,2020,27256,Gasoline,3.5 Liter,6 Speed At/Mt,42998
+Audi,Q5 S line Premium Plus,2022,13895,Hybrid,2.0 Liter TFSI,Automatic,44998
+GMC,Yukon XL Denali,2022,48306,Gasoline,6.2L V8 16V GDI OHV,10-Speed Automatic,71999
+Mazda,CX-30 Premium Package,2021,45303,Gasoline,2.5L I4 16V GDI DOHC,6-Speed Automatic,25382
+Jeep,Grand Cherokee L Laredo,2022,10232,Gasoline,3.6L V6 24V MPFI DOHC,Automatic,44646
+Acura,MDX w/Advance Package,2023,3708,Gasoline,3.5 Liter SOHC,Automatic,58998
+Subaru,Impreza Premium,2022,10419,Gasoline,"2L H-4 gasoline direct injection, DOHC, variable valve control,",Variable,24998
+Subaru,Ascent Limited 7-Passenger,2022,12700,Gasoline,260.0HP 2.4L 4 Cylinder Engine Gasoline Fuel,CVT Transmission,38500
+GMC,Sierra 1500 Limited Elevation,2022,24900,Gasoline,310.0HP 2.7L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,49900
+Cadillac,Escalade ESV Sport,2021,4283,Gasoline,6.2L V8 16V GDI OHV,10-Speed Automatic,479995
+Lexus,LX 570 Three-Row,2021,48300,Gasoline,383.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,A/T,82000
+Aston Martin Martin Martin,Vantage Base,2022,1023,Gasoline,503.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,156900
+Ford,Bronco Sport Big Bend,2021,30176,Gasoline,1.5L I3 12V PDI DOHC Turbo,8-Speed Automatic,28979
+Nissan,Titan SV,2021,27598,Gasoline,5.6L V8 32V GDI DOHC,9-Speed Automatic,39884
+Volkswagen,Arteon 2.0T SEL R-Line,2020,15500,Gasoline,268.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,30000
+Chevrolet,Suburban LT,2022,37806,Gasoline,355.0HP 5.3L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,60894
+Jeep,Grand Cherokee L Limited,2022,13275,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,42599
+Ford,F-350 Lariat,2021,28220,Diesel,475.0HP 6.7L 8 Cylinder Engine Diesel Fuel,10-Speed A/T,73600
+Chevrolet,Corvette Stingray w/3LT,2023,4200,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,98000
+Bentley,Continental GT V8 First Edition,2020,27404,Gasoline,"4L V-8 gasoline direct injection, DOHC, variable valve control,",Automatic,199991
+Land Rover,Defender V8,2022,3000,Gasoline,518.0HP 5.0L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,96500
+Tesla,Model 3 Base,2022,12080,,271.0HP Electric Motor Electric Fuel System,A/T,36750
+Rivian,R1S Adventure Package,2023,250,,835.0HP Electric Motor Electric Fuel System,1-Speed A/T,97500
+Toyota,Tundra Limited,2022,3959,Gasoline,389.0HP 3.4L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,55000
+Jeep,Grand Cherokee Limited,2020,47500,Gasoline,293.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,A/T,31000
+Tesla,Model 3 Performance,2021,33000,,455.0HP Electric Motor Electric Fuel System,1-Speed A/T,55000
+Kia,Sorento Hybrid EX,2022,36100,Hybrid,227.0HP 1.6L 4 Cylinder Engine Gas/Electric Hybrid,6-Speed A/T,37500
+Jeep,Compass Latitude,2020,17500,Gasoline,180.0HP 2.4L 4 Cylinder Engine Gasoline Fuel,9-Speed A/T,25695
+Dodge,Durango SRT 392,2021,17000,Gasoline,475.0HP 6.4L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,65000
+Volkswagen,Atlas 3.6L SEL Premium,2021,36311,Gasoline,3.6L V6 24V GDI DOHC,8-Speed Automatic,39127
+Nissan,Murano SV,2021,23677,Gasoline,3.5L V6 24V MPFI DOHC,Automatic CVT,29510
+Buick,Envision Essence,2020,27340,Gasoline,2.5L I4 16V GDI DOHC,6-Speed Automatic,31700
+Chevrolet,Silverado 1500 RST,2020,26177,Gasoline,5.3L V8 16V GDI OHV,Automatic,41986
+Bentley,Continental GT GT Speed,2022,1919,Gasoline,12 Cylinder Engine,8-SPEED A/T,289991
+Ford,F-150 XLT,2022,18465,Gasoline,400.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,47500
+Buick,Enclave Essence,2020,55403,Gasoline,310.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,9-Speed A/T,29444
+BMW,M4 Competition xDrive,2022,3213,Gasoline,503.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,89995
+Tesla,Model 3 Long Range,2021,32670,,Electric Motor Electric Fuel System,A/T,37000
+Rivian,R1T Launch Edition,2022,8681,,835.0HP Electric Motor Electric Fuel System,A/T,82000
+Toyota,4Runner SR5 Premium,2023,1400,Gasoline,270.0HP 4.0L V6 Cylinder Engine Gasoline Fuel,A/T,46500
+Mercedes-Benz,G-Class G 550 4MATIC,2021,75151,Gasoline,416.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,A/T,130000
+Jeep,Gladiator Rubicon,2020,27981,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,A/T,47500
+Chevrolet,Corvette Stingray w/2LT,2021,3053,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,83900
+Mazda,MX-5 Miata Club,2021,5093,Gasoline,181.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,6-Speed M/T,28000
+Jeep,Wrangler Unlimited 4xe Sahara,2022,10500,Plug-In Hybrid,375.0HP 2.0L 4 Cylinder Engine Plug-In Electric/Gas,8-Speed A/T,49999
+Nissan,Titan SL,2021,95993,Gasoline,5.6L V8 32V GDI DOHC,9-Speed Automatic,32612
+Kia,Telluride SX,2022,26716,Gasoline,"LAMBDA II 3.8L V-6 gasoline direct injection, DOHC, D-CVVT varia",Automatic,47541
+Chevrolet,Tahoe RST,2023,39517,Gasoline,5.3L V8 16V GDI OHV,10-Speed Automatic,67190
+RAM,2500 Tradesman,2020,41000,Gasoline,410.0HP 6.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,45515
+BMW,840 i xDrive,2024,1500,Gasoline,335.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,A/T,90000
+Cadillac,Escalade ESV Premium Luxury Platinum,2021,31500,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,95000
+RAM,2500 Big Horn,2021,45867,Gasoline,6.4L V8 16V MPFI OHV,Automatic,43449
+BMW,M5 Base,2021,13250,Gasoline,4.4L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic,86900
+BMW,ALPINA B7 ALPINA B7 xDrive,2020,15097,Gasoline,4.4 Liter Twin Turbo,Automatic,99998
+BMW,228 Gran Coupe i xDrive,2020,10426,Gasoline,2.0 Liter Turbo,Automatic,30798
+Ford,Expedition Limited,2023,9500,Gasoline,400.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,63500
+Subaru,BRZ Limited,2022,10500,Gasoline,228.0HP 2.4L 4 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,32500
+Nissan,Rogue Sport S,2021,24000,Gasoline,141.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,25500
+Lincoln,Nautilus Reserve,2021,19700,Gasoline,335.0HP 2.7L V6 Cylinder Engine Gasoline Fuel,A/T,48000
+RAM,2500 Big Horn,2020,51000,Gasoline,410.0HP 6.4L 8 Cylinder Engine Gasoline Fuel,6-Speed A/T,44900
+Tesla,Model Y Performance,2021,17500,,455.0HP Electric Motor Electric Fuel System,A/T,45000
+BMW,X5 xDrive40i,2020,5541,Gasoline,3.0 Liter Turbo,Automatic,56598
+Kia,Sportage LX,2023,13000,Gasoline,187.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,A/T,31900
+Chevrolet,Silverado 1500 High Country,2020,88161,Gasoline,6.2L V8 16V GDI OHV,Automatic,48889
+Tesla,Model Y Long Range,2022,21404,,425.0HP Electric Motor Electric Fuel System,A/T,49500
+Chevrolet,Silverado 1500 LTZ,2021,62257,Gasoline,5.3L V8 16V GDI OHV,8-Speed Automatic,42590
+Land Rover,Range Rover Sport P400 SE Dynamic,2023,450,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,124000
+Kia,Sorento Plug-In Hybrid SX,2022,15583,Hybrid,1.6L I4 16V GDI DOHC Turbo Hybrid,6-Speed Automatic,40599
+Cadillac,Escalade Sport,2023,8532,Diesel,3.0L I6 24V DDI DOHC Turbo Diesel,10-Speed Automatic with Overdrive,109900
+GMC,Sierra 1500 SLT,2021,12941,Gasoline,355.0HP 5.3L 8 Cylinder Engine Gasoline Fuel,A/T,51500
+Audi,Q5 S line Premium,2022,8193,Hybrid,2.0 Liter TFSI,Automatic,42598
+Lexus,RX 350 F Sport Performance,2020,43277,Gasoline,3.5L V6 24V PDI DOHC,8-Speed Automatic,43599
+Jaguar,E-PACE 300 Sport,2021,23600,Hybrid,296.0HP 2.0L 4 Cylinder Engine Gasoline/Mild Electric Hybrid,9-Speed A/T,42999
+Porsche,718 Spyder Base,2022,4700,Gasoline,414.0HP 4.0L Flat 6 Cylinder Engine Gasoline Fuel,6-Speed M/T,134000
+Audi,A6 45 Premium Plus,2021,33000,Hybrid,248.0HP 2.0L 4 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,40000
+Acura,RDX PMC Edition,2021,44457,Gasoline,2.0 Liter Turbo,2,40598
+Chevrolet,Silverado 1500 RST,2023,5006,Gasoline,5.3L V8 16V GDI OHV,10-Speed Automatic,59590
+BMW,M3 Competition,2021,33500,Gasoline,503.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,71000
+RAM,3500 Tradesman,2021,57000,Diesel,400.0HP 6.7L Straight 6 Cylinder Engine Diesel Fuel,6-Speed A/T,52000
+BMW,X5 xDrive40i,2020,4880,Gasoline,3.0 Liter Turbo,Automatic,57998
+Buick,Enclave Avenir,2021,31181,Gasoline,3.6L V6 24V GDI DOHC,9-Speed Automatic,42442
+Lexus,NX 300h Base,2020,16425,Hybrid,2.5L I4 16V MPFI DOHC Hybrid,Automatic CVT,33200
+Lexus,RX 350 RX 350 F SPORT Handling,2022,11238,Gasoline,3.5 Liter DOHC,Automatic,54798
+INFINITI,QX60 Luxe,2020,38400,Gasoline,295.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,32100
+Rivian,R1S Adventure Package,2023,159,,533.0HP Electric Motor Electric Fuel System,A/T,95500
+Lamborghini,Huracan EVO Base,2020,6246,Gasoline,5.2L V10 40V GDI DOHC,7-Speed Automatic with Auto-Shift,267950
+Porsche,718 Cayman GT4,2020,13554,Gasoline,414.0HP 4.0L Flat 6 Cylinder Engine Gasoline Fuel,6-Speed M/T,124995
+Mercedes-Benz,A-Class A 220 4MATIC,2020,30930,Gasoline,2.0L I4 16V GDI DOHC Turbo,7-Speed Automatic with Auto-Shift,28900
+Chevrolet,Camaro 2SS,2022,22000,Gasoline,455.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,6-Speed M/T,50000
+Volkswagen,ID.4 Pro S,2023,16800,,295.0HP Electric Motor Electric Fuel System,1-Speed A/T,45000
+Chevrolet,Silverado 2500 High Country,2022,16000,Diesel,445.0HP 6.6L 8 Cylinder Engine Diesel Fuel,A/T,73995
+Nissan,Altima 2.5 SV,2020,22295,Gasoline,2.5L I4 16V GDI DOHC,Automatic CVT,23599
+Bentley,Continental GT V8,2020,33000,Gasoline,542.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,A/T,188500
+Toyota,Sequoia Platinum,2023,1025,Hybrid,437.0HP 3.4L V6 Cylinder Engine Gas/Electric Hybrid,10-Speed A/T,85000
+Toyota,Highlander Limited,2020,53550,Gasoline,3.5L V6 24V PDI DOHC,8-Speed Automatic,39687
+Ford,Edge SEL,2021,56946,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,26299
+Maserati,Levante GTS,2021,19513,Gasoline,3.8L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic,84645
+Subaru,Outback Limited,2021,15636,Gasoline,2.5L H4 16V GDI DOHC,Automatic CVT,33531
+Hyundai,Palisade Limited,2020,45815,Gasoline,291.0HP 3.8L V6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,37700
+Ford,F-150 XLT,2021,25352,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,48459
+Lexus,GX 460 Luxury,2020,37366,Gasoline,4.6L V8 32V MPFI DOHC,6-Speed Automatic,51890
+Tesla,Model S Long Range,2021,35315,,670.0HP Electric Motor Electric Fuel System,1-Speed A/T,66900
+Jeep,Grand Cherokee Limited,2022,12050,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,41599
+Honda,Odyssey EX-L,2022,18385,Gasoline,280.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,37950
+Lexus,GX 460 Premium,2020,22466,Gasoline,301.0HP 4.6L 8 Cylinder Engine Gasoline Fuel,6-Speed A/T,45900
+Chrysler,300 Touring,2020,23152,Gasoline,292.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,28250
+Nissan,Pathfinder SL,2020,45000,Gasoline,284.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,CVT Transmission,28999
+Rivian,R1S Launch Edition,2023,1885,,835.0HP Electric Motor Electric Fuel System,1-Speed A/T,93500
+Nissan,Titan SV,2021,7250,Gasoline,400.0HP 5.6L 8 Cylinder Engine Gasoline Fuel,9-Speed A/T,38000
+GMC,Acadia Denali,2021,18083,Gasoline,3.6L V6 24V GDI DOHC,9-Speed Automatic,43999
+Chevrolet,Malibu Premier,2021,33400,Gasoline,250.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,28000
+Lexus,IS 350 F Sport,2021,26800,Gasoline,311.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,44000
+Tesla,Model Y Performance,2022,30000,,455.0HP Electric Motor Electric Fuel System,A/T,51999
+Cadillac,Escalade Sport Platinum,2021,28121,Gasoline,6.2L V8 16V GDI OHV,10-Speed Automatic,89000
+Chevrolet,Corvette Z06 w/2LZ,2023,202,Gasoline,670.0HP 5.5L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,179000
+Tesla,Model Y Performance,2021,11200,,455.0HP Electric Motor Electric Fuel System,1-Speed A/T,47500
+Volvo,XC40 T5 Momentum,2020,56536,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,26599
+Acura,TLX Type S PMC Edition,2023,13600,Gasoline,355.0HP 3.0L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,65000
+Porsche,Macan Base,2022,13000,Gasoline,261.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,60000
+Chevrolet,Corvette Stingray w/2LT,2020,1800,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,76000
+Lamborghini,Urus Pearl Capsule,2021,3771,Gasoline,"4L V-8 gasoline direct injection, DOHC, variable valve control,",Automatic,259991
+Mercedes-Benz,AMG GT C,2020,15000,Gasoline,550.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,7-Speed A/T,129000
+Jeep,Wrangler Sport,2021,11756,Gasoline,"2L I-4 gasoline direct injection, DOHC, intercooled turbo, engin",Automatic,33400
+Land Rover,Range Rover P530 SE,2023,1869,Gasoline,4.4L V8 32V GDI DOHC Twin Turbo,Automatic,164725
+Dodge,Durango SRT 392,2022,31917,Gasoline,475.0HP 6.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,64683
+Chevrolet,Tahoe Premier,2020,137000,Gasoline,355.0HP 5.3L 8 Cylinder Engine Gasoline Fuel,6-Speed A/T,46000
+Ford,F-250 Platinum,2022,6600,Gasoline,430.0HP 7.3L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,72900
+Porsche,Macan,2021,16554,Gasoline,2.0 Liter,Automatic,51698
+BMW,X5 PHEV xDrive45e,2023,15736,Plug-In Hybrid,389.0HP 3.0L Straight 6 Cylinder Engine Plug-In Electric/Gas,8-Speed A/T,67900
+Porsche,Macan S,2022,20250,Gasoline,375.0HP 2.9L V6 Cylinder Engine Gasoline Fuel,7-Speed A/T,68500
+Jeep,Grand Cherokee L Limited,2022,18333,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,41599
+Porsche,Macan Turbo,2021,14526,Gasoline,2.9 Liter Turbo,Automatic,79998
+Porsche,Macan S,2020,29136,Gasoline,3.0 Liter Turbo,Automatic,58598
+Toyota,Tundra Platinum,2023,8800,Gasoline,389.0HP 3.4L V6 Cylinder Engine Gasoline Fuel,A/T,68500
+Mercedes-Benz,AMG GT 53 Base,2022,2235,Hybrid,429.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,Transmission w/Dual Shift Mode,110000
+Chevrolet,Camaro 2SS,2022,1400,Gasoline,455.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,54900
+Honda,Civic Sport,2021,42750,Gasoline,1.5L I4 16V GDI DOHC Turbo,Automatic CVT,25698
+BMW,M3 Competition,2022,14269,Gasoline,503.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,80000
+Lexus,LC 500 Base,2022,6875,Gasoline,471.0HP 5.0L 8 Cylinder Engine Gasoline Fuel,A/T,89000
+Ford,F-150 XL,2021,88883,Gasoline,2.7L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,33172
+Chevrolet,Traverse High Country,2020,56247,Gasoline,3.6L V6 24V GDI DOHC,9-Speed Automatic,39244
+Ford,F-150 XLT,2021,24207,Gasoline,2.7L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,43430
+Tesla,Model Y Long Range,2022,9411,,Dual Motor - Standard,Automatic,47998
+Ford,Maverick XLT,2022,16400,Hybrid,191.0HP 2.5L 4 Cylinder Engine Gas/Electric Hybrid,CVT Transmission,34000
+BMW,X6 xDrive40i,2021,72903,Hybrid,3.0 Liter Turbo,SCHEDULED FOR OR IN PRODUCTION,53998
+Ford,Bronco Big Bend,2022,17000,Gasoline,275.0HP 2.3L 4 Cylinder Engine Gasoline Fuel,A/T,44000
+Audi,Q5 S line Premium Plus,2023,6682,Hybrid,2.0 Liter TFSI,Automatic,47798
+Lexus,LX 570 Three-Row,2020,59419,Gasoline,383.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,A/T,73000
+Nissan,GT-R Premium,2021,22185,Gasoline,3.8L V6 24V MPFI DOHC Twin Turbo,6-Speed Automatic with Auto-Shift,131999
+Chevrolet,Silverado 2500 WT,2021,63866,Gasoline,6.6L V8 16V GDI OHV,Automatic,41885
+Bentley,Continental GT V8,2022,1795,Gasoline,"4L V-8 gasoline direct injection, DOHC, variable valve control,",Automatic,269991
+Volkswagen,Golf R Base,2022,1067,Gasoline,315.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,7-Speed A/T,48000
+Honda,Civic Sport,2020,22227,Gasoline,2.0L I4 16V MPFI DOHC,Automatic CVT,25980
+Land Rover,Range Rover HSE SWB,2020,57785,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,63995
+Lexus,LX 570 Three-Row,2021,25997,Gasoline,383.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,A/T,87000
+Chevrolet,Suburban Z71,2022,36555,Gasoline,5.3L V8 16V GDI OHV,Automatic,64288
+Mercedes-Benz,S-Class S 580 4MATIC,2023,989,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,9-Speed Automatic,122950
+Chevrolet,Equinox Premier w/2LZ,2020,51133,Gasoline,2.0L I4 16V GDI DOHC Turbo,9-Speed Automatic,25800
+Mercedes-Benz,GLE 350 Base 4MATIC,2022,24500,Gasoline,255.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,9-Speed A/T,82150
+BMW,X6 xDrive40i,2021,27654,Hybrid,3.0 Liter Turbo,Automatic,61998
+Rivian,R1S Adventure Package,2023,542,,835.0HP Electric Motor Electric Fuel System,A/T,92500
+Toyota,Highlander Platinum,2020,41000,Gasoline,295.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,38700
+Toyota,RAV4 Prime XSE,2022,7100,Plug-In Hybrid,302.0HP 2.5L 4 Cylinder Engine Plug-In Electric/Gas,A/T,49000
+Porsche,911 Carrera 4 GTS,2023,1518,Gasoline,473.0HP 3.0L Flat 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,194965
+Chevrolet,Corvette Stingray w/2LT,2023,5200,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,88900
+Hyundai,Accent SEL,2022,5100,Gasoline,120.0HP 1.6L 4 Cylinder Engine Gasoline Fuel,A/T,19500
+Ford,Expedition Max XLT,2020,67072,Gasoline,375.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,38500
+Ford,F-150 XLT,2020,53401,Gasoline,375.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,39500
+Ford,F-150 Platinum,2021,15555,Gasoline,5.0L 8 Cylinder,10-Speed Automatic,62890
+Land Rover,Range Rover Velar P250 S R-Dynamic,2020,30500,Gasoline,247.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,44000
+Mercedes-Benz,Sprinter 2500 Standard Roof,2022,4590,Gasoline,188.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,64000
+Chevrolet,Suburban RST,2022,21400,Diesel,277.0HP 3.0L Straight 6 Cylinder Engine Diesel Fuel,10-Speed A/T,69000
+Subaru,Crosstrek Premium,2022,10000,Gasoline,152.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,CVT Transmission,28000
+Mercedes-Benz,GLC 300 GLC 300,2022,16983,Gasoline,2.0 Liter Turbo,Automatic,40998
+Ford,Edge SE,2020,71200,Gasoline,250.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,18900
+Dodge,Durango GT,2022,24778,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,36599
+Alfa Romeo,Stelvio Ti,2023,6645,Gasoline,2.0L I4 16V GDI SOHC Turbo,8-Speed Automatic,43900
+Volkswagen,Golf GTI 2.0T Autobahn,2022,6400,Gasoline,241.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,41500
+Toyota,4Runner SR5 Premium,2021,36180,Gasoline,270.0HP 4.0L V6 Cylinder Engine Gasoline Fuel,A/T,36990
+Ford,Bronco Badlands,2021,32437,Gasoline,315.0HP 2.7L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,51000
+Toyota,4Runner Limited,2021,25882,Gasoline,"4L V-6 DOHC, VVT-i variable valve control, engine with 270HP",Automatic,43837
+Ford,F-250 Lariat,2023,3763,Diesel,475.0HP 6.7L 8 Cylinder Engine Diesel Fuel,10-Speed A/T,92000
+Jeep,Gladiator Overland,2020,20655,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,42850
+Porsche,911 Carrera S,2023,1877,Gasoline,443.0HP 3.0L Flat 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,185950
+Chevrolet,Suburban Premier,2021,51890,Gasoline,5.3L V8 16V GDI OHV,10-Speed Automatic,59980
+Chevrolet,Suburban High Country,2021,59528,Gasoline,6.2L V8 16V GDI OHV,10-Speed Automatic,68995
+Kia,Niro EV EX,2022,20000,,201.0HP Electric Motor Electric Fuel System,1-Speed A/T,29998
+BMW,X3 xDrive30i,2021,38352,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,37400
+Porsche,Taycan Base,2021,13344,,321.0HP Electric Motor Electric Fuel System,2-Speed A/T,83499
+Ford,F-150 XLT,2020,57000,Gasoline,375.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,37500
+Kia,K5 GT-Line,2021,100312,Gasoline,1.6L I4 16V GDI DOHC Turbo,8-Speed Automatic,19980
+Bentley,Continental GT W12,2021,16146,Gasoline,"6L W-12 port/direct injection, DOHC, variable valve control, twi",Automatic,239991
+Chevrolet,Traverse RS,2023,6000,Gasoline,310.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,9-Speed A/T,48500
+Lexus,RX 350 F SPORT Appearance,2021,28262,Gasoline,3.5 Liter,Automatic,49998
+Mazda,CX-50 2.5 Turbo Premium Package,2023,16200,Gasoline,227.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,6-Speed A/T,36900
+Mercedes-Benz,EQS 450+ Base,2022,16500,,329.0HP Electric Motor Electric Fuel System,A/T,69500
+BMW,X6 M50i,2022,22500,Gasoline,523.0HP 4.4L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,74999
+Genesis,GV80 2.5T,2023,8100,Gasoline,300.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,57300
+Land Rover,Range Rover Velar R-Dynamic S,2023,12425,Gasoline,I4,Automatic,57619
+BMW,530 i xDrive,2020,23195,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,38900
+Jeep,Gladiator Sport S,2020,13000,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,39500
+Ford,F-150 Lariat,2021,9142,Hybrid,430.0HP 3.5L V6 Cylinder Engine Gas/Electric Hybrid,10-Speed A/T,61500
+RAM,1500 Laramie,2022,3521,Gasoline,5.7L V8 16V MPFI OHV,Automatic,51074
+BMW,X4 M Competition,2020,18362,Gasoline,503.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,A/T,60000
+GMC,Terrain SLT,2020,55018,Gasoline,170.0HP 1.5L 4 Cylinder Engine Gasoline Fuel,9-Speed A/T,25500
+Nissan,Maxima SV,2022,36466,Gasoline,3.5L V6 24V GDI DOHC,Automatic CVT,24980
+Volvo,S60 B5 Inscription,2022,14280,Hybrid,247.0HP 2.0L 4 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,36500
+RAM,1500 Laramie,2022,16184,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,46999
+Ford,Explorer XLT,2020,45000,Gasoline,300.0HP 2.3L 4 Cylinder Engine Gasoline Fuel,10-Speed A/T,33500
+BMW,M8 Competition,2023,3500,Gasoline,617.0HP 4.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,129000
+Mercedes-Benz,Sprinter 2500 Standard Roof,2022,16113,Diesel,188.0HP 3.0L V6 Cylinder Engine Diesel Fuel,A/T,111000
+RAM,1500 Big Horn,2022,11468,Gasoline,5.7L V8 16V MPFI OHV,Automatic,50204
+Audi,A5 Sportback S line Premium Plus,2021,35000,Hybrid,261.0HP 2.0L 4 Cylinder Engine Gasoline/Mild Electric Hybrid,7-Speed A/T,37499
+Honda,Civic Sport,2020,121212,Gasoline,1.5L I4 16V GDI DOHC Turbo,Automatic CVT,18387
+Porsche,Panamera Platinum Edition,2022,13500,Gasoline,325.0HP 2.9L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,86999
+Lincoln,Corsair Standard,2022,4520,Gasoline,250.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,38500
+Ford,Explorer Limited,2022,17500,Hybrid,318.0HP 3.3L V6 Cylinder Engine Gas/Electric Hybrid,10-Speed A/T,46000
+Toyota,Highlander XLE,2022,4437,Gasoline,295.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,42000
+Lexus,NX 300 Base,2021,6449,Gasoline,2.0L I4 16V PDI DOHC Turbo,6-Speed Automatic,35999
+Porsche,Macan S,2020,22354,Gasoline,3.0L V6 24V GDI DOHC Turbo,7-Speed Automatic with Auto-Shift,54900
+Tesla,Model Y Performance,2023,6188,,455.0HP Electric Motor Electric Fuel System,A/T,53900
+Ford,F-250 Platinum,2022,4500,Gasoline,430.0HP 7.3L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,86500
+Jeep,Gladiator Overland,2020,8025,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,42433
+Lexus,RX 350 Base,2021,5040,Gasoline,295.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,48900
+RAM,1500 Laramie,2022,12940,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,46999
+BMW,X5 PHEV xDrive45e,2022,31850,Plug-In Hybrid,389.0HP 3.0L Straight 6 Cylinder Engine Plug-In Electric/Gas,Transmission w/Dual Shift Mode,60500
+McLaren,720S Performance,2020,9989,Gasoline,710.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,7-Speed A/T,324995
+Kia,Telluride SX,2022,46347,Gasoline,3.8L V6 24V GDI DOHC,8-Speed Automatic,46120
+Toyota,Mirai Limited,2021,44000,not supported,182.0HP Electric Motor Hydrogen Fuel,A/T,18500
+Porsche,Macan,2023,2925,Gasoline,2.0L I4 16V GDI DOHC Turbo,7-Speed Automatic with Auto-Shift,73300
+Toyota,4Runner Venture Special Edition,2021,28567,Gasoline,"4L V-6 DOHC, VVT-i variable valve control, regular unleaded, eng",Automatic,44775
+Ford,F-150 Lariat,2021,36821,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,Automatic,49273
+Chevrolet,Suburban High Country,2021,23292,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,73500
+Ford,Expedition Timberline,2022,23300,Gasoline,440.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,67500
+RAM,3500 Laramie,2022,16648,Diesel,6.7L I6 24V DDI OHV Turbo Diesel,6-Speed Automatic,70999
+BMW,X5 xDrive40i,2021,41000,Hybrid,335.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,50000
+Chevrolet,Camaro 2SS,2022,7458,Gasoline,455.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,6-Speed M/T,47500
+Jeep,Gladiator Sport S,2022,23000,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,A/T,43000
+Audi,Q5 S line Premium Plus,2022,13133,Hybrid,2.0 Liter TFSI,Automatic,42998
+Mazda,CX-30 Premium Package,2021,18385,Gasoline,2.5L I4 16V GDI DOHC,6-Speed Automatic,29255
+BMW,840 Gran Coupe i xDrive,2020,25793,Gasoline,3.0L I6 24V GDI DOHC Turbo,8-Speed Automatic,52999
+Cadillac,Escalade Premium Luxury,2023,600,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,103000
+Jeep,Gladiator Mojave,2022,24500,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,64000
+Buick,Encore GX Essence,2020,35569,Gasoline,1.3L I3 12V MPFI DOHC Turbo,Automatic CVT,21999
+Toyota,Highlander XLE,2020,35000,Gasoline,295.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,36999
+Land Rover,Range Rover Sport SE MHEV,2021,15000,Hybrid,355.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,69000
+Porsche,911 Turbo S,2021,1912,Gasoline,640.0HP 3.8L Flat 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,240000
+RAM,1500 Big Horn,2021,41800,Diesel,260.0HP 3.0L V6 Cylinder Engine Diesel Fuel,8-Speed A/T,44900
+Chevrolet,Tahoe LT,2021,71536,Gasoline,5.3L V8 16V GDI OHV,10-Speed Automatic,49685
+Ford,Mustang Mach-E Premium,2023,13232,,346.0HP Electric Motor Electric Fuel System,1-Speed A/T,45000
+Ford,Bronco Big Bend Advanced,2023,11500,Gasoline,315.0HP 2.7L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,54490
+Chrysler,Pacifica Launch Edition,2020,22200,Gasoline,287.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,9-Speed A/T,36800
+Tesla,Model Y Long Range,2023,7414,,425.0HP Electric Motor Electric Fuel System,A/T,56515
+RAM,1500 Rebel,2021,32000,Hybrid,395.0HP 5.7L 8 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,50927
+Toyota,86 Base,2020,14700,Gasoline,200.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,27350
+Hyundai,Kona EV SEL,2022,9400,,201.0HP Electric Motor Electric Fuel System,1-Speed A/T,31999
+BMW,X5 PHEV xDrive45e,2023,3099,Plug-In Hybrid,389.0HP 3.0L Straight 6 Cylinder Engine Plug-In Electric/Gas,8-Speed A/T,74995
+Dodge,Durango R/T,2020,78000,Gasoline,360.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,29500
+Ford,Bronco Sport Big Bend,2022,16700,Gasoline,181.0HP 1.5L 3 Cylinder Engine Gasoline Fuel,8-Speed A/T,31000
+Mazda,CX-5 Grand Touring,2021,62377,Gasoline,2.5L I4 16V,6-Speed Automatic,26288
+Tesla,Model Y Performance,2022,24115,,455.0HP Electric Motor Electric Fuel System,A/T,46500
+Kia,Rio S,2021,67686,Gasoline,120.0HP 1.6L 4 Cylinder Engine Gasoline Fuel,A/T,15700
+Tesla,Model 3 Standard Range,2020,23097,,271.0HP Electric Motor Electric Fuel System,A/T,29900
+BMW,X5 M50i,2021,28898,Gasoline,523.0HP 4.4L 8 Cylinder Engine Gasoline Fuel,A/T,71000
+Mazda,MX-5 Miata RF Club,2022,7250,Gasoline,181.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,6-Speed M/T,35619
+RAM,1500 Laramie,2021,24213,Gasoline,395.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,46500
+RAM,1500 Laramie,2020,21165,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,46105
+RAM,1500 Laramie,2022,16616,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,45999
+Ford,F-150 XLT,2022,33818,Gasoline,5.0L V8 32V PDI DOHC,Automatic,46552
+Jeep,Wagoneer Series III,2022,9099,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,68362
+Kia,Telluride EX X-Line,2023,10400,Gasoline,291.0HP 3.8L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,48000
+Chevrolet,Tahoe LT,2022,2894,Gasoline,355.0HP 5.3L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,63900
+Dodge,Durango GT,2022,15592,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,39985
+Mercedes-Benz,AMG C 63 Base,2020,33548,Gasoline,469.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,9-Speed A/T,57999
+Porsche,Macan GTS,2023,6483,Gasoline,2.9L V6 24V GDI DOHC Twin Turbo,7-Speed Automatic with Auto-Shift,96900
+Honda,Pilot EX-L,2020,28886,Gasoline,3.5L V6 24V GDI SOHC,6-Speed Automatic,35645
+Mercedes-Benz,GLE 350 Base,2020,26293,Gasoline,2.0 Liter Turbo,Automatic,49998
+GMC,Sierra 1500 AT4,2022,100,Diesel,277.0HP 3.0L Straight 6 Cylinder Engine Diesel Fuel,10-Speed A/T,62499
+Ford,Shelby GT500 Base,2021,568,Gasoline,760.0HP 5.2L 8 Cylinder Engine Gasoline Fuel,7-Speed A/T,90788
+GMC,Sierra 2500 AT4,2022,22600,Diesel,6.6L V8 32V DDI OHV Turbo Diesel,Automatic,76740
+BMW,X5 xDrive40i,2020,37000,Gasoline,335.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,50000
+Porsche,Taycan Base,2022,9728,,375.0HP Electric Motor Electric Fuel System,A/T,89000
+GMC,Acadia Denali,2021,47907,Gasoline,3.6L V6 24V GDI DOHC,9-Speed Automatic,38436
+Tesla,Model Y Performance,2020,39000,,455.0HP Electric Motor Electric Fuel System,1-Speed A/T,43000
+Ford,F-150 Lariat,2021,33080,Gasoline,325.0HP 2.7L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,47850
+Mercedes-Benz,GLB 250 Base 4MATIC,2023,1219,Gasoline,2.0L I4 16V GDI DOHC Turbo,Automatic,46479
+Ford,Ranger XLT,2021,89000,Gasoline,270.0HP 2.3L 4 Cylinder Engine Gasoline Fuel,10-Speed A/T,34000
+Tesla,Model 3 Long Range,2021,18000,,Electric Motor Electric Fuel System,A/T,42500
+Cadillac,Escalade ESV Platinum,2020,92000,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,50000
+GMC,Sierra 2500 AT4,2020,52673,Diesel,445.0HP 6.6L 8 Cylinder Engine Diesel Fuel,6-Speed A/T,69500
+BMW,X3 M AWD,2021,31500,Gasoline,473.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,54500
+Mercedes-Benz,E-Class E 450 4MATIC,2021,18000,Hybrid,362.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,9-Speed A/T,62000
+Land Rover,Range Rover Supercharged LWB,2020,54225,Gasoline,518.0HP 5.0L 8 Cylinder Engine Gasoline Fuel,A/T,67500
+Jeep,Grand Cherokee L Laredo,2021,23588,Gasoline,3.6L V6 24V MPFI DOHC,8-Speed Automatic,38633
+Honda,Civic Sport,2020,23131,Gasoline,2.0L I4 16V MPFI DOHC,Automatic CVT,23739
+Tesla,Model Y Long Range,2022,500,,425.0HP Electric Motor Electric Fuel System,A/T,45900
+Honda,CR-V Touring,2022,20229,Gasoline,1.5L I4 16V GDI DOHC Turbo,Automatic CVT,36727
+Alfa Romeo,Giulia Quadrifoglio,2021,10558,Gasoline,505.0HP 2.9L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,75000
+Lexus,ES 250 Base,2021,24364,Gasoline,2.5 Liter,Automatic,37998
+BMW,X3 xDrive30i,2021,27000,Gasoline,248.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,38400
+BMW,X7 xDrive40i,2021,9200,Hybrid,335.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,71200
+Jeep,Wrangler Unlimited Sahara,2020,61830,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,39860
+RAM,1500 Rebel,2020,57300,Gasoline,395.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,43500
+Jeep,Gladiator Rubicon,2020,38000,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,45000
+Ford,Shelby GT500 Base,2021,19200,Gasoline,760.0HP 5.2L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,82950
+Land Rover,Defender SE,2022,46000,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,75000
+Jeep,Wrangler Unlimited Sport,2020,33060,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,36500
+Tesla,Model S Long Range Plus,2021,10550,,557.0HP Electric Motor Electric Fuel System,A/T,67800
+Jeep,Wrangler 80th Anniversary,2021,27000,Hybrid,285.0HP 3.6L V6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,37500
+Chevrolet,Corvette Stingray w/1LT,2023,9000,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,82500
+Toyota,GR86 Premium,2022,1050,Gasoline,228.0HP 2.4L 4 Cylinder Engine Gasoline Fuel,6-Speed A/T,40000
+Land Rover,Range Rover P525 Westminster,2021,22270,Gasoline,5.0L V8 32V GDI DOHC Supercharged,8-Speed Automatic,89900
+Tesla,Model Y Long Range,2020,19800,,425.0HP Electric Motor Electric Fuel System,1-Speed A/T,44990
+INFINITI,Q60 3.0t Red Sport 400,2022,3300,Gasoline,400.0HP 3.0L V6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,54000
+Tesla,Model X Long Range,2022,11860,,670.0HP Electric Motor Electric Fuel System,A/T,92500
+Kia,K5 GT-Line,2022,22101,Gasoline,1.6L I4 16V GDI DOHC Turbo,8-Speed Automatic,29430
+Chevrolet,Camaro 1SS,2022,6640,Gasoline,455.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,51999
+INFINITI,QX60 AUTOGRAPH,2022,6000,Gasoline,295.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,9-Speed A/T,57999
+BMW,X3 xDrive30i,2021,15000,Gasoline,248.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,39995
+Ford,F-150 XL,2021,45979,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,38532
+Tesla,Model X Long Range,2022,7500,,670.0HP Electric Motor Electric Fuel System,A/T,84000
+Mercedes-Benz,AMG E 53 Base 4MATIC,2021,15615,Hybrid,429.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,9-Speed A/T,78000
+GMC,Acadia SLE,2020,58000,Gasoline,310.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,9-Speed A/T,27700
+Ford,F-150 Lariat,2020,31250,Gasoline,325.0HP 2.7L V6 Cylinder Engine Gasoline Fuel,A/T,42500
+Jeep,Gladiator Overland,2020,43000,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,A/T,46500
+Toyota,Tacoma TRD Sport,2020,41199,Gasoline,3.5 Liter,6 Speed Mt,41598
+Kia,EV6 GT-Line,2022,22000,,320.0HP Electric Motor Electric Fuel System,1-Speed A/T,45000
+Genesis,GV70 3.5T Sport,2022,12900,Gasoline,375.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,53000
+Ford,Explorer ST,2022,10500,Gasoline,400.0HP 3.0L V6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,50000
+MINI,Countryman Cooper,2020,74725,Gasoline,1.5L I3 12V GDI DOHC Turbo,7-Speed Automatic with Auto-Shift,21612
+Mazda,CX-5 Grand Touring,2021,61117,Gasoline,2.5L I4 16V GDI DOHC,6-Speed Automatic,26485
+Jeep,Wrangler Sahara Altitude,2023,1563,Hybrid,285.0HP 3.6L V6 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,62500
+Cadillac,Escalade Sport Platinum,2021,26000,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,104000
+Porsche,Cayenne AWD,2020,37500,Gasoline,335.0HP 3.0L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,59900
+Ford,Mustang Mach-E GT,2022,13856,,480.0HP Electric Motor Electric Fuel System,1-Speed A/T,54000
+Cadillac,Escalade Premium Luxury,2021,11459,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,88900
+Chevrolet,Silverado 1500 RST,2020,40929,Gasoline,5.3L V8 16V GDI OHV,Automatic,44800
+Chevrolet,Suburban Z71,2022,19200,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,69790
+Porsche,911 Carrera,2023,19800,Gasoline,379.0HP 3.0L Flat 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,134900
+Subaru,BRZ Limited,2022,14000,Gasoline,228.0HP 2.4L 4 Cylinder Engine Gasoline Fuel,6-Speed M/T,34999
+Cadillac,Escalade Sport Platinum,2021,38500,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,94995
+Nissan,Pathfinder S,2020,41250,Gasoline,284.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,CVT Transmission,21865
+Lexus,RX 350 Base,2021,20598,Gasoline,3.5L V6 24V PDI DOHC,8-Speed Automatic,42599
+MINI,Hardtop Cooper S,2022,23777,Gasoline,189.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,6-Speed M/T,30000
+Lexus,RX 350 F Sport Performance,2020,53750,Gasoline,295.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,32600
+BMW,X5 M50i,2023,13735,Gasoline,4.4L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic,77897
+Kia,Telluride SX,2021,24423,Gasoline,3.8L V6 24V GDI DOHC,8-Speed Automatic,44315
+Tesla,Model S Long Range,2022,28000,,670.0HP Electric Motor Electric Fuel System,1-Speed A/T,68750
+Bentley,Bentayga V8,2021,24500,Gasoline,542.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,165000
+Jeep,Gladiator Overland,2021,4100,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,A/T,55000
+BMW,M2 CS,2020,9670,Gasoline,444.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,103500
+Ford,F-350 Platinum,2022,23850,Diesel,475.0HP 6.7L 8 Cylinder Engine Diesel Fuel,10-Speed A/T,99750
+Dodge,Challenger GT,2021,40000,Gasoline,303.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,A/T,32500
+Mercedes-Benz,Sprinter 2500 Standard Roof,2021,13344,Diesel,188.0HP 3.0L V6 Cylinder Engine Diesel Fuel,7-Speed A/T,56500
+Ford,Expedition Max Limited,2021,30918,Gasoline,375.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,51999
+Chevrolet,Corvette Stingray w/3LT,2023,1100,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,92000
+Dodge,Charger SRT Hellcat,2020,54320,Gasoline,707.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,67000
+Porsche,911 Carrera S,2020,28000,Gasoline,443.0HP 3.0L Flat 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,134999
+Porsche,911 GT3,2022,1750,Gasoline,502.0HP 4.0L Flat 6 Cylinder Engine Gasoline Fuel,7-Speed A/T,275000
+Maserati,Grecale Modena,2023,3721,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,69645
+GMC,Sierra 2500 Denali,2024,2043,Gasoline,401.0HP 6.6L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,81500
+Chevrolet,Corvette Stingray w/3LT,2020,5194,Gasoline,6.2L V8 16V GDI OHV,8-Speed Automatic with Auto-Shift,87500
+Mercedes-Benz,GLC 300 Base,2020,42717,Gasoline,255.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,33500
+Chevrolet,Corvette Stingray w/2LT,2022,11089,Gasoline,6.2L V8 16V GDI OHV,8-Speed Manual,80900
+Ford,F-150 XLT,2021,35921,Gasoline,2.7L V6 24V PDI DOHC Twin Turbo,10-Speed Automatic,42995
+Ford,Bronco Outer Banks,2023,1800,Gasoline,275.0HP 2.3L 4 Cylinder Engine Gasoline Fuel,10-Speed A/T,54900
+Mercedes-Benz,C-Class C 300 4MATIC,2020,14220,Gasoline,255.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,9-Speed A/T,35500
+BMW,X3 sDrive30i,2021,12800,Gasoline,248.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,39990
+Ford,Transit-250 Base,2020,53000,Gasoline,310.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,38500
+Lexus,ES 250 Base,2021,17570,Gasoline,2.5 Liter,Automatic,39998
+RAM,1500 Rebel,2020,63875,Hybrid,395.0HP 5.7L 8 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,41900
+Ford,Maverick XL,2023,12500,Hybrid,191.0HP 2.5L 4 Cylinder Engine Gas/Electric Hybrid,A/T,29999
+Chevrolet,Camaro 1SS,2022,7000,Gasoline,455.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,6-Speed M/T,50000
+Chevrolet,Corvette Stingray w/3LT,2023,9000,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,92000
+Lincoln,Navigator Reserve,2020,68000,Gasoline,450.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,55999
+Toyota,Tacoma SR,2022,5020,Gasoline,278.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,36500
+Audi,A6 55 Premium,2020,25300,Hybrid,335.0HP 3.0L V6 Cylinder Engine Gasoline/Mild Electric Hybrid,7-Speed A/T,39900
+Chevrolet,Corvette Stingray w/2LT,2022,3158,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,85989
+GMC,Acadia SLE,2021,26000,Gasoline,228.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,30900
+Porsche,911 Carrera,2020,12758,Gasoline,379.0HP 3.0L Flat 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,107900
+Ford,Edge SEL,2021,17836,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,31933
+Chevrolet,Corvette Stingray w/3LT,2022,5400,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,89900
+Chevrolet,Trax LS,2020,20800,Gasoline,138.0HP 1.4L 4 Cylinder Engine Gasoline Fuel,6-Speed A/T,19000
+Porsche,Cayenne Turbo GT,2022,1766,Gasoline,4.0L,Automatic,209995
+Jeep,Wrangler Unlimited Rubicon 392,2021,38000,Gasoline,470.0HP 6.4L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,72980
+Kia,Sorento Plug-In Hybrid SX Prestige,2022,10101,Plug-In Hybrid,261.0HP 1.6L 4 Cylinder Engine Plug-In Electric/Gas,6-Speed A/T,44990
+Chevrolet,Corvette Stingray w/2LT,2022,7900,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,92500
+Tesla,Model 3 Performance,2020,45468,,455.0HP Electric Motor Electric Fuel System,1-Speed A/T,45999
+Subaru,Outback Touring XT,2021,33500,Gasoline,260.0HP 2.4L 4 Cylinder Engine Gasoline Fuel,CVT Transmission,34000
+Audi,SQ8 4.0T Premium Plus,2021,43238,Gasoline,500.0HP 4.0L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,76400
+Ford,Mustang EcoBoost,2021,17300,Gasoline,310.0HP 2.3L 4 Cylinder Engine Gasoline Fuel,10-Speed A/T,31000
+Mercedes-Benz,GLC 300 GLC 300,2022,1408,Gasoline,2.0 Liter Turbo,Automatic,46798
+Jeep,Grand Wagoneer Series III,2022,31112,Gasoline,471.0HP 6.4L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,83000
+RAM,1500 Laramie,2022,13464,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,46999
+Jeep,Cherokee X,2022,9601,Gasoline,3.2L V6 24V MPFI DOHC,Automatic,33498
+Jeep,Grand Wagoneer Base,2023,3752,Gasoline,6.4L V8 16V MPFI OHV,8-Speed Automatic,84620
+Lexus,RX 350 Base,2021,30761,Gasoline,3.5L V6 24V PDI DOHC,8-Speed Automatic,44950
+RAM,1500 Laramie,2022,13438,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,46599
+Jeep,Gladiator Overland,2020,9100,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,49895
+Porsche,Taycan Base,2021,6900,,375.0HP Electric Motor Electric Fuel System,2-Speed A/T,79999
+Tesla,Model X Plaid,2022,15000,,1020.0HP Electric Motor Electric Fuel System,A/T,95999
+Mercedes-Benz,C-Class C 300 4MATIC,2021,19000,Gasoline,255.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,37999
+Buick,Envision Preferred,2021,20104,Gasoline,2.0L I4 16V GDI DOHC Turbo,9-Speed Automatic,33295
+Nissan,Armada Platinum,2022,8400,Gasoline,400.0HP 5.6L 8 Cylinder Engine Gasoline Fuel,7-Speed A/T,59950
+Porsche,911 Turbo,2021,11938,Gasoline,572.0HP 3.8L Flat 6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,209000
+Chevrolet,Corvette Stingray w/2LT,2021,24670,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,72500
+Subaru,Outback Limited,2020,44600,Gasoline,182.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,CVT Transmission,28300
+Subaru,Ascent Touring 7-Passenger,2021,39948,Gasoline,2.4L H4 16V GDI DOHC Turbo,Automatic CVT,36791
+BMW,X1 xDrive28i,2020,27989,Gasoline,228.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,29000
+Toyota,C-HR LE,2020,14065,Gasoline,2.0L I4 16V MPFI DOHC,Automatic CVT,27671
+Subaru,Outback Limited XT,2020,36844,Gasoline,2.4L H4 16V GDI DOHC Turbo,Automatic CVT,30427
+Chevrolet,Silverado 1500 LT Trail Boss,2020,49000,Gasoline,355.0HP 5.3L 8 Cylinder Engine Gasoline Fuel,A/T,44900
+Audi,A6 55 Prestige,2021,22800,Hybrid,335.0HP 3.0L V6 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,52000
+Ford,F-250 King Ranch,2020,36500,Diesel,475.0HP 6.7L 8 Cylinder Engine Diesel Fuel,10-Speed A/T,69900
+Lexus,GX 460 Luxury,2021,17710,Gasoline,301.0HP 4.6L 8 Cylinder Engine Gasoline Fuel,A/T,59000
+Ford,Bronco Wildtrak Advanced,2022,9990,Gasoline,315.0HP 2.7L V6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,64500
+Tesla,Model 3 Long Range,2022,22457,,Electric,Automatic,40036
+Toyota,Camry XSE,2022,19361,Gasoline,3.5 Liter,Automatic,38298
+Porsche,Taycan Turbo,2020,2076,,Electric,Automatic,115998
+Toyota,Highlander XLE,2022,31000,Gasoline,295.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,43000
+Volvo,S60 Recharge Plug-In Hybrid T8 Inscription,2021,24158,Plug-In Hybrid,400.0HP 2.0L 4 Cylinder Engine Plug-In Electric/Gas,8-Speed A/T,44900
+Toyota,Tundra SR5,2020,26300,Gasoline,381.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,6-Speed A/T,46199
+RAM,1500 TRX,2021,15183,Gasoline,702.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,90000
+Buick,Envision Essence,2020,28548,Gasoline,2.5L I4 16V GDI DOHC,6-Speed Automatic,32063
+Volkswagen,Atlas 3.6L SEL Premium R-Line,2022,14000,Gasoline,276.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,46900
+Ford,Mustang Mach-E GT,2022,8000,,480.0HP Electric Motor Electric Fuel System,1-Speed A/T,60999
+GMC,Canyon Elevation Standard,2022,16500,Gasoline,308.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,32900
+Ford,F-250 LARIAT,2021,42245,Diesel,Intercooled Turbo Diesel V-8 6.7 L/406,Automatic,76598
+Jeep,Wrangler Unlimited 4xe Sahara,2021,51105,Hybrid,2.0L I4 16V GDI DOHC Turbo Hybrid,8-Speed Automatic,42700
+Tesla,Model S Plaid,2021,20100,,1020.0HP Electric Motor Electric Fuel System,A/T,69995
+Ford,Transit-350 Base,2020,19400,Gasoline,310.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,58000
+Lexus,NX 350h Premium,2024,300,Hybrid,240.0HP 2.5L 4 Cylinder Engine Gas/Electric Hybrid,A/T,50999
+Jeep,Wrangler Unlimited Sahara,2020,76313,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,35234
+Ford,Explorer ST,2021,39105,Gasoline,3.0L V6 24V GDI DOHC Twin Turbo,10-Speed Automatic,44605
+BMW,M4 Competition,2021,12500,Gasoline,503.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,90000
+Honda,Civic EX,2020,13935,Gasoline,174.0HP 1.5L 4 Cylinder Engine Gasoline Fuel,CVT Transmission,26000
+Mazda,CX-30 Preferred,2020,9927,Gasoline,2.5L I4 16V GDI DOHC,6-Speed Automatic,27518
+Rivian,R1S Launch Edition,2022,7800,,835.0HP Electric Motor Electric Fuel System,1-Speed A/T,92500
+Land Rover,Range Rover HSE SWB,2020,41500,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,68000
+BMW,M4 Base,2020,28000,Gasoline,425.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,7-Speed A/T,59900
+Honda,Accord Hybrid Base,2021,33523,Hybrid,2.0L I4 16V MPFI DOHC Hybrid,Automatic CVT,28748
+Subaru,WRX Premium,2022,7738,Gasoline,271.0HP 2.4L 4 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,33000
+Bentley,Bentayga Speed,2020,22001,Gasoline,6.0L W12 48V PDI DOHC Twin Turbo,8-Speed Automatic,173995
+Ford,Explorer ST,2022,14361,Gasoline,400.0HP 3.0L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,51500
+Chevrolet,Silverado 1500 Limited Custom,2022,30455,Gasoline,2.7 Liter DOHC Turbo,Automatic,37698
+Ford,Explorer Platinum,2020,64552,Gasoline,3.0L V6 24V GDI DOHC Twin Turbo,10-Speed Automatic,36750
+Ford,Explorer Platinum,2021,64957,Gasoline,3.0L V6 24V GDI DOHC Twin Turbo,10-Speed Automatic,39979
+Dodge,Challenger SXT,2022,29500,Gasoline,303.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,31000
+Porsche,911 Carrera,2021,7400,Gasoline,379.0HP 3.0L Flat 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,116999
+Land Rover,Range Rover SWB,2020,29000,Hybrid,355.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,70000
+Hyundai,Palisade SEL,2020,69487,Gasoline,291.0HP 3.8L V6 Cylinder Engine Gasoline Fuel,A/T,32000
+Genesis,GV70 3.5T Sport,2022,8730,Gasoline,3.5L V6 24V PDI DOHC Twin Turbo,8-Speed Automatic,48219
+Land Rover,Defender SE,2021,13970,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,A/T,75500
+Porsche,911 Turbo S,2023,154,Gasoline,3.8L H6 24V GDI DOHC Twin Turbo,8-Speed Automatic with Auto-Shift,274900
+Mazda,CX-30 Select,2020,23162,Gasoline,2.5L I4 16V GDI DOHC,6-Speed Automatic,25495
+BMW,M4 Competition,2023,3950,Gasoline,503.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,A/T,83500
+Toyota,Sienna XSE 25th Anniversary,2023,500,Hybrid,245.0HP 2.5L 4 Cylinder Engine Gas/Electric Hybrid,A/T,59500
+Mercedes-Benz,AMG G 63 Base,2021,7856,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,9-Speed Automatic,425000
+Hyundai,Tucson SEL,2022,13666,Gasoline,2.5L I4 16V PDI DOHC,8-Speed Automatic,27999
+Lincoln,Nautilus Reserve,2021,19291,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,44340
+Dodge,Durango R/T,2022,14976,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,49999
+Dodge,Challenger R/T,2021,39960,Gasoline,375.0HP 5.7L 8 Cylinder Engine Gasoline Fuel,8-Speed A/T,28500
+Ford,Explorer XLT,2022,18533,Gasoline,2.3L I4 16V GDI DOHC Turbo,10-Speed Automatic,38978
+GMC,Yukon XL Denali,2023,7500,Gasoline,420.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,92888
+INFINITI,QX80 SENSORY,2022,26520,Gasoline,400.0HP 5.6L 8 Cylinder Engine Gasoline Fuel,7-Speed A/T,64000
+Honda,Pilot EX-L,2020,44000,Gasoline,280.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,34999
+Tesla,Model Y Long Range,2022,20500,,425.0HP Electric Motor Electric Fuel System,1-Speed A/T,46500
+Volkswagen,ID.4 Pro S,2023,1716,,Battery Electric,Automatic,39998
+Ford,Explorer Limited,2020,82146,Gasoline,2.3L I4 16V GDI DOHC Turbo,10-Speed Automatic,30825
+Ford,Mustang GT Premium,2020,16850,Gasoline,460.0HP 5.0L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,41000
+Kia,Sorento S,2021,19605,Gasoline,2.5L I4 16V PDI DOHC,8-Speed Automatic,33591
+Chevrolet,Silverado 1500 RST,2020,19200,Gasoline,355.0HP 5.3L 8 Cylinder Engine Gasoline Fuel,10-Speed A/T,69999
+Lamborghini,Huracan EVO Coupe,2021,5718,Gasoline,"5.2L V-10 gasoline direct injection, DOHC, variable valve contro",Automatic,279991
+Land Rover,Range Rover Sport HST MHEV,2020,37248,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,54500
+Tesla,Model Y Long Range,2020,88000,,425.0HP Electric Motor Electric Fuel System,1-Speed A/T,35500
+Alfa Romeo,Giulia Ti,2020,23339,Gasoline,2.0L I4 16V GDI SOHC Turbo,8-Speed Automatic,34645
+Mercedes-Benz,GLC 300 GLC 300,2021,14745,Gasoline,2.0 Liter Turbo,Automatic,38998
+Chevrolet,Corvette Stingray w/3LT,2021,2700,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,85950
+Jeep,Gladiator Overland,2020,4000,Gasoline,285.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,8-Speed A/T,50000
+Land Rover,Range Rover Westminster SWB,2022,2220,Hybrid,395.0HP 3.0L Straight 6 Cylinder Engine Gasoline/Mild Electric Hybrid,8-Speed A/T,115999
+Volkswagen,Passat 2.0T SE,2020,49400,Gasoline,174.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,6-Speed A/T,20900
+Porsche,911 Carrera,2020,11256,Gasoline,379.0HP 3.0L Flat 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,124900
+Chevrolet,Corvette Stingray w/1LT,2021,13700,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,75000
+Lexus,RX 450h F Sport Handling,2022,1600,Hybrid,308.0HP 3.5L V6 Cylinder Engine Gas/Electric Hybrid,A/T,59000
+Ford,Expedition Platinum,2020,69849,Gasoline,3.5L V6 24V GDI DOHC Twin Turbo,10-Speed Automatic,48149
+Porsche,911 Carrera,2023,1500,Gasoline,379.0HP 3.0L Flat 6 Cylinder Engine Gasoline Fuel,A/T,149000
+Porsche,718 Cayman GT4,2021,2100,Gasoline,414.0HP 4.0L Flat 6 Cylinder Engine Gasoline Fuel,6-Speed M/T,136900
+Ford,Mustang Mach-E Select,2021,18000,,266.0HP Electric Motor Electric Fuel System,A/T,39499
+Mazda,CX-30 Base,2020,19319,Gasoline,2.5L I4 16V GDI DOHC,6-Speed Automatic,24899
+Jeep,Wrangler Sport,2020,26315,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,31871
+Cadillac,XT5 Premium Luxury,2021,66500,Gasoline,310.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,A/T,28500
+Nissan,Kicks S,2022,19877,Gasoline,1.6L I4 16V MPFI DOHC,Automatic CVT,18999
+Kia,Seltos S,2021,16100,Gasoline,146.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,25500
+Mercedes-Benz,GLE 350 Base 4MATIC,2020,24108,Gasoline,255.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,9-Speed A/T,56000
+Ford,Explorer XLT,2020,42609,Gasoline,2.3L I4 16V GDI DOHC Turbo,10-Speed Automatic,32107
+Kia,Telluride S,2023,6423,Gasoline,291.0HP 3.8L V6 Cylinder Engine Gasoline Fuel,A/T,42500
+Mazda,Mazda6 Carbon Edition,2021,21444,Gasoline,2.5L I4 16V,6-Speed Automatic,29995
+Ford,F-150 Tremor,2023,5500,Gasoline,400.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,70000
+Chevrolet,Corvette Stingray w/2LT,2022,2010,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,89000
+Porsche,911 Turbo,2022,13800,Gasoline,572.0HP 3.8L Flat 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,234000
+Chevrolet,Colorado ZR2,2021,24915,Gasoline,3.6L V6 24V GDI DOHC,Automatic,44791
+Nissan,Kicks S,2022,15577,Gasoline,1.6L I4 16V MPFI DOHC,Automatic CVT,19599
+Audi,Q4 e-tron 50 Premium Plus,2022,250,,295.0HP Electric Motor Electric Fuel System,1-Speed A/T,52000
+Subaru,Ascent Touring 7-Passenger,2020,40971,Gasoline,260.0HP 2.4L 4 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,32500
+GMC,HUMMER EV Edition 1,2023,940,,Electric Motor Electric Fuel System,A/T,146000
+Chevrolet,Silverado 1500 ZR2,2022,7455,Gasoline,6.2L V8 16V GDI OHV,Automatic,68990
+Nissan,Murano SL,2021,43875,Gasoline,3.5L V6 24V MPFI DOHC,Automatic CVT,29725
+Mercedes-Benz,E-Class E 350,2021,72836,Gasoline,255.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,9-Speed A/T,41000
+McLaren,720S Performance,2020,5072,Gasoline,4.0L V8 32V MPFI DOHC Twin Turbo,7-Speed Automatic with Auto-Shift,279950
+Audi,A5 45 S line Premium Plus,2022,24500,Hybrid,261.0HP 2.0L 4 Cylinder Engine Gasoline/Mild Electric Hybrid,Transmission w/Dual Shift Mode,47000
+Porsche,Taycan 4S,2022,7900,,482.0HP Electric Motor Electric Fuel System,2-Speed A/T,108000
+Ford,Explorer XLT,2022,20678,Gasoline,300.0HP 2.3L 4 Cylinder Engine Gasoline Fuel,A/T,46000
+Mazda,Mazda6 Touring,2021,52253,Gasoline,2.5L I4 16V GDI DOHC,6-Speed Automatic,25215
+BMW,X3 xDrive30i,2020,23647,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,37998
+Ford,Bronco Heritage Edition Advanced,2023,1500,Gasoline,275.0HP 2.3L 4 Cylinder Engine Gasoline Fuel,7-Speed M/T,60000
+Mercedes-Benz,GLE 350 GLE 350,2022,18815,Gasoline,2.0 Liter Turbo,Automatic,61998
+Ford,Maverick XLT,2022,52000,Hybrid,191.0HP 2.5L 4 Cylinder Engine Gas/Electric Hybrid,CVT Transmission,28000
+Jeep,Wrangler Sport,2023,7102,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,40995
+Ford,Mustang Mach-E GT,2023,9095,,480.0HP Electric Motor Electric Fuel System,A/T,59000
+Rolls-Royce,Cullinan,2022,3420,Gasoline,6.7L V12 48V GDI DOHC Twin Turbo,8-Speed Automatic,399950
+Ford,F-250 King Ranch,2021,93400,Diesel,475.0HP 6.7L 8 Cylinder Engine Diesel Fuel,10-Speed A/T,69995
+Porsche,911 Carrera,2020,16741,Gasoline,379.0HP 3.0L Flat 6 Cylinder Engine Gasoline Fuel,A/T,112500
+Ford,F-150 Lightning LARIAT,2022,470,,563.0HP Electric Motor Electric Fuel System,1-Speed A/T,71900
+Kia,Forte LXS,2020,53452,Gasoline,147.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,16995
+RAM,1500 Laramie,2022,15741,Gasoline,5.7L V8 16V MPFI OHV,8-Speed Automatic,45999
+Kia,Sorento SX Prestige,2023,11100,Gasoline,281.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,40200
+Ford,F-250 XL,2020,36000,E85 Flex Fuel,385.0HP 6.2L 8 Cylinder Engine Flex Fuel Capability,A/T,44000
+Mercedes-Benz,C-Class C 300 4MATIC,2021,19162,Gasoline,255.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,38500
+Audi,Q5 S line Premium Plus,2023,6046,Hybrid,2.0 Liter TFSI,Automatic,51598
+Ford,Explorer XLT,2020,17000,Gasoline,300.0HP 2.3L 4 Cylinder Engine Gasoline Fuel,10-Speed A/T,21000
+Ford,F-150 Lariat,2022,28000,Gasoline,400.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,53500
+Chevrolet,Corvette Stingray w/2LT,2020,8974,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,79900
+Nissan,Murano SV,2020,47147,Gasoline,3.5L V6 24V MPFI DOHC,Automatic CVT,23625
+Ford,Escape SEL,2020,42000,Gasoline,181.0HP 1.5L 3 Cylinder Engine Gasoline Fuel,A/T,19000
+Hyundai,Elantra HEV Limited,2021,28600,Hybrid,139.0HP 1.6L 4 Cylinder Engine Gas/Electric Hybrid,A/T,23999
+GMC,Sierra 2500 Denali,2021,16919,Diesel,445.0HP 6.6L 8 Cylinder Engine Diesel Fuel,10-Speed A/T,73000
+Ford,Escape PHEV SE,2022,1889,Plug-In Hybrid,221.0HP 2.5L 4 Cylinder Engine Plug-In Electric/Gas,CVT Transmission,32850
+Volkswagen,Passat 2.0T R-Line,2021,16538,Gasoline,2.0 Liter TSI,Automatic,25998
+Nissan,Altima 2.5 S,2020,30900,Gasoline,182.0HP 2.5L 4 Cylinder Engine Gasoline Fuel,A/T,21000
+Toyota,4Runner TRD Sport,2023,11400,Gasoline,270.0HP 4.0L V6 Cylinder Engine Gasoline Fuel,A/T,46000
+Tesla,Model Y Performance,2020,27500,,455.0HP Electric Motor Electric Fuel System,A/T,44000
+Mazda,CX-5 Grand Touring,2021,24781,Gasoline,2.5L I4 16V GDI DOHC,6-Speed Automatic,28991
+Tesla,Model 3 Long Range,2020,25000,,425.0HP Electric Motor Electric Fuel System,1-Speed A/T,49995
+Tesla,Model Y Long Range,2021,49252,,Electric,1-Speed Automatic,37999
+Toyota,4Runner Venture,2021,27000,Gasoline,270.0HP 4.0L V6 Cylinder Engine Gasoline Fuel,A/T,48500
+BMW,530 i xDrive,2021,60942,Gasoline,2.0L I4 16V GDI DOHC Turbo,8-Speed Automatic,32085
+Audi,Q5 40 Premium,2022,14550,Hybrid,201.0HP 2.0L 4 Cylinder Engine Gasoline/Mild Electric Hybrid,7-Speed A/T,41500
+Land Rover,Range Rover Autobiography,2023,1148,Gasoline,4.4L V8 32V GDI DOHC Twin Turbo,Automatic,193063
+Porsche,Cayenne AWD,2020,34580,Gasoline,335.0HP 3.0L V6 Cylinder Engine Gasoline Fuel,A/T,56000
+Mazda,Mazda6 Signature,2021,11737,Gasoline,2.5L I4 16V GDI DOHC Turbo,6-Speed Automatic,33687
+Tesla,Model X Performance,2020,25535,,778.0HP Electric Motor Electric Fuel System,A/T,68969
+Mercedes-Benz,Sprinter 2500 Standard Roof,2023,4000,Diesel,211.0HP 2.0L 4 Cylinder Engine Diesel Fuel,9-Speed A/T,65000
+Dodge,Durango GT,2020,49000,Gasoline,295.0HP 3.6L V6 Cylinder Engine Gasoline Fuel,A/T,40000
+Chevrolet,Corvette Stingray w/2LT,2023,2058,Gasoline,490.0HP 6.2L 8 Cylinder Engine Gasoline Fuel,A/T,101999
+Tesla,Model 3 Long Range,2021,23749,,Electric,1-Speed Automatic,35999
+Toyota,4Runner TRD Pro,2021,35048,Gasoline,4.0L V6 24V MPFI DOHC,5-Speed Automatic,52590
+Porsche,911 Carrera,2022,2950,Gasoline,379.0HP 3.0L Flat 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,131000
+BMW,M240 i xDrive,2022,2010,Gasoline,382.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,A/T,55000
+Buick,Envision Essence,2021,36544,Gasoline,2.0L I4 16V GDI DOHC Turbo,9-Speed Automatic,33290
+Ford,F-150 Lariat,2020,26540,Gasoline,375.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,46995
+Jeep,Wrangler Unlimited Rubicon,2020,49990,Gasoline,270.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,8-Speed A/T,53000
+Ford,Bronco Badlands Advanced,2022,17000,Gasoline,315.0HP 2.7L V6 Cylinder Engine Gasoline Fuel,10-Speed A/T,69999
+Porsche,Cayenne Turbo,2020,39611,Gasoline,4.0L V8 32V GDI DOHC Twin Turbo,8-Speed Automatic,89900
+Porsche,911 Carrera S,2021,7008,Gasoline,443.0HP 3.0L Flat 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,151900
+BMW,M8 Gran Coupe Competition,2022,21057,Gasoline,617.0HP 4.4L 8 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,99800
+BMW,X6 xDrive40i,2020,34000,Gasoline,335.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel,8-Speed A/T,59335
+Subaru,Ascent Touring 7-Passenger,2021,32250,Gasoline,260.0HP 2.4L 4 Cylinder Engine Gasoline Fuel,A/T,36000
+Mercedes-Benz,AMG GLS 63 4MATIC,2023,2000,Hybrid,603.0HP 4.0L 8 Cylinder Engine Gasoline/Mild Electric Hybrid,9-Speed A/T,175000
+Bentley,Continental GT Speed,2023,714,Gasoline,6.0L W12 48V PDI DOHC Twin Turbo,8-Speed Automatic with Auto-Shift,349950
+Audi,S4 3.0T Premium Plus,2022,10900,Gasoline,349.0HP 3.0L V6 Cylinder Engine Gasoline Fuel,Transmission w/Dual Shift Mode,53900
+Porsche,Taycan,2022,2116,,Electric,Automatic,90998
+Ford,F-150 Raptor,2020,33000,Gasoline,450.0HP 3.5L V6 Cylinder Engine Gasoline Fuel,A/T,62999
+BMW,X3 xDrive30i,2020,43000,Gasoline,248.0HP 2.0L 4 Cylinder Engine Gasoline Fuel,A/T,40000
