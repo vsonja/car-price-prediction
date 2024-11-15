@@ -23,6 +23,11 @@
   (doseq [row data]
     (println row)))
 
+(defn calculate-average-price [results]
+  (let [prices (map #(Double/parseDouble (:price %)) results)]
+    (when (seq prices)
+      (format "%.2f" (/ (reduce + prices) (count prices))))))
+
 (defn search []
   (println "")
   (let [columns (remove #{:price} (keys (first data)))
@@ -48,7 +53,11 @@
       (do
         (println "\nResults matching search criteria:")
         (doseq [row results]
-          (println row)))
+          (println row))
+        (println "\nWould you like to calculate average price? (Yes/No)")
+        (let [response (read-line)]
+          (when (= response "Yes")
+            (println "Average price:" (calculate-average-price results)))))
       (println "\nNo matching results."))))
 
 (defn -main [& args]
