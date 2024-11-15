@@ -9,12 +9,14 @@
       (doall (map #(zipmap headers %) (rest rows))))))
 
 (def data (read-csv-file "resources/cars.csv"))
+(def saved-searches (atom []))
 
 (defn main-menu []
   (println "\nMenu Options:")
   (println "1. View all cars")
   (println "2. Search for specific car")
-  (println "3. Exit")
+  (println "3. View saved searches")
+  (println "4. Exit")
   (println "Select an option: ")
   (flush))
 
@@ -27,6 +29,10 @@
   (let [prices (map #(Double/parseDouble (:price %)) results)]
     (when (seq prices)
       (format "%.2f" (/ (reduce + prices) (count prices))))))
+
+(defn save-search [criteria results]
+  (swap! saved-searches conj {:parameters criteria :results results})
+  (println "Search saved!"))
 
 (defn search []
   (println "")
@@ -57,8 +63,18 @@
         (println "\nWould you like to calculate average price? (Yes/No)")
         (let [response (read-line)]
           (when (= response "Yes")
-            (println "Average price:" (calculate-average-price results)))))
+            (println "Average price:" (calculate-average-price results))))
+        (println "\nDo you want to save this search? (Yes/No)")
+         (when (= (read-line) "Yes")
+           (save-search criteria results)))
       (println "\nNo matching results."))))
+
+(defn view-saved-searches []
+  (if (seq @saved-searches)
+    (doseq [search @saved-searches]
+      (println "\nSearch parameters:" (:parameters search))
+      (doseq [result (:results search)] (println result)))
+    (println "\nNo saved searches.")))
 
 (defn -main [& args]
   (println "Welcome to the Car Price Prediction App!")
@@ -68,5 +84,6 @@
       (cond
         (= option "1") (do (view-all) (recur))
         (= option "2") (do (search) (recur))
-        (= option "3") (println "Goodbye!")
+        (= option "3") (do (view-saved-searches) (recur))
+        (= option "4") (println "Goodbye!")
         :else (do (println "Invalid option! Please try again.") (recur))))))
