@@ -34,6 +34,14 @@
   (swap! saved-searches conj {:parameters criteria :results results})
   (println "Search saved!"))
 
+(defn apply-filter [criteria]
+  (filter
+   (fn [row]
+     (every? (fn [[column value]]
+               (= (get row column) value))
+             criteria))
+   data))
+
 (defn search []
   (println "")
   (let [columns (remove #{:price} (keys (first data)))
@@ -47,13 +55,7 @@
                         (assoc acc column value))))
                   {}
                   columns)
-
-        results (filter
-                 (fn [row]
-                   (every? (fn [[column value]]
-                             (= (get row column) value))
-                           criteria))
-                 data)]
+        results (apply-filter criteria)]
 
     (if (seq results)
       (do
