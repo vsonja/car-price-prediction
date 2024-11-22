@@ -16,7 +16,8 @@
   (println "1. View all cars")
   (println "2. Search for specific car")
   (println "3. View saved searches")
-  (println "4. Exit")
+  (println "4. Predict car price")
+  (println "5. Exit")
   (println "Select an option: ")
   (flush))
 
@@ -78,6 +79,57 @@
       (doseq [result (:results search)] (println result)))
     (println "\nNo saved searches.")))
 
+(def weights {:brand 0.2 :model 0.18 :year 0.22 :mileage 0.08 :fuel_type 0.12 :engine 0.14 :transmission 0.06})
+
+(defn calculate-similarity [target current]  
+  (let [brand-similarity (* (:brand weights)
+                            (if (= (:brand target) (:brand current)) 1 0))
+        model-similarity (* (:model weights)
+                            (if (= (:model target) (:model current)) 1 0))
+        year-similarity (* (:year weights) 
+                           (- 1 (/ (Math/abs (- (Integer/parseInt (:year target)) (Integer/parseInt (:year current)))) 
+                                   4)))
+        mileage-similarity (* (:mileage weights) 
+                              (- 1 (/ (Math/abs (- (Integer/parseInt (:mileage target)) (Integer/parseInt (:mileage current)))) 
+                                      (- (apply max (map #(Integer/parseInt (:mileage %)) data))
+                                         (apply min (map #(Integer/parseInt (:mileage %)) data))))))
+        fuel-similarity (* (:fuel_type weights)
+                           (if (= (:fuel_type target) (:fuel_type current)) 1 0))
+        engine-similarity (* (:engine weights)
+                             (if (= (:engine target) (:engine current)) 1 0))
+        transmission-similarity (* (:transmission weights)
+                                   (if (= (:transmission target) (:transmission current)) 1 0))]
+    
+    (+ brand-similarity model-similarity year-similarity mileage-similarity fuel-similarity engine-similarity transmission-similarity)))
+
+(defn predict-price []
+  (println "")
+  (let [columns (remove #{:price} (keys (first data)))
+        target (reduce
+                (fn [acc column]
+                  (loop []
+                    (println (str "Enter value for '" (name column) "': "))
+                    (flush)
+                    (let [value (read-line)]
+                      (if (empty? value)
+                        (do
+                          (println "This field is mandatory!")
+                          (recur))
+                        (assoc acc column value)))))
+                {}
+                columns)
+        similarities (map (fn [current]
+                            (let [sim (calculate-similarity target current)]
+                              {:price (Double/parseDouble (:price current))
+                               :similarity sim}))
+                          data)
+        weighted-sum (reduce + (map #(* (:price %) (:similarity %)) similarities))
+        total-similarity (reduce + (map :similarity similarities))]
+
+    (println "\nPredicted price:" (format "%.2f" (if (> total-similarity 0)
+                                                   (/ weighted-sum total-similarity)
+                                                   0)))))
+
 (defn -main [& args]
   (println "Welcome to the Car Price Prediction App!")
   (loop []
@@ -87,5 +139,6 @@
         (= option "1") (do (view-all) (recur))
         (= option "2") (do (search) (recur))
         (= option "3") (do (view-saved-searches) (recur))
-        (= option "4") (println "Goodbye!")
+        (= option "4") (do (predict-price) (recur))
+        (= option "5") (println "Goodbye!")
         :else (do (println "Invalid option! Please try again.") (recur))))))
