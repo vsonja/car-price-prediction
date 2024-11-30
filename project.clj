@@ -5,7 +5,10 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [org.clojure/data.csv "1.1.0"]
-                 [midje "1.10.10"]]
+                 [midje "1.10.10"]
+                 [com.github.seancorfield/next.jdbc "1.3.955"]
+                 [com.mysql/mysql-connector-j "8.3.0"]
+                 [cheshire "5.11.0"]]
   :main ^:skip-aot car-price-prediction.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all

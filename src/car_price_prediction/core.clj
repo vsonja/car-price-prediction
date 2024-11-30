@@ -1,15 +1,24 @@
 (ns car-price-prediction.core
   (:require [clojure.data.csv :as csv]
-            [clojure.java.io :as io]))
+            [clojure.java.io :as io]
+            [car-price-prediction.db :as db]))
 
-(defn read-csv-file [file-path]
-  (with-open [reader (io/reader file-path)]
+(defn read-csv-file [file]
+  (with-open [reader (io/reader file)]
     (let [rows (csv/read-csv reader)
           headers (map keyword (first rows))]
       (doall (map #(zipmap headers %) (rest rows))))))
 
 (def data (read-csv-file "resources/cars.csv"))
 (def saved-searches (atom []))
+
+(defn get-user-id []
+  (let [user-id-file "user-id.txt"]
+    (if (.exists (io/file user-id-file))
+      (slurp user-id-file)
+      (let [new-user-id (str (random-uuid))]
+        (spit user-id-file new-user-id)
+        new-user-id))))
 
 (defn main-menu []
   (println "\nMenu Options:")
@@ -68,16 +77,20 @@
           (when (= response "Yes")
             (println "Average price:" (calculate-average-price results))))
         (println "\nDo you want to save this search? (Yes/No)")
-         (when (= (read-line) "Yes")
-           (save-search criteria results)))
+        (when (= (read-line) "Yes")
+           (let [user-id (get-user-id)]
+             (println (db/save-search user-id criteria results)))))
       (println "\nNo matching results."))))
 
 (defn view-saved-searches []
-  (if (seq @saved-searches)
-    (doseq [search @saved-searches]
-      (println "\nSearch parameters:" (:parameters search))
-      (doseq [result (:results search)] (println result)))
-    (println "\nNo saved searches.")))
+  ;; (if (seq @saved-searches)
+  ;;   (doseq [search @saved-searches]
+  ;;     (println "\nSearch parameters:" (:parameters search))
+  ;;     (doseq [result (:results search)] (println result)))
+  ;;   (println "\nNo saved searches."))
+
+  (let [user-id (get-user-id)]
+    (println (db/get-saved-searches user-id))))
 
 (def weights {:brand 0.2 :model 0.18 :year 0.22 :mileage 0.08 :fuel_type 0.12 :engine 0.14 :transmission 0.06})
 
