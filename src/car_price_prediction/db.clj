@@ -14,5 +14,10 @@
                            user-id (json/generate-string criteria) (json/generate-string results)]))
 
 (defn get-saved-searches [user-id]
-  (jdbc/execute! database ["SELECT * FROM searches WHERE user_id = ? ORDER BY saved_at DESC"
-                           user-id]))
+  (let [result (jdbc/execute! database ["SELECT criteria, results FROM searches WHERE user_id = ? ORDER BY saved_at DESC"
+                                        user-id])]
+    (map #(into {}
+                (for [[k v] %]
+                  [(keyword (last (clojure.string/split (name k) #"/")))
+                   (json/parse-string v true)]))
+         result)))

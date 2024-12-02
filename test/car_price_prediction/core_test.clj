@@ -24,14 +24,6 @@
                       {:brand "Lexus", :model "RX 450h F Sport Handling", :year "2022", :mileage "1600", :fuel_type "Hybrid", :engine "308.0HP 3.5L V6 Cylinder Engine Gas/Electric Hybrid", :transmission "A/T", :price "59000"}]]
          (calculate-average-price results) => "55500,00"))
 
-;; As a user, I want to save my search criteria and results so that I can review them later without repeating search process.
-(facts "Saving search criteria with results."
-      (let [criteria {:brand "Lexus", :year "2022", :fuel_type "Hybrid"}
-            results [{:brand "Lexus", :model "RX 450h Base", :year "2022", :mileage "15833", :fuel_type "Hybrid", :engine "308.0HP 3.5L V6 Cylinder Engine Gas/Electric Hybrid", :transmission "CVT Transmission", :price "52000"}
-                     {:brand "Lexus", :model "RX 450h F Sport Handling", :year "2022", :mileage "1600", :fuel_type "Hybrid", :engine "308.0HP 3.5L V6 Cylinder Engine Gas/Electric Hybrid", :transmission "A/T", :price "59000"}]]
-        (save-search criteria results)
-        @saved-searches => (contains {:parameters criteria :results results})))
-
 (facts "Calculating similarity using Weighted Sum."
        (let [test-data [{:brand "BMW", :model "M240 i xDrive", :year "2024", :mileage "2010", :fuel_type "Gasoline", :engine "382.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel", :transmission "A/T", :price "55000"}
                         {:brand "BMW", :model "840 i xDrive", :year "2024", :mileage "1500", :fuel_type "Gasoline", :engine "335.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel", :transmission "A/T", :price "90000"}

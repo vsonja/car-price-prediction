@@ -10,7 +10,6 @@
       (doall (map #(zipmap headers %) (rest rows))))))
 
 (def data (read-csv-file "resources/cars.csv"))
-(def saved-searches (atom []))
 
 (defn get-user-id []
   (let [user-id-file "user-id.txt"]
@@ -39,10 +38,6 @@
   (let [prices (map #(Double/parseDouble (:price %)) results)]
     (when (seq prices)
       (format "%.2f" (/ (reduce + prices) (count prices))))))
-
-(defn save-search [criteria results]
-  (swap! saved-searches conj {:parameters criteria :results results})
-  (println "Search saved!"))
 
 (defn apply-filter [criteria]
   (filter
@@ -78,19 +73,17 @@
             (println "Average price:" (calculate-average-price results))))
         (println "\nDo you want to save this search? (Yes/No)")
         (when (= (read-line) "Yes")
-           (let [user-id (get-user-id)]
-             (println (db/save-search user-id criteria results)))))
+          (let [user-id (get-user-id)]
+            (db/save-search user-id criteria results)
+            (println "Your search has been saved!"))))
       (println "\nNo matching results."))))
 
 (defn view-saved-searches []
-  ;; (if (seq @saved-searches)
-  ;;   (doseq [search @saved-searches]
-  ;;     (println "\nSearch parameters:" (:parameters search))
-  ;;     (doseq [result (:results search)] (println result)))
-  ;;   (println "\nNo saved searches."))
-
-  (let [user-id (get-user-id)]
-    (println (db/get-saved-searches user-id))))
+  (let [user-id (get-user-id)
+        saved-searches (db/get-saved-searches user-id)]
+    (if (empty? saved-searches)
+      (println "\nNo saved searches.")
+      (println saved-searches))))
 
 (def weights {:brand 0.2 :model 0.18 :year 0.22 :mileage 0.08 :fuel_type 0.12 :engine 0.14 :transmission 0.06})
 
