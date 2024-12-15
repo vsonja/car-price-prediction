@@ -28,17 +28,54 @@
   (mapv (fn [column] (normalize (map #(get % column) dataset)))
         columns))
 
-(def data
-  (let [dataset (read-csv-file "resources/cars.csv")
-        columns [:year :mileage :engine]
-        normalized-columns (normalize-columns dataset columns)]
-    (mapv (fn [row [normalized-year normalized-mileage normalized-engine]]
-            (assoc row
-                   :normalized-year normalized-year
-                   :normalized-mileage normalized-mileage
-                   :normalized-engine normalized-engine))
-          dataset
-          (apply mapv vector normalized-columns))))
+;; (def data
+;;   (let [dataset (read-csv-file "resources/cars.csv")
+;;         columns [:year :mileage :engine]
+;;         normalized-columns (normalize-columns dataset columns)]
+;;     (mapv (fn [row [normalized-year normalized-mileage normalized-engine]]
+;;             (assoc row
+;;                    :normalized-year normalized-year
+;;                    :normalized-mileage normalized-mileage
+;;                    :normalized-engine normalized-engine))
+;;           dataset
+;;           (apply mapv vector normalized-columns))))
+
+(def data (read-csv-file "resources/cars.csv"))
+
+(def numerical-columns [:year :mileage :engine])
+(def categorical-columns [:brand :model :fuel_type :transmission])
+
+(defn calculate-ranges []
+  (reduce
+   (fn [ranges column]
+     (let [values (map column data)
+           range (- (apply max values) (apply min values))]
+       (assoc ranges column range)))
+   {}
+   numerical-columns))
+
+(def ranges (calculate-ranges))
+
+;; 0 - identical, 1 - different.
+(defn gower's-distance [row user-input]
+  (let [numerical-distance (fn [column] (/ (Math/abs (- (get row column) (get user-input column)))
+                                           (get ranges column)))
+        categorical-distance (fn [column] (if (= (get row column) (get user-input column)) 0 1))
+        total-numerical (reduce + (map numerical-distance numerical-columns))
+        total-categorical (reduce + (map categorical-distance categorical-columns))]
+    (/ (+ total-numerical total-categorical)
+       (+ (count numerical-columns) (count categorical-columns)))))
+
+(def user-input {:brand "Ford",
+                 :model "F-150 XLT",
+                 :year 2023,
+                 :mileage 2823,
+                 :fuel_type "Gasoline",
+                 :engine 3.5,
+                 :transmission "Automatic"})
+
+(println "Gower's distance between first row and submitted values:"
+         (gower's-distance (first data) user-input))
 
 (defn get-user-id []
   (let [user-id-file "user-id.txt"]
