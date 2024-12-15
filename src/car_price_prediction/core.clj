@@ -3,13 +3,42 @@
             [clojure.java.io :as io]
             [car-price-prediction.db :as db]))
 
+(defn parse-numeric-column [value column]
+  (cond
+    (#{:year :mileage :price} column) (Integer. value)
+    (= :engine column) (Double. value)
+    :else value))
+
 (defn read-csv-file [file]
   (with-open [reader (io/reader file)]
     (let [rows (csv/read-csv reader)
-          headers (map keyword (first rows))]
-      (doall (map #(zipmap headers %) (rest rows))))))
+          headers (mapv keyword (first rows))]
+      (mapv (fn [row]
+              (zipmap headers
+                      (mapv (fn [[column value]] (parse-numeric-column value column))
+                            (map vector headers row))))
+            (rest rows)))))
 
-(def data (read-csv-file "resources/cars.csv"))
+(defn normalize [column]
+  (let [minimum (apply min column)
+        maximum (apply max column)]
+    (map #(-> % (- minimum) (/ (double (- maximum minimum)))) column)))
+
+(defn normalize-columns [dataset columns]
+  (mapv (fn [column] (normalize (map #(get % column) dataset)))
+        columns))
+
+(def data
+  (let [dataset (read-csv-file "resources/cars.csv")
+        columns [:year :mileage :engine]
+        normalized-columns (normalize-columns dataset columns)]
+    (mapv (fn [row [normalized-year normalized-mileage normalized-engine]]
+            (assoc row
+                   :normalized-year normalized-year
+                   :normalized-mileage normalized-mileage
+                   :normalized-engine normalized-engine))
+          dataset
+          (apply mapv vector normalized-columns))))
 
 (defn get-user-id []
   (let [user-id-file "user-id.txt"]
