@@ -29,3 +29,17 @@
   (let [shuffled (shuffle dataset)
         train-size (int (* 0.8 (count dataset)))]
     [(take train-size shuffled) (drop train-size shuffled)]))
+
+(defn k-nearest-neighbors [train input k]
+  (->> train
+       (map #(assoc % :distance (gower's-distance % input)))
+       (sort-by :distance)
+       (take k)))
+
+(defn evaluate []
+  (let [[train test] (train-test-split data)
+        input (first test)
+        neighbors (k-nearest-neighbors train input 5)]
+    (println input)
+    (println "5 Nearest Neighbors:")
+    neighbors))
