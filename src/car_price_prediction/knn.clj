@@ -1,5 +1,5 @@
 (ns car-price-prediction.knn
-  (:require [car-price-prediction.core :refer :all]))
+  (:require [car-price-prediction.core :as core]))
 
 (def numerical-columns [:year :mileage :engine])
 (def categorical-columns [:brand :model :fuel_type :transmission])
@@ -7,7 +7,7 @@
 (defn calculate-ranges []
   (reduce
    (fn [ranges column]
-     (let [values (map column data)
+     (let [values (map column core/data)
            range (- (apply max values) (apply min values))]
        (assoc ranges column range)))
    {}
@@ -36,10 +36,13 @@
        (sort-by :distance)
        (take k)))
 
+(defn predict-price [train input k]
+  (let [neighbors (k-nearest-neighbors train input k)
+        prices (map :price neighbors)]
+    (double (/ (reduce + prices) (count prices)))))
+
 (defn evaluate []
-  (let [[train test] (train-test-split data)
-        input (first test)
-        neighbors (k-nearest-neighbors train input 5)]
+  (let [[train test] (train-test-split core/data)
+        input (first test)]
     (println input)
-    (println "5 Nearest Neighbors:")
-    neighbors))
+    (println "Predicted price:" (predict-price train input 5))))

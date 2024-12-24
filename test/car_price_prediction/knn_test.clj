@@ -14,8 +14,8 @@
 
          (train-test-split dataset) =not=> (train-test-split dataset)))
 
-;; Finding k data points with the smallest distances from a given input.
-(facts "kNN algorithm using Gower's distance."
+;; Finding k data points with the smallest distances from a given input and predicting price based on the average value.
+(facts "kNN regression using Gower's distance."
        (let [dataset [{:brand "Mercedes-Benz", :model "GLC 300", :year 2022, :mileage 1408, :fuel_type "Gasoline", :engine 2.0, :transmission "Automatic", :price 46798}
                       {:brand "Honda", :model "Insight EX", :year 2020, :mileage 64200, :fuel_type "Hybrid", :engine 1.5, :transmission "CVT Transmission", :price 20499}
                       {:brand "BMW", :model "530i xDrive", :year 2020, :mileage 23195, :fuel_type "Gasoline", :engine 2.0, :transmission "8-Speed Automatic", :price 38900}
@@ -24,4 +24,6 @@
              input {:brand "Volkswagen", :model "Golf GTI", :year 2022, :mileage 6400, :fuel_type "Gasoline", :engine 2.0, :transmission "Automatic", :price 41500}
              neighbors (k-nearest-neighbors dataset input 3)]
 
-         (map :model neighbors) => ["Tiguan 2.0T SE" "GLC 300" "530i xDrive"]))
+         (map :model neighbors) => ["Tiguan 2.0T SE" "GLC 300" "530i xDrive"]
+         
+         (predict-price dataset input 3) => 37866.0))
