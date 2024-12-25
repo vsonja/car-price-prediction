@@ -26,4 +26,4 @@
 
          (map :model neighbors) => ["Tiguan 2.0T SE" "GLC 300" "530i xDrive"]
          
-         (predict-price dataset input 3) => 37866.0))
+         (predict-price neighbors 3) => 37866.0))

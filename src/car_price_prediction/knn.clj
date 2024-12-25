@@ -1,5 +1,7 @@
 (ns car-price-prediction.knn
-  (:require [car-price-prediction.core :as core]))
+  (:require [car-price-prediction.core :as core]
+            [incanter.core :as incanter]
+            [incanter.charts :as charts]))
 
 (def numerical-columns [:year :mileage :engine])
 (def categorical-columns [:brand :model :fuel_type :transmission])
@@ -36,13 +38,41 @@
        (sort-by :distance)
        (take k)))
 
-(defn predict-price [train input k]
-  (let [neighbors (k-nearest-neighbors train input k)
-        prices (map :price neighbors)]
+;; (defn predict-price [train input k]
+;;   (let [neighbors (k-nearest-neighbors train input k)
+;;         prices (map :price neighbors)]
+;;     (double (/ (reduce + prices) (count prices)))))
+
+(defn predict-price [neighbors k]
+  (let [prices (map :price (take k neighbors))]
     (double (/ (reduce + prices) (count prices)))))
+
+(defn mean-absolute-error [predicted actual]
+  (/ (reduce + (map #(Math/abs (- %1 %2)) predicted actual))
+     (count predicted)))
+
+(defn elbow-method [train test]
+  (let [neighbors (map #(k-nearest-neighbors train % 10) test)
+        results (for [k (range 2 11)]
+                  (let [predicted (map #(predict-price % k) neighbors)
+                        actual (map :price test)]
+                    {:k k :mae (mean-absolute-error predicted actual)}))
+        k (map :k results)
+        mae (map :mae results)
+        graph (charts/xy-plot k mae
+                              :title "Elbow Method"
+                              :x-label "k"
+                              :y-label "MAE")]
+
+    (incanter/view graph)
+
+    (:k (apply min-key :mae results))))
 
 (defn evaluate []
   (let [[train test] (train-test-split core/data)
-        input (first test)]
+        input (first test)
+        k (elbow-method train test)
+        neighbors (k-nearest-neighbors train input k)]
+    (println "k =" k)
     (println input)
-    (println "Predicted price:" (predict-price train input 5))))
+    (println "Predicted price:" (predict-price neighbors k))))

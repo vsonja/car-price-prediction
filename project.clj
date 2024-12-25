@@ -9,7 +9,8 @@
                  [com.github.seancorfield/next.jdbc "1.3.955"]
                  [com.mysql/mysql-connector-j "8.3.0"]
                  [cheshire "5.11.0"]
-                 [clj-http "3.13.0"]]
+                 [clj-http "3.13.0"]
+                 [incanter "1.9.3"]]
   :main ^:skip-aot car-price-prediction.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
