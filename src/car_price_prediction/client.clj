@@ -1,6 +1,6 @@
 (ns car-price-prediction.client
   (:require [clj-http.client :as http]
-            [car-price-prediction.config :refer [api-key, search-url]]))
+            [car-price-prediction.config :refer [api-key, search-url, decode-url]]))
 
 (defn fetch-car-data [make model year]
   (let [url (str search-url
@@ -29,7 +29,20 @@
       (let [response (http/get url {:as :json})]
         (:stats (:body response)))
       (catch Exception e
-        (println "Failed to fetch data:" (.getMessage e))))))
+        (println "Failed to fetch price statistics:" (.getMessage e))))))
+
+(defn vin-decoder [vin]
+  (let [url (str decode-url
+                 vin
+                 "/specs"
+                 "?api_key=" api-key)]
+    (try
+      (let [response (http/get url {:as :json})]
+        (:body response))
+      (catch Exception e
+        (println "Failed to decode VIN:" (.getMessage e))))))
 
 (fetch-car-data "Volkswagen" "Golf" "2020")
 (fetch-price-statistics "Volkswagen" "Golf" "2020" "20000-40000" "Unleaded" "1.4L I4" "Automatic")
+
+(vin-decoder "1FAHP3F28CL148530")
