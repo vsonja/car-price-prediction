@@ -22,3 +22,10 @@
        (fact "Invalid value."
              (vin-decoder "") => nil
              (with-out-str (vin-decoder "")) => (contains "Failed to decode VIN:")))
+
+(facts "Fetch VIN history using VIN History API."
+       (fetch-vin-history "1FTEW1EF1FFA67753") =not=> nil
+
+       (fact "Invalid value."
+             (fetch-vin-history "") => nil
+             (with-out-str (fetch-vin-history "")) => (contains "Failed to fetch VIN history:")))
