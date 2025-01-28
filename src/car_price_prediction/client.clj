@@ -31,6 +31,24 @@
       (catch Exception e
         (println "Failed to fetch price statistics:" (.getMessage e))))))
 
+(defn fetch-vins-from-search [make model year]
+  (let [url (str search-url
+                 "?api_key=" api-key
+                 "&make=" make
+                 "&model=" model
+                 "&year=" year
+                 "&rows=" 50)]
+    (try
+      (let [response (http/get url {:as :json})
+            listings (:listings (:body response))]
+        (->> listings
+             (map :vin)
+             (filter some?)
+             distinct))
+      (catch Exception e
+        (println "Failed to search for VINs:" (.getMessage e))
+        []))))
+
 (defn vin-decoder [vin]
   (let [url (str decode-url
                  vin
