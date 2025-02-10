@@ -1,7 +1,8 @@
 (ns car-price-prediction.core
   (:require [clojure.data.csv :as csv]
             [clojure.java.io :as io]
-            [car-price-prediction.db :as db]))
+            [car-price-prediction.db :as db]
+            [car-price-prediction.client :as client]))
 
 (defn parse-numeric-column [value column]
   (cond
@@ -139,7 +140,7 @@
     
     (+ brand-similarity model-similarity year-similarity mileage-similarity fuel-similarity engine-similarity transmission-similarity)))
 
-(defn predict-price []
+(defn estimate-price []
   (println "")
   (let [columns (remove #{:price} (keys (first data)))
         target (reduce
@@ -163,9 +164,33 @@
         weighted-sum (reduce + (map #(* (:price %) (:similarity %)) similarities))
         total-similarity (reduce + (map :similarity similarities))]
 
-    (println "\nPredicted price:" (format "%.2f" (if (> total-similarity 0)
+    (println "\nEstimated price:" (format "%.2f" (if (> total-similarity 0)
                                                    (/ weighted-sum total-similarity)
                                                    0)))))
+
+(defn date->month [date]
+  (subs date 0 7)) ;; "YYYY-MM"
+
+(defn summarize-monthly-prices [history]
+  (->> history
+       (filter (fn [entry]
+                 (and entry
+                      (:last_seen_at_date entry)
+                      (:price entry))))
+       (map #(assoc % :month (date->month (:last_seen_at_date %))))
+       (group-by :month)
+       (map (fn [[month entries]]
+              {:month month
+               :average-price (double (/ (reduce + (map :price entries))
+                                         (count entries)))}))
+       (sort-by :month)))
+
+(defn vin-monthly-price-series [vin]
+  (let [history (client/fetch-vin-history vin)
+        series (summarize-monthly-prices history)]
+    series))
+
+(vin-monthly-price-series "1FAHP3F28CL148530")
 
 (defn -main [& args]
   (println "Welcome to the Car Price Prediction App!")
@@ -176,6 +201,6 @@
         (= option "1") (do (view-all) (recur))
         (= option "2") (do (search) (recur))
         (= option "3") (do (view-saved-searches) (recur))
-        (= option "4") (do (predict-price) (recur))
+        (= option "4") (do (estimate-price) (recur))
         (= option "5") (println "Goodbye!")
         :else (do (println "Invalid option! Please try again.") (recur))))))
