@@ -185,12 +185,27 @@
                                          (count entries)))}))
        (sort-by :month)))
 
-(defn vin-monthly-price-series [vin]
-  (let [history (client/fetch-vin-history vin)
-        series (summarize-monthly-prices history)]
-    series))
+;; (defn vin-monthly-price-series [vin]
+;;   (let [history (client/fetch-vin-history vin)
+;;         series (summarize-monthly-prices history)]
+;;     series))
 
-(vin-monthly-price-series "1FAHP3F28CL148530")
+(defn fetch-multiple-histories [vins]
+  (println "\nFetching historical data...")
+  (loop [[vin & rest] vins
+         acc []]
+    (if vin
+      (let [history (client/fetch-vin-history vin)]
+        (Thread/sleep 1500)
+        (recur rest (into acc history)))
+      acc)))
+
+(defn generate-monthly-price-series [make model year]
+  (let [vins (client/fetch-vins-from-search make model year)
+        histories (fetch-multiple-histories vins)]
+    (summarize-monthly-prices histories)))
+
+(generate-monthly-price-series "Toyota" "Camry" "2025")
 
 (defn -main [& args]
   (println "Welcome to the Car Price Prediction App!")
