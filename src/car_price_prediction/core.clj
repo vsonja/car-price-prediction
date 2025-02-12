@@ -2,7 +2,11 @@
   (:require [clojure.data.csv :as csv]
             [clojure.java.io :as io]
             [car-price-prediction.db :as db]
-            [car-price-prediction.client :as client]))
+            [car-price-prediction.client :as client]
+            [incanter.core :as incanter]
+            [incanter.stats :as stats]
+            [clj-time.core :as time]
+            [clj-time.format :as format]))
 
 (defn parse-numeric-column [value column]
   (cond
@@ -53,12 +57,13 @@
 
 (defn main-menu []
   (println "\nMenu Options:")
-  (println "1. View all cars")
-  (println "2. Search for specific car")
-  (println "3. View saved searches")
-  (println "4. Predict car price")
-  (println "5. Exit")
-  (println "Select an option: ")
+  (println "1. View all available cars")
+  (println "2. Search for a specific car")
+  (println "3. Open saved searches")
+  (println "4. Estimate current price")
+  (println "5. Predict prices for the upcoming months")
+  (println "6. Exit")
+  (println "\nSelect an option: ")
   (flush))
 
 (defn view-all []
@@ -169,7 +174,7 @@
                                                    0)))))
 
 (defn date->month [date]
-  (subs date 0 7)) ;; "YYYY-MM"
+  (subs date 0 7)) ;; "yyyy-MM"
 
 (defn summarize-monthly-prices [history]
   (->> history
@@ -205,7 +210,68 @@
         histories (fetch-multiple-histories vins)]
     (summarize-monthly-prices histories)))
 
-(generate-monthly-price-series "Toyota" "Camry" "2025")
+(defn prompt-for-values [columns]
+  (println "")
+  (reduce
+   (fn [acc column]
+     (loop []
+       (println (str "Enter value for '" (name column) "': "))
+       (flush)
+       (let [value (read-line)]
+         (if (empty? value)
+           (do
+             (println "This field is mandatory!")
+             (recur))
+           (assoc acc column value)))))
+   {}
+   columns))
+
+(defn months-difference [start end]
+  (time/in-months (time/interval start end)))
+
+(defn parse-month [month]
+  (format/parse (format/formatter "yyyy-MM") month))
+
+(defn predict-price []
+  (let [{:keys [make model year n-months]} (prompt-for-values [:make :model :year :n-months])
+        year (Integer/parseInt year)
+        n-months (Integer/parseInt n-months)
+        data (generate-monthly-price-series make model year)
+        start-month (parse-month (:month (first data)))
+        now (time/now)
+
+        ;; [months-from-start, price]
+        x (incanter/matrix (mapv #(vector (months-difference start-month (parse-month (:month %))))
+                                 data))
+        y (incanter/matrix (mapv :average-price data))
+
+        regression-model (stats/linear-model y x)
+        coefs (:coefs regression-model)
+        intercept (first coefs)
+        slope (second coefs)
+
+        ;; Predictions for N months from now.
+        months-from-start (months-difference start-month now)
+        predictions (for [i (range 1 (inc n-months))]
+                      (let [future-x (+ months-from-start i)
+                            predicted-price (+ intercept (* slope future-x))] ;; y = ax + b
+                        {:month i
+                         :predicted-price predicted-price}))
+
+        result (map (fn [{:keys [month predicted-price]}]
+                      (let [future-date (time/plus now (time/months month))
+                            fmt (format/formatter "yyyy-MM")]
+                        {:month (format/unparse fmt future-date)
+                         :predicted-price (format "%.2f" predicted-price)}))
+                    predictions)]
+
+    ;; (println "\nHistorical data:")
+    ;; (doseq [row data]
+    ;;   (println row))
+
+    (println (str "\nPredicted prices over the next " n-months " months for " make " " model " (" year "):"))
+    (doseq [row result]
+      (println row))))
 
 (defn -main [& args]
   (println "Welcome to the Car Price Prediction App!")
@@ -217,5 +283,8 @@
         (= option "2") (do (search) (recur))
         (= option "3") (do (view-saved-searches) (recur))
         (= option "4") (do (estimate-price) (recur))
-        (= option "5") (println "Goodbye!")
+        (= option "5") (do (predict-price) (recur))
+        (= option "6") (println "Goodbye!")
         :else (do (println "Invalid option! Please try again.") (recur))))))
+
+(-main)
