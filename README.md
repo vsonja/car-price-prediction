@@ -50,6 +50,8 @@ The app uses MySQL to store saved searches by user ID. If you're using a local M
 
 ## Usage
 
+This section demonstrates how to interact with the application, including sample input/output for each core feature. After starting the app in terminal, the following menu is presented:
+
 ```
 Welcome to the Car Price Prediction App!
 
@@ -62,6 +64,121 @@ Menu Options:
 6. Exit
 
 Select an option: 
+```
+
+### 1. View All Available Cars
+
+Lists all cars from the dataset in tabular form.
+
+```
+Displaying all cars...
+ 
+|        :brand |                                                  :model | :year |  :price | :mileage |
+|---------------+---------------------------------------------------------+-------+---------+----------|
+|          Ford |                         Utility Police Interceptor Base |  2013 |   10300 |    51000 |
+|       Hyundai |                                            Palisade SEL |  2021 |   38005 |    34742 |
+|         Lexus |                                           RX 350 RX 350 |  2022 |   54598 |    22372 |
+|      INFINITI |                                        Q50 Hybrid Sport |  2015 |   15500 |    88900 |
+|          Audi |                               Q3 45 S line Premium Plus |  2021 |   34999 |     9835 |
+|           BMW |                                                   740iL |  2001 |    7300 |   242000 |
+|         Lexus |                                          RC 350 F Sport |  2021 |   41927 |    23436 |
+|         Aston |                                 Martin DBS Superleggera |  2019 |  184606 |    22770 |
+|        Toyota |                                       Supra 3.0 Premium |  2021 |   53500 |    12500 |
+|       Lincoln |                                     Aviator Reserve AWD |  2022 |   62000 |    18196 |
+```
+
+### 2. Search for a Specific Car
+
+Filter cars based on user input.
+
+```
+Enter value for 'brand' (or press Enter to skip): Lexus
+Enter value for 'model' (or press Enter to skip): 
+Enter value for 'year' (or press Enter to skip): 2022
+Enter value for 'mileage' (or press Enter to skip): 
+Enter value for 'fuel_type' (or press Enter to skip): Gasoline 
+Enter value for 'engine' (or press Enter to skip): 
+Enter value for 'transmission' (or press Enter to skip): 
+ 
+Results matching search criteria:
+
+| :brand |                         :model | :year | :mileage | :fuel_type | :engine | :transmission | :price |
+|--------+--------------------------------+-------+----------+------------+---------+---------------+--------|
+|  Lexus |                  RX 350 RX 350 |  2022 |    22372 |   Gasoline |     3.5 |     Automatic |  54598 |
+|  Lexus |                    LC 500 Base |  2022 |     2071 |   Gasoline |     5.0 |     Automatic |  99950 |
+|  Lexus | RX 350 RX 350 F SPORT Handling |  2022 |    14330 |   Gasoline |     3.5 |     Automatic |  54998 |
+|  Lexus |                 GX 460 Premium |  2022 |    35700 |   Gasoline |     4.6 |     Automatic |  51900 |
+|  Lexus | RX 350 RX 350 F SPORT Handling |  2022 |    11238 |   Gasoline |     3.5 |     Automatic |  54798 |
+|  Lexus |                    LC 500 Base |  2022 |     6875 |   Gasoline |     5.0 |     Automatic |  89000 |
+
+Would you like to calculate average price? (Yes/No) Yes
+Average price: 67540,67
+
+Do you want to save this search? (Yes/No)
+Your search has been saved!
+```
+
+### 3. Open Saved Searches
+
+Retrieve searches saved to the MySQL database using generated user ID saved in user-id.txt file.
+
+```
+{:brand "Lexus", :year 2022, :fuel_type "Gasoline"}
+ 
+| :brand |                         :model | :year | :mileage | :fuel_type | :engine | :transmission | :price |
+|--------+--------------------------------+-------+----------+------------+---------+---------------+--------|
+|  Lexus |                  RX 350 RX 350 |  2022 |    22372 |   Gasoline |     3.5 |     Automatic |  54598 |
+|  Lexus |                    LC 500 Base |  2022 |     2071 |   Gasoline |     5.0 |     Automatic |  99950 |
+|  Lexus | RX 350 RX 350 F SPORT Handling |  2022 |    14330 |   Gasoline |     3.5 |     Automatic |  54998 |
+|  Lexus |                 GX 460 Premium |  2022 |    35700 |   Gasoline |     4.6 |     Automatic |  51900 |
+|  Lexus | RX 350 RX 350 F SPORT Handling |  2022 |    11238 |   Gasoline |     3.5 |     Automatic |  54798 |
+|  Lexus |                    LC 500 Base |  2022 |     6875 |   Gasoline |     5.0 |     Automatic |  89000 |
+ 
+{:brand "Volkswagen", :year "2020"}
+ 
+|     :brand |                         :model | :year | :mileage | :fuel_type |                                      :engine |     :transmission | :price |
+|------------+--------------------------------+-------+----------+------------+----------------------------------------------+-------------------+--------|
+| Volkswagen | Arteon 2.0T SEL Premium R-Line |  2020 |    26870 |   Gasoline |                   2.0L I4 16V GDI DOHC Turbo | 8-Speed Automatic |  34645 |
+| Volkswagen |         Arteon 2.0T SEL R-Line |  2020 |    15500 |   Gasoline | 268.0HP 2.0L 4 Cylinder Engine Gasoline Fuel |       8-Speed A/T |  30000 |
+| Volkswagen |                 Passat 2.0T SE |  2020 |    49400 |   Gasoline | 174.0HP 2.0L 4 Cylinder Engine Gasoline Fuel |       6-Speed A/T |  20900 |
+
+{:brand "BMW", :year "2024", :transmission "A/T"}
+
+| :brand |       :model | :year | :mileage | :fuel_type |                                               :engine | :transmission | :price |
+|--------+--------------+-------+----------+------------+-------------------------------------------------------+---------------+--------|
+|    BMW | 840 i xDrive |  2024 |     1500 |   Gasoline | 335.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel |           A/T |  90000 |
+```
+
+
+### 4. Estimate Current Price
+
+Estimates the current price using kNN regression.
+
+The following sample output shows the selected value of k, a test input example, and the predicted price:
+
+```
+k = 2
+{:brand Chevrolet, :model Traverse Premier, :year 2020, :mileage 52000, :fuel_type Gasoline, :engine 3.6, :transmission Automatic, :price 35800}
+Predicted price: 35763.0
+```        
+
+### 5. Predict Prices for the Upcoming Months
+
+Predicts future prices using historical data and linear regression.
+
+```
+Enter value for 'make': Toyota
+Enter value for 'model': Camry
+Enter value for 'year': 2024
+Enter value for 'n-months': 6
+
+Predicted prices over the next 6 months for Toyota Camry (2024):
+{:month 2025-08, :predicted-price 26911,84}
+{:month 2025-09, :predicted-price 26431,09}
+{:month 2025-10, :predicted-price 25950,34}
+{:month 2025-11, :predicted-price 25469,59}
+{:month 2025-12, :predicted-price 24988,84}
+{:month 2026-01, :predicted-price 24508,09}
 ```
 
 ## Implementation Overview
@@ -88,13 +205,7 @@ Initial functionality is built on this static CSV dataset to enable the followin
 
         To choose the best number of neighbors `k`, the Elbow Method is applied. Function `elbow-method` plots the performance metric MAE (Mean Absolute Error) against `k` and returns optimal value.
 
-        To evaluate the accuracy of the manually implemented k-NN regression model, the dataset was split into training and testing subsets (80/20 split). The following sample output shows the selected value of k, a test input example, and the predicted price:
-
-        ```
-        k = 2
-        {:brand Chevrolet, :model Traverse Premier, :year 2020, :mileage 52000, :fuel_type Gasoline, :engine 3.6, :transmission Automatic, :price 35800}
-        Predicted price: 35763.0
-        ```        
+        To evaluate the accuracy of the manually implemented k-NN regression model, the dataset was split into training and testing subsets (80/20 split).
 
 This phase ensures quick testing, avoids API limits, and gives users a responsive experience. Due to limited API calls, these features still rely on the CSV dataset. However, API-based implementations of these features also exist and are used selectively where needed (for example, in price predictions and VIN-based queries).
 

@@ -6,7 +6,8 @@
             [incanter.core :as incanter]
             [incanter.stats :as stats]
             [clj-time.core :as time]
-            [clj-time.format :as format]))
+            [clj-time.format :as format]
+            [clojure.pprint :as pprint]))
 
 (defn parse-numeric-column [value column]
   (cond
@@ -68,13 +69,12 @@
 
 (defn view-all []
   (println "\nDisplaying all cars...")
-  (doseq [row data]
-    (println row)))
+  (pprint/print-table [:brand :model :year :price :mileage] data))
 
 (defn calculate-average-price [results]
-  (let [prices (map #(Double/parseDouble (:price %)) results)]
+  (let [prices (map :price results)]
     (when (seq prices)
-      (format "%.2f" (/ (reduce + prices) (count prices))))))
+      (format "%.2f" (/ (double (reduce + prices)) (count prices))))))
 
 (defn apply-filter [criteria]
   (filter
@@ -102,8 +102,7 @@
     (if (seq results)
       (do
         (println "\nResults matching search criteria:")
-        (doseq [row results]
-          (println row))
+        (pprint/print-table (keys (first results)) results)
         (println "\nWould you like to calculate average price? (Yes/No)")
         (let [response (read-line)]
           (when (= response "Yes")
@@ -120,7 +119,14 @@
         saved-searches (db/get-saved-searches user-id)]
     (if (empty? saved-searches)
       (println "\nNo saved searches.")
-      (println saved-searches))))
+      (do
+        (println "")
+        (doseq [{:keys [criteria results]} saved-searches]
+          (clojure.pprint/pprint criteria)
+          (clojure.pprint/print-table
+           [:brand :model :year :mileage :fuel_type :engine :transmission :price]
+           results)
+          (println))))))
 
 (def weights {:brand 0.2 :model 0.18 :year 0.22 :mileage 0.08 :fuel_type 0.12 :engine 0.14 :transmission 0.06})
 
