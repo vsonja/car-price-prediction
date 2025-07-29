@@ -32,3 +32,24 @@
          (calculate-similarity target (first test-data)) => 1.0
          (calculate-similarity target (second test-data)) => (roughly 0.68 0.01)
          (calculate-similarity target (nth test-data 2)) => (roughly 0.18 0.01)))
+
+(fact "Predict July 2025 based on partial historical data."
+      (let [history [{:month "2024-01", :average-price 49282.5}
+                     {:month "2024-02", :average-price 30079.14285714286}
+                     {:month "2024-03", :average-price 30640.47619047619}
+                     {:month "2024-04", :average-price 32641.57142857143}
+                     {:month "2024-05", :average-price 29899.0}
+                     {:month "2024-08", :average-price 38766.625}
+                     {:month "2024-09", :average-price 68227.5}
+                     {:month "2024-10", :average-price 44252.39166666667}
+                     {:month "2024-11", :average-price 28436.59210526316}
+                     {:month "2024-12", :average-price 27523.35294117647}
+                     {:month "2025-01", :average-price 26477.35294117647}
+                     {:month "2025-02", :average-price 26574.89361702128}]
+            n-months 5 ;; March to July.
+            now (parse-month "2025-02")
+            result (linear-regression history n-months now)
+            july (some #(when (= (:month %) "2025-07") %) result)]
+
+        (Double/parseDouble (clojure.string/replace (:predicted-price july) "," ".")) => (roughly 30000 1000)))
+

@@ -238,17 +238,12 @@
 (defn parse-month [month]
   (format/parse (format/formatter "yyyy-MM") month))
 
-(defn predict-price []
-  (let [{:keys [make model year n-months]} (prompt-for-values [:make :model :year :n-months])
-        year (Integer/parseInt year)
-        n-months (Integer/parseInt n-months)
-        data (generate-monthly-price-series make model year)
-        start-month (parse-month (:month (first data)))
-        now (time/now)
+(defn linear-regression [data n-months now]
+  (let [start-month (parse-month (:month (first data)))
 
-        ;; [months-from-start, price]
-        x (incanter/matrix (mapv #(vector (months-difference start-month (parse-month (:month %))))
-                                 data))
+        x (incanter/matrix
+           (mapv #(vector (months-difference start-month (parse-month (:month %))))
+                 data))
         y (incanter/matrix (mapv :average-price data))
 
         regression-model (stats/linear-model y x)
@@ -256,24 +251,32 @@
         intercept (first coefs)
         slope (second coefs)
 
-        ;; Predictions for N months from now.
         months-from-start (months-difference start-month now)
         predictions (for [i (range 1 (inc n-months))]
                       (let [future-x (+ months-from-start i)
-                            predicted-price (+ intercept (* slope future-x))] ;; y = ax + b
+                            predicted-price (+ intercept (* slope future-x))]
                         {:month i
-                         :predicted-price predicted-price}))
+                         :predicted-price predicted-price}))]
 
-        result (map (fn [{:keys [month predicted-price]}]
-                      (let [future-date (time/plus now (time/months month))
-                            fmt (format/formatter "yyyy-MM")]
-                        {:month (format/unparse fmt future-date)
-                         :predicted-price (format "%.2f" predicted-price)}))
-                    predictions)]
+    (map (fn [{:keys [month predicted-price]}]
+           (let [future-date (time/plus now (time/months month))
+                 fmt (format/formatter "yyyy-MM")]
+             {:month (format/unparse fmt future-date)
+              :predicted-price (format "%.2f" predicted-price)}))
+         predictions)))
 
-    ;; (println "\nHistorical data:")
-    ;; (doseq [row data]
-    ;;   (println row))
+(defn predict-price []
+  (let [{:keys [make model year n-months]} (prompt-for-values [:make :model :year :n-months])
+        year (Integer/parseInt year)
+        n-months (Integer/parseInt n-months)
+        data (generate-monthly-price-series make model year)
+
+        now (time/now)
+        result (linear-regression data n-months now)]
+
+    (println "\nHistorical data:")
+    (doseq [row data]
+      (println row))
 
     (println (str "\nPredicted prices over the next " n-months " months for " make " " model " (" year "):"))
     (doseq [row result]
