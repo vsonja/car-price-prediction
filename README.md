@@ -20,7 +20,7 @@ Install project dependencies:
 lein deps
 ```
 
-You will need an API key from Marketcheck to fetch data and perform market-based predictions. Create a configuration file and add your API key:
+You will need an API key from Marketcheck to fetch data and perform market-based predictions. Create a configuration file `config.clj` and add your API key:
 
 ```
 (def api-key "MARKETCHECK_API_KEY")
@@ -85,6 +85,7 @@ Displaying all cars...
 |         Aston |                                 Martin DBS Superleggera |  2019 |  184606 |    22770 |
 |        Toyota |                                       Supra 3.0 Premium |  2021 |   53500 |    12500 |
 |       Lincoln |                                     Aviator Reserve AWD |  2022 |   62000 |    18196 |
+...
 ```
 
 ### 2. Search for a Specific Car
@@ -120,7 +121,7 @@ Your search has been saved!
 
 ### 3. Open Saved Searches
 
-Retrieve searches saved to the MySQL database using generated user ID saved in user-id.txt file.
+Retrieve searches saved to the MySQL database using generated user ID in user-id.txt file.
 
 ```
 {:brand "Lexus", :year 2022, :fuel_type "Gasoline"}
@@ -149,7 +150,6 @@ Retrieve searches saved to the MySQL database using generated user ID saved in u
 |    BMW | 840 i xDrive |  2024 |     1500 |   Gasoline | 335.0HP 3.0L Straight 6 Cylinder Engine Gasoline Fuel |           A/T |  90000 |
 ```
 
-
 ### 4. Estimate Current Price
 
 Estimates the current price using kNN regression.
@@ -157,10 +157,12 @@ Estimates the current price using kNN regression.
 The following sample output shows the selected value of k, a test input example, and the predicted price:
 
 ```
-k = 2
-{:brand Chevrolet, :model Traverse Premier, :year 2020, :mileage 52000, :fuel_type Gasoline, :engine 3.6, :transmission Automatic, :price 35800}
-Predicted price: 35763.0
-```        
+k = 4
+{:brand Mercedes-Benz, :model SL-Class SL 550, :year 2013, :mileage 115000, :fuel_type Gasoline, :engine 4.6, :transmission Transmission w/Dual Shift Mode, :price 36000}
+Predicted price: 31562.25
+```
+
+<img src="resources/kNN.png" alt="Elbow Method" width="500">
 
 ### 5. Predict Prices for the Upcoming Months
 
@@ -195,13 +197,13 @@ Initial functionality is built on this static CSV dataset to enable the followin
 
 - Searches are persisted by `user-id` (generated as a UUID) in MySQL database, allowing reuse and management of past queries.
 
-    ![alt text](resources/searches.png)
+    ![Searches](resources/searches.png)
 
 - Current price estimation is implemented in two ways:
     - Comparative Value Method with Weighted Average provides a simple and intuitive way to estimate price by averaging prices of similar car, giving more weight to closer matches.
     - To improve accuracy and better model relationships between car features and prices, k-Nearest Neighbors (kNN) regression was implemented manually to predict price based on the `k` most similar cars. By using Gower's distance as similarity metric, kNN effectively handles mixed data types (numerical and categorical). The dissimilarity is calculated as follows for all types of features in a dataset:
     
-        ![alt text](resources/distances.png)
+        ![Gower's distance](resources/distances.png)
 
         To choose the best number of neighbors `k`, the Elbow Method is applied. Function `elbow-method` plots the performance metric MAE (Mean Absolute Error) against `k` and returns optimal value.
 
@@ -224,6 +226,47 @@ That’s why the following workflow is implemented:
 Linear regression is applied on the monthly price series to predict future prices (for example, 3 months ahead). Once the monthly price series is constructed, the app uses linear regression to model the trend of price changes over time. Linear regression fits a straight line to the historical monthly prices, estimating a relationship between time (in months) and price. This model captures the general direction and rate of price changes - depreciation, appreciation, or stability. Using the fitted regression line, the app can extrapolate prices into the future by extending the line beyond the latest available data point. For example, it can predict the estimated price 3 months from the current month by plugging the future month index into the regression equation. This approach provides a simple yet effective way to forecast future car prices based on observed historical trends.
 
 While the initial dataset works well for fast prototyping, it lacks time-based price changes. For real future prediction, time-series data (monthly price changes) and real listings from multiple sources are neccessary. Marketcheck API provides this, though it's used selectively to avoid exceeding the API's rate limits. This hybrid approach balances performance and accuracy while minimizing external API usage for high-cost operations.
+
+## Evaluating Prediction Accuracy
+
+This test evaluates the accuracy of the `linear-regression` function by using partial historical data and comparing output with real values.
+
+The historical dataset spans from January 2024 to July 2025, with average car prices per month.
+
+```
+Enter value for 'make': Toyota
+Enter value for 'model': Camry
+Enter value for 'year': 2024
+Enter value for 'n-months': 3
+
+Historical data:
+{:month 2024-01, :average-price 49282.5}
+{:month 2024-02, :average-price 30079.14285714286}
+{:month 2024-03, :average-price 30640.47619047619}
+{:month 2024-04, :average-price 32641.57142857143}
+{:month 2024-05, :average-price 29899.0}
+{:month 2024-08, :average-price 38766.625}
+{:month 2024-09, :average-price 68227.5}
+{:month 2024-10, :average-price 44252.39166666667}
+{:month 2024-11, :average-price 28436.59210526316}
+{:month 2024-12, :average-price 27523.35294117647}
+{:month 2025-01, :average-price 26477.35294117647}
+{:month 2025-02, :average-price 26574.89361702128}
+{:month 2025-03, :average-price 27313.81818181818}
+{:month 2025-04, :average-price 28738.64285714286}
+{:month 2025-05, :average-price 28751.02150537634}
+{:month 2025-06, :average-price 26683.64210526316}
+{:month 2025-07, :average-price 30716.53312302839}
+
+Predicted prices over the next 3 months for Toyota Camry (2024):
+{:month 2025-08, :predicted-price 30166,50}
+{:month 2025-09, :predicted-price 29885,82}
+{:month 2025-10, :predicted-price 29605,14}
+```
+
+To test the model, prediction is simulated for February 2025, using only historical data up to that point (from January 2024 to February 2025). The model predicts price for July 2025.
+
+Midje test returned a predicted price of 30483.55, while the actual price for July 2025 was 30716.53. This demonstrates that the regression model is highly accurate and can provide reliable predictions.
 
 ## License
 
